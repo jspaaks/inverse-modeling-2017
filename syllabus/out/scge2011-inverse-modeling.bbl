@@ -1,0 +1,64 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Bouten, Schaap, Aerts, and Vermetten}{Bouten
+  et~al.}{1996}]{bout-scha-aert-verm1996}
+Bouten, W., M.~G. Schaap, J.~Aerts, and A.~W.~M. Vermetten (1996).
+\newblock Monitoring and modelling canopy water storage amounts in support of
+  atmospheric deposition studies.
+\newblock {\em Journal of Hydrology\/}~{\em 181}, 305--321.
+
+\bibitem[\protect\citeauthoryear{Boyle, Gupta, and Sorooshian}{Boyle
+  et~al.}{2000}]{boyl-gupt-soro2000}
+Boyle, D.~P., H.~V. Gupta, and S.~Sorooshian (2000).
+\newblock Toward improved calibration of hydrologic models: Combining the
+  strengths of manual and automatic methods.
+\newblock {\em Water Resources Research\/}~{\em 36\/}(12), 3663--3674.
+
+\bibitem[\protect\citeauthoryear{Brander and Taylor}{Brander and
+  Taylor}{1998}]{bran-tayl1998}
+Brander, J.~A. and M.~S. Taylor (1998).
+\newblock The \textup{S}imple \textup{E}conomics of \textup{E}aster
+  \textup{I}sland: A \textup{R}icardo-\textup{M}althus \textup{M}odel of
+  \textup{R}enewable \textup{R}esource \textup{U}se.
+\newblock {\em The American Economic Review\/}~{\em 88\/}(1), 119--138.
+
+\bibitem[\protect\citeauthoryear{Duan, Gupta, and Sorooshian}{Duan
+  et~al.}{1992}]{duan-gupt-soro1992}
+Duan, Q., V.~K. Gupta, and S.~Sorooshian (1992).
+\newblock Effective and efficient global optimization for conceptual
+  rainfall-runoff models.
+\newblock {\em Water Resources Research\/}~{\em 28\/}(4), 1015--1031.
+
+\bibitem[\protect\citeauthoryear{Gupta, Sorooshian, and Yapo}{Gupta
+  et~al.}{1998}]{gupt-soro-yapo1998}
+Gupta, H.~V., S.~Sorooshian, and P.~O. Yapo (1998).
+\newblock Toward improved calibration of hydrologic models: Multiple and
+  noncommensurable measures of information.
+\newblock {\em Water Resources Research\/}~{\em 34\/}(4), 751--763.
+
+\bibitem[\protect\citeauthoryear{Nelder and Mead}{Nelder and
+  Mead}{1965}]{neld-mead1965}
+Nelder, J.~A. and R.~Mead (1965).
+\newblock A simplex method for function minimization.
+\newblock {\em The Computer Journal\/}~{\em 7\/}(4), 308--313.
+
+\bibitem[\protect\citeauthoryear{Storn and Price}{Storn and
+  Price}{1997}]{stor-pric1997}
+Storn, R. and K.~Price (1997).
+\newblock \textup{D}ifferential \textup{E}volution -- \textup{A}
+  \textup{S}imple and \textup{E}fficient \textup{H}euristic for \textup{G}lobal
+  \textup{O}ptimization over \textup{C}ontinuous \textup{S}paces.
+\newblock {\em Journal of Global Optimization\/}~{\em 11}, 341--359.
+
+\bibitem[\protect\citeauthoryear{Vrugt, ter Braak, Diks, Robinson, Hyman, and
+  Higdon}{Vrugt et~al.}{2009}]{vrug-terb-diks-robi-hyma-higd2009}
+Vrugt, J.~A., C.~ter Braak, C.~Diks, B.~A. Robinson, J.~M. Hyman, and D.~Higdon
+  (2009).
+\newblock \textup{A}ccelerating \textup{M}arkov \textup{C}hain \textup{M}onte
+  \textup{C}arlo \textup{S}imulation by \textup{D}ifferential
+  \textup{E}volution with \textup{S}elf-\textup{A}daptive \textup{R}andomized
+  \textup{S}ubspace \textup{S}ampling.
+\newblock {\em International Journal of Nonlinear Sciences \& Numerical
+  Simulation\/}~{\em 10\/}(3), 271--288.
+
+\end{thebibliography}

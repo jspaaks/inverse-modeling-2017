@@ -1,0 +1,16 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Program}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Getting started}{}% 3
+\BOOKMARK [1][-]{section.3.1}{Slug injection: manual calibration}{chapter.3}% 4
+\BOOKMARK [1][-]{section.3.2}{Optimization using local methods}{chapter.3}% 5
+\BOOKMARK [2][-]{subsection.3.2.1}{Gauss-Newton and Levenberg-Marquardt}{section.3.2}% 6
+\BOOKMARK [2][-]{subsection.3.2.2}{Multi-start simplex}{section.3.2}% 7
+\BOOKMARK [1][-]{section.3.3}{Global methods: Differential Evolution}{chapter.3}% 8
+\BOOKMARK [0][-]{chapter.4}{Working with DREAM}{}% 9
+\BOOKMARK [0][-]{chapter.5}{Objectives and information in data}{}% 10
+\BOOKMARK [1][-]{section.5.1}{Case: cubic model}{chapter.5}% 11
+\BOOKMARK [1][-]{section.5.2}{Case: rainfall interception}{chapter.5}% 12
+\BOOKMARK [2][-]{subsection.5.2.1}{Distribution of information within the data}{section.5.2}% 13
+\BOOKMARK [2][-]{subsection.5.2.2}{Data transformations}{section.5.2}% 14
+\BOOKMARK [1][-]{section.5.3}{Case: Easter Island population dynamics}{chapter.5}% 15
+\BOOKMARK [1][-]{section.5.4}{Multi-objective optimization of HYMOD}{chapter.5}% 16

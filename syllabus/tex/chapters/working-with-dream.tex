@@ -1,0 +1,54 @@
+\chapter{Working with DREAM}
+\thispagestyle{fancy}
+\label{ch:Working-with-DREAM}
+
+
+\hrule
+\begin{itemize}
+\footnotesize
+\item[]{Aims:}
+\begin{enumerate}
+\item{to understand the functionality of DREAM;}
+\item{to understand the basics of the implementation of DREAM;}
+\item{to experience the process of parameter evolution;}
+\item{to understand the implementation of a (linear) model in DREAM;}
+\item{to experience the changes that need to be made when a new model is implemented in DREAM.}
+\end{enumerate}
+\end{itemize}
+\hrule
+\vspace{1em}
+
+Before we can start optimizing the parameters for any model, we need to set up the DREAM algorithm \citep{vrug-terb-diks-robi-hyma-higd2009}. An efficient way of doing this is by creating a new m-file, that consists of 5 parts, which are used to:
+\begin{enumerate}
+\item{clean up any old variables, figures etc. and add the DREAM folder to the MATLAB search path. This way, you can access the functions that make up the DREAM algorithm, even though they do not reside in the current working folder;}
+\item{load or create any data that you will need during the optimization. This includes the observations but also the model constants, intial conditions, etc.;}
+\item{specify the settings with which to run the DREAM algorithm. The most important variables that need to be initialized in this part are 4 structure arrays: \mcode{MCMCPar, ParRange, Measurement, Extra};}
+\item{call the DREAM algorithm;}
+\item{visualize, analyze, and post-process the outcome of the optimization.}
+\end{enumerate}
+
+
+We have included an example of how DREAM can be used to calibrate the parameters of a linear model. The example is located at `./exercises/dream-linear-model/'. 
+
+\smallq{Use the MATLAB editor to open `dreamWithLinearModel.m'.}
+
+In the DREAM settings part, the user typically adjusts the number of parameters (\mcode{MCMCPar.n}), the maximum number of model evaluations (\mcode{MCMCPar.ndraw}), the limits of the parameter space (\mcode{ParRange}), the measurements to be used in the objective function (\mcode{Measurement}), and of course the name of the function whose parameters are optimized (\mcode{ModelName}). Any additional arrays that the model needs to run---initial conditions, boundary conditions etc.--can be included as fields in the structure array \mcode{Extra}. 
+
+
+On the model side, DREAM has a few small requirements also; DREAM expects models to be formulated as a function with two input arguments, the first being a parameter vector of length \mcode{MCMCPar.n} and the second a structure array with additional data (initial conditions, boundary conditions, and anything else you need inside the function).
+
+\smallq{Open `linearmodel.m' in the MATLAB editor to see how this works.}
+
+Note that DREAM compares the model output directly to the measurements stored in \mcode{Measurement.MeasData}, so they should have the same dimensions for this to work. Also, for the comparison to make sense at all, you need to make sure that the values in the model output and in the measurement correspond to the same point in time (or space). Models that use a variable time step can be especially tricky in this respect.
+
+\smallq{If you didn't already do this, run `dreamWithLinearModel'.}
+
+During the optimization, you will see some figures being created automatically. Depending on which figures you want to see, you can set the \mcode{visualize*} variables in `visDream.m' as you like. Furthermore, you can adjust the interval at which figures are plotted by setting \mcode{visInterval}, further down in `visDream.m'.
+
+\smallq{Set your work directory to `./exercises/dream-quadratic-model'. The model m-file in this directory is `quadraticmodel.m'. Write a main script similar to `dreamWithLinearModel.m', with which the parameters of the quadratic model are optimized. Copy and paste from the linear model example as appropriate.}
+
+
+\smallq{After the optimization finishes, it's often desirable to save the variables and figures to harddisk, for example by:
+\lstinputlisting[numbers=none,nolol,label={lst:save-print}]{./../m/save-print.m}
+This is especially useful for cases in which the model takes a bit of time to run. 
+}% smallq
