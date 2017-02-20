@@ -1,16 +1,2 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Program}{3}{chapter.2}
-\contentsline {chapter}{\numberline {3}Getting started}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}Slug injection: manual calibration}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Optimization using local methods}{6}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Gauss-Newton and Levenberg-Marquardt}{6}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Multi-start simplex}{7}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Global methods: Differential Evolution}{8}{section.3.3}
-\contentsline {chapter}{\numberline {4}Working with DREAM}{13}{chapter.4}
-\contentsline {chapter}{\numberline {5}Objectives and information in data}{15}{chapter.5}
-\contentsline {section}{\numberline {5.1}Case: cubic model}{15}{section.5.1}
-\contentsline {section}{\numberline {5.2}Case: rainfall interception}{16}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Distribution of information within the data}{19}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Data transformations}{20}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Case: Easter Island population dynamics}{22}{section.5.3}
-\contentsline {section}{\numberline {5.4}Multi-objective optimization of HYMOD}{26}{section.5.4}

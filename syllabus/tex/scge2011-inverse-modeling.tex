@@ -41,18 +41,16 @@
 \setlength\parindent{0pt}
 \setlength{\parskip}{0.75em}
 \setlength{\skip\footins}{2cm}
-\setlength\footbibskip{1cm}
+%\setlength\footbibskip{1cm}
 
 \linespread{1}
 
 \makeindex
 
 
-\citestyle{egu}
+%\citestyle{egu}
 
 \renewcommand{\arraystretch}{1.5}
-%\renewcommand{\thechapter}{}
-%\renewcommand{\chaptername}{}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -61,22 +59,9 @@
 \fancyfoot[OC,EC]{--\ \thepage{}\ --}
 
 
+\input{./tex/hyp}
 
-
-\input{./hyp}
-
-
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
-%\newcounter{smallqcounter}
-%\setcounter{smallqcounter}{0}
-%\newcommand{\smallq}[1]{
-%\stepcounter{smallqcounter}
-%{\arabic{smallqcounter} #1}
-%}
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
-
-
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % exercises that we would like people to do:
 \newcounter{smallqcounter}
 \setcounter{smallqcounter}{0}
@@ -91,9 +76,9 @@
 \item{#1}
 \end{list}
 }
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % optional exercises:
 \newcommand{\smallqo}[1]{
 \begin{list}{$\vartriangleright$ \arabic{smallqcounter}.}
@@ -106,7 +91,7 @@
 \item{#1}
 \end{list}
 }
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 
 
 
@@ -123,7 +108,7 @@
 
 \newcommand{\prompt}[1]{\vspace{0.25em}\par\noindent{\tt \textgreater\textgreater\ #1}\vspace{0.25em}\par}
 
-\newcommand{\hintbox}[1]{\noindent 
+\newcommand{\hintbox}[1]{\noindent
 \begin{minipage}[0]{\textwidth}{\vspace{2em} \centering \begin{minipage}[0]{0.6\textwidth}{\hrule \vspace{0.5em}\textsc{\textbf{TIP:\,}} \small #1\vspace{0.5em}
 \hrule }\end{minipage} \vspace{2em} \end{minipage}}
 }%hintbox
@@ -168,20 +153,20 @@
    belowskip = 0.5em,
    xleftmargin = 2mm,
 }
-\renewcommand{\lstlistingname}{Code Snippet} 
+\renewcommand{\lstlistingname}{Code Snippet}
 
-\newcommand{\insertemptypage}[]{
-\vfill
-\newpage
-\thispagestyle{empty}
-\mbox{}
-\pagebreak
+\newcommand{\insertemptypage}[0]{
+    \vfill
+    \newpage
+    \thispagestyle{empty}
+    \mbox{}
+    \pagebreak
 }
 
 
 \begin{document}
 
-\input{./chapters/title}
+\input{./tex/chapters/title}
 \insertemptypage{}
 \insertemptypage{}
 
@@ -192,11 +177,11 @@
 \newpage
 
 \mainmatter
-\input{./chapters/introduction}
-\input{./chapters/program}
-\input{./chapters/getting-started}
-\input{./chapters/working-with-dream}
-\input{./chapters/objectives-and-information-in-data}
+\input{./tex/chapters/introduction}
+\input{./tex/chapters/program}
+%\input{./tex/chapters/getting-started}
+%\input{./tex/chapters/working-with-dream}
+%\input{./tex/chapters/objectives-and-information-in-data}
 \backmatter
 
 \bibliographystyle{chicago}

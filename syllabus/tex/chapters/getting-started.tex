@@ -41,7 +41,7 @@ Since this is a 2-parameter problem, we can easily visualize the objective funct
 \smallq{Looking at the response surface (Figure~\ref{fig:respsurf-sluginj}), do you think that the optimal model parameters are correlated?}
 \begin{figure}[htbp]
   \centering
-    \includegraphics[width=1.0\textwidth]{./../eps/respsurf-sluginj.eps}
+    \includegraphics[width=1.0\textwidth]{./eps/converted/respsurf-sluginj}
   \caption{Response surface for the slug injection test. Dotted lines represent the 95\% confidence interval of the model parameters when the standard deviation of the head measurement is 0.01~[\textsf{m}].}
   \label{fig:respsurf-sluginj}
 \end{figure}
@@ -76,11 +76,11 @@ Since this is a 2-parameter problem, we can easily visualize the objective funct
 
 \subsection{Multi-start simplex}
 
-HYMOD \citep{boyl-gupt-soro2000} is a simple rainfall-runoff model with 5 model parameters (see Figure~\ref{fig:hymod}). 
+HYMOD \citep{boyl-gupt-soro2000} is a simple rainfall-runoff model with 5 model parameters (see Figure~\ref{fig:hymod}).
 
 \begin{figure}[htbp]
   \centering
-    \includegraphics[width=1.0\textwidth]{./../eps/hymod.eps}
+    \includegraphics[width=1.0\textwidth]{./../eps/converted/hymod}
   \caption{Structure of the HYMOD rainfall-runoff model.}
   \label{fig:hymod}
 \end{figure}
@@ -93,7 +93,7 @@ $R_{s}$&Residence time of the slow tank\\
 $R_{q}$&Residence time of the quick tanks\\
 \end{tabular}
 
-In this section, we will use a multi-start simplex \citep{neld-mead1965} to optimize the parameters of the HYMOD model. Specifically, we investigate whether the objective function (SSR) of this model has local minima that may complicate the use of local optimization methods such as Gauss-Newton, or Levenberg-Marquardt. To do this, 20 simplex runs are started from randomly determined starting points, which are iterated until convergence is achieved. 
+In this section, we will use a multi-start simplex \citep{neld-mead1965} to optimize the parameters of the HYMOD model. Specifically, we investigate whether the objective function (SSR) of this model has local minima that may complicate the use of local optimization methods such as Gauss-Newton, or Levenberg-Marquardt. To do this, 20 simplex runs are started from randomly determined starting points, which are iterated until convergence is achieved.
 
 \smallq{First, have a look at the code of `Multistart\_Simplex.m' in `./exercises/local-methods-hymod/'. As you can see, the code uses the built-in MATLAB function \mcode{fminsearch}, which is an implementation of the simplex search algorithm. Run \mcode{Multistart\_Simplex} (it'll run for a few minutes). Store the output by copying and pasting into a PowerPoint presentation.}
 
@@ -152,24 +152,24 @@ The \mcode{benchmark_func} function offers not just 1, but 25 functions that can
 7  &Shifted Rotated Griewank's Function without Bounds                                   & [0,600]\\
 8  &Shifted Rotated Ackley's Function with Global Optimum on Bounds                      & [-32,32]\\
 9  &Shifted Rastrigin's Function                                                         & [-5,5]\\
-10  &Shifted Rotated Rastrigin's  Function 				                 & [-5,5]\\
-11  &Shifted Rotated Weierstrass Function 				                 & [-0.5,0.5]\\
-12  &Schwefel's  Problem 2.13					                         & [-100,100]\\
+10  &Shifted Rotated Rastrigin's  Function                               & [-5,5]\\
+11  &Shifted Rotated Weierstrass Function                                & [-0.5,0.5]\\
+12  &Schwefel's  Problem 2.13                                            & [-100,100]\\
 \multicolumn{3}{l}{Expanded Functions (2):}\\
 13  &Expanded Extended Griewank's  plus Rosenbrock's  Function (F8F2)                    & [-3,1]\\
-14  &Expanded Rotated Extended Scaffe's  (F6) 				                 & [-100,100]\\
+14  &Expanded Rotated Extended Scaffe's  (F6)                                & [-100,100]\\
 \multicolumn{3}{l}{Hybrid Composition Functions (11):}\\
-15  &Hybrid Composition Function 1				                         & [-5,5]\\
-16  &Rotated Hybrid Composition Function 1				                 & [-5,5]\\
-17  &Rotated Hybrid Composition Function 1 with Noise in Fitness	                 & [-5,5]\\
-18  &Rotated Hybrid Composition Function 2			        	         & [-5,5]\\
+15  &Hybrid Composition Function 1                                       & [-5,5]\\
+16  &Rotated Hybrid Composition Function 1                               & [-5,5]\\
+17  &Rotated Hybrid Composition Function 1 with Noise in Fitness                     & [-5,5]\\
+18  &Rotated Hybrid Composition Function 2                               & [-5,5]\\
 19  &Rotated Hybrid Composition Function 2 with a Narrow Basin for the Global Optimum    & [-5,5]\\
 20  &Rotated Hybrid Composition Function 2 with the Global Optimum on the Bounds         & [-5,5]\\
-21  &Rotated Hybrid Composition Function 3				 	         & [-5,5]\\
-22  &Rotated Hybrid Composition Function 3 with High Condition Number Matrix	 	 & [-5,5]\\
-23  &Non-Continuous Rotated Hybrid Composition Function 3		                 & [-5,5]\\
-24  &Rotated Hybrid Composition Function 4				                 & [-5,5]\\
-25  &Rotated Hybrid Composition Function 4 without Bounds	                         & [-2,5]\\
+21  &Rotated Hybrid Composition Function 3                           & [-5,5]\\
+22  &Rotated Hybrid Composition Function 3 with High Condition Number Matrix         & [-5,5]\\
+23  &Non-Continuous Rotated Hybrid Composition Function 3                        & [-5,5]\\
+24  &Rotated Hybrid Composition Function 4                               & [-5,5]\\
+25  &Rotated Hybrid Composition Function 4 without Bounds                            & [-2,5]\\
 \end{tabular}
 \caption{}
 \label{tab:benchmark-func-data}
