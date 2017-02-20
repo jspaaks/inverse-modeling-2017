@@ -1,8 +1,8 @@
 /*.dvi
-/*.tex
 /*.idx
 /*.toc
 /*.out
 /*.log
 /*.aux
-
+/*.bbl
+/*.blg

@@ -26,9 +26,6 @@
 \usepackage{natbib}
 \usepackage{needspace}
 
-
-
-
 \definecolor{orange}{rgb}{1,0.5,0}
 \definecolor{mkeywordcolor}{rgb}{0,0,1}
 \definecolor{mstringcolor}{rgb}{0.6275,0.1255,0.9412}
@@ -41,14 +38,13 @@
 \setlength\parindent{0pt}
 \setlength{\parskip}{0.75em}
 \setlength{\skip\footins}{2cm}
-%\setlength\footbibskip{1cm}
+%\setlength{\footbibskip}{1cm}
 
 \linespread{1}
 
 \makeindex
 
-
-%\citestyle{egu}
+\citestyle{egu}
 
 \renewcommand{\arraystretch}{1.5}
 
@@ -171,21 +167,19 @@
 \insertemptypage{}
 
 \frontmatter
-%\clearpage\mbox{}\clearpage
 
 \tableofcontents
 \newpage
 
 \mainmatter
 \input{./tex/chapters/introduction}
-\input{./tex/chapters/program}
-%\input{./tex/chapters/getting-started}
-%\input{./tex/chapters/working-with-dream}
-%\input{./tex/chapters/objectives-and-information-in-data}
+\input{./tex/chapters/getting-started}
+\input{./tex/chapters/working-with-dream}
+\input{./tex/chapters/objectives-and-information-in-data}
 \backmatter
 
 \bibliographystyle{chicago}
-\bibliography{./../bib/literaturedb}
+\bibliography{./bib/literaturedb}
 
 
 %\printindex
