@@ -1,0 +1,1 @@
+In this exercise, the user gets an example of how DREAM may be coupled to a model (linearmodel.m)

@@ -1,0 +1,1 @@
+This small exercise comes after we play with the interceptionmodel. This exercise is a prelude to the data transformations and information content of data.

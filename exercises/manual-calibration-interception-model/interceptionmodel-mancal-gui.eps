@@ -1,0 +1,6501 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The Mathworks, Inc. Version 7.6.0.324 (R2008a). Operating System: Microsoft Windows Vista.
+%%Title: .\interceptionmodel-mancal-gui.eps
+%%CreationDate: 06/19/2011  20:46:20
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox:  -323    39   936   751
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/ISOLatin1Encoding where {pop /WindowsLatin1Encoding 256 array bdef
+ISOLatin1Encoding WindowsLatin1Encoding copy pop
+/.notdef/.notdef/quotesinglbase/florin/quotedblbase/ellipsis/dagger
+/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE/.notdef/.notdef
+/.notdef/.notdef/quoteleft/quoteright/quotedblleft/quotedblright/bullet
+/endash/emdash/tilde/trademark/scaron/guilsinglright/oe/.notdef/.notdef
+/Ydieresis WindowsLatin1Encoding 128 32 getinterval astore pop}
+{/WindowsLatin1Encoding StandardEncoding bdef} ifelse
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:  -323    39   936   751
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 4.16667 def
+portraitMode -1345 3129 csm
+
+    0     0  5249  2963 rc
+88 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+0.8 sg
+   0    0 5250 2964 rf
+1 sg
+2.08333 w
+0 1011 1121 0 0 -1011 682 1233 4 MP
+PP
+-1121 0 0 1011 1121 0 0 -1011 682 1233 5 MP stroke
+1.38889 w
+DO
+SO
+2.08333 w
+0 sg
+ 682  222 mt 1803  222 L
+ 682 1233 mt 1803 1233 L
+1803 1233 mt 1803  222 L
+ 682 1233 mt  682  222 L
+ 682 1233 mt 1803 1233 L
+ 682 1233 mt  682  222 L
+ 682 1233 mt  682 1221 L
+ 682  222 mt  682  233 L
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 41.6667 FMSR
+
+ 671 1283 mt 
+(0) s
+ 962 1233 mt  962 1221 L
+ 962  222 mt  962  233 L
+ 934 1283 mt 
+(0.5) s
+1242 1233 mt 1242 1221 L
+1242  222 mt 1242  233 L
+1231 1283 mt 
+(1) s
+1522 1233 mt 1522 1221 L
+1522  222 mt 1522  233 L
+1494 1283 mt 
+(1.5) s
+1803 1233 mt 1803 1221 L
+1803  222 mt 1803  233 L
+1792 1283 mt 
+(2) s
+ 682 1233 mt  693 1233 L
+1803 1233 mt 1791 1233 L
+ 647 1248 mt 
+(0) s
+ 682 1088 mt  693 1088 L
+1803 1088 mt 1791 1088 L
+ 613 1103 mt 
+(0.5) s
+ 682  944 mt  693  944 L
+1803  944 mt 1791  944 L
+ 647  959 mt 
+(1) s
+ 682  799 mt  693  799 L
+1803  799 mt 1791  799 L
+ 613  814 mt 
+(1.5) s
+ 682  655 mt  693  655 L
+1803  655 mt 1791  655 L
+ 647  670 mt 
+(2) s
+ 682  510 mt  693  510 L
+1803  510 mt 1791  510 L
+ 613  525 mt 
+(2.5) s
+ 682  366 mt  693  366 L
+1803  366 mt 1791  366 L
+ 647  381 mt 
+(3) s
+ 682  222 mt  693  222 L
+1803  222 mt 1791  222 L
+ 613  237 mt 
+(3.5) s
+ 682  222 mt 1803  222 L
+ 682 1233 mt 1803 1233 L
+1803 1233 mt 1803  222 L
+ 682 1233 mt  682  222 L
+gs 682 222 1122 1012 rc
+/c8 { 0.000000 1.000000 1.000000 sr} bdef
+c8
+6 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 -909 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 6 0 5 909 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+682 222 201 MP stroke
+/c9 { 1.000000 0.000000 0.000000 sr} bdef
+c9
+6 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 1 
+6 57 5 57 6 56 5 56 6 55 6 53 5 53 6 51 
+5 49 6 47 6 45 5 43 6 41 5 38 6 35 6 32 
+5 29 6 26 6 23 5 19 6 16 5 12 6 9 6 6 
+5 1 6 -1 5 -6 6 -9 6 -12 5 -16 6 -19 5 -23 
+6 -26 6 -29 5 -32 6 -35 5 -38 6 -41 6 -43 5 -45 
+6 -47 5 -49 6 -51 6 -53 5 -53 6 -55 5 -56 6 -56 
+6 -57 5 -58 6 0 5 0 6 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 6 1 5 57 6 57 5 56 6 56 
+6 55 5 53 6 53 5 51 6 49 6 47 5 45 6 43 
+5 41 6 38 6 35 5 32 6 29 5 26 6 23 6 19 
+5 16 6 12 5 9 6 6 6 1 5 -1 6 -6 5 -9 
+6 -12 6 -16 5 -19 6 -23 5 -26 6 -29 6 -32 5 -35 
+6 -38 6 -41 5 -43 6 -45 5 -47 6 -49 6 -51 5 -53 
+6 -53 5 -55 6 -56 6 -56 5 -57 6 -57 5 -1 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+682 1233 201 MP stroke
+gr
+
+c9
+1 sg
+   6    6  682 1233 PO
+   6    6  687 1233 PO
+   6    6  693 1233 PO
+   6    6  698 1233 PO
+   6    6  704 1233 PO
+   6    6  710 1233 PO
+   6    6  715 1233 PO
+   6    6  721 1233 PO
+   6    6  726 1233 PO
+   6    6  732 1233 PO
+   6    6  738 1233 PO
+   6    6  743 1233 PO
+   6    6  749 1233 PO
+   6    6  754 1233 PO
+   6    6  760 1233 PO
+   6    6  766 1233 PO
+   6    6  771 1233 PO
+   6    6  777 1233 PO
+   6    6  782 1233 PO
+   6    6  788 1233 PO
+   6    6  794 1233 PO
+   6    6  799 1233 PO
+   6    6  805 1233 PO
+   6    6  810 1233 PO
+   6    6  816 1233 PO
+   6    6  822 1233 PO
+   6    6  827 1233 PO
+   6    6  833 1233 PO
+   6    6  838 1233 PO
+   6    6  844 1233 PO
+   6    6  850 1233 PO
+   6    6  855 1233 PO
+   6    6  861 1233 PO
+   6    6  866 1233 PO
+   6    6  872 1233 PO
+   6    6  878 1233 PO
+   6    6  883 1233 PO
+   6    6  889 1233 PO
+   6    6  894 1233 PO
+   6    6  900 1233 PO
+   6    6  906 1233 PO
+   6    6  911 1233 PO
+   6    6  917 1233 PO
+   6    6  923 1233 PO
+   6    6  928 1233 PO
+   6    6  934 1233 PO
+   6    6  939 1233 PO
+   6    6  945 1233 PO
+   6    6  951 1233 PO
+   6    6  956 1233 PO
+   6    6  962 1233 PO
+   6    6  967 1233 PO
+   6    6  973 1233 PO
+   6    6  979 1233 PO
+   6    6  984 1233 PO
+   6    6  990 1233 PO
+   6    6  995 1233 PO
+   6    6 1001 1233 PO
+   6    6 1007 1233 PO
+   6    6 1012 1233 PO
+   6    6 1018 1233 PO
+   6    6 1023 1233 PO
+   6    6 1029 1233 PO
+   6    6 1035 1233 PO
+   6    6 1040 1233 PO
+   6    6 1046 1233 PO
+   6    6 1051 1233 PO
+   6    6 1057 1233 PO
+   6    6 1063 1233 PO
+   6    6 1068 1233 PO
+   6    6 1074 1233 PO
+   6    6 1079 1233 PO
+   6    6 1085 1233 PO
+   6    6 1091 1233 PO
+   6    6 1096 1233 PO
+   6    6 1102 1233 PO
+   6    6 1107 1233 PO
+   6    6 1113 1189 PO
+   6    6 1119 1146 PO
+   6    6 1124 1103 PO
+   6    6 1130 1059 PO
+   6    6 1136 1016 PO
+   6    6 1141  973 PO
+   6    6 1147  929 PO
+   6    6 1152  886 PO
+   6    6 1158  843 PO
+   6    6 1164  799 PO
+   6    6 1169  756 PO
+   6    6 1175  713 PO
+   6    6 1180  669 PO
+   6    6 1186  626 PO
+   6    6 1192  583 PO
+   6    6 1197  539 PO
+   6    6 1203  506 PO
+   6    6 1208  494 PO
+   6    6 1214  491 PO
+   6    6 1220  489 PO
+   6    6 1225  489 PO
+   6    6 1231  489 PO
+   6    6 1236  489 PO
+   6    6 1242  489 PO
+   6    6 1248  489 PO
+   6    6 1253  489 PO
+   6    6 1259  503 PO
+   6    6 1264  508 PO
+   6    6 1270  510 PO
+   6    6 1276  510 PO
+   6    6 1281  510 PO
+   6    6 1287  510 PO
+   6    6 1292  510 PO
+   6    6 1298  510 PO
+   6    6 1304  510 PO
+   6    6 1309  510 PO
+   6    6 1315  510 PO
+   6    6 1320  510 PO
+   6    6 1326  510 PO
+   6    6 1332  510 PO
+   6    6 1337  510 PO
+   6    6 1343  510 PO
+   6    6 1348  510 PO
+   6    6 1354  510 PO
+   6    6 1360  510 PO
+   6    6 1365  510 PO
+   6    6 1371  510 PO
+   6    6 1377  510 PO
+   6    6 1382  510 PO
+   6    6 1388  510 PO
+   6    6 1393  510 PO
+   6    6 1399  521 PO
+   6    6 1405  541 PO
+   6    6 1410  570 PO
+   6    6 1416  606 PO
+   6    6 1421  648 PO
+   6    6 1427  694 PO
+   6    6 1433  742 PO
+   6    6 1438  792 PO
+   6    6 1444  841 PO
+   6    6 1449  888 PO
+   6    6 1455  932 PO
+   6    6 1461  973 PO
+   6    6 1466 1011 PO
+   6    6 1472 1045 PO
+   6    6 1477 1074 PO
+   6    6 1483 1100 PO
+   6    6 1489 1123 PO
+   6    6 1494 1142 PO
+   6    6 1500 1158 PO
+   6    6 1505 1171 PO
+   6    6 1511 1183 PO
+   6    6 1517 1192 PO
+   6    6 1522 1199 PO
+   6    6 1528 1206 PO
+   6    6 1533 1211 PO
+   6    6 1539 1215 PO
+   6    6 1545 1218 PO
+   6    6 1550 1221 PO
+   6    6 1556 1223 PO
+   6    6 1561 1225 PO
+   6    6 1567 1226 PO
+   6    6 1573 1227 PO
+   6    6 1578 1228 PO
+   6    6 1584 1229 PO
+   6    6 1590 1229 PO
+   6    6 1595 1230 PO
+   6    6 1601 1230 PO
+   6    6 1606 1231 PO
+   6    6 1612 1231 PO
+   6    6 1618 1231 PO
+   6    6 1623 1231 PO
+   6    6 1629 1231 PO
+   6    6 1634 1231 PO
+   6    6 1640 1232 PO
+   6    6 1646 1232 PO
+   6    6 1651 1232 PO
+   6    6 1657 1232 PO
+   6    6 1662 1232 PO
+   6    6 1668 1232 PO
+   6    6 1674 1232 PO
+   6    6 1679 1232 PO
+   6    6 1685 1232 PO
+   6    6 1690 1232 PO
+   6    6 1696 1232 PO
+   6    6 1702 1232 PO
+   6    6 1707 1232 PO
+   6    6 1713 1232 PO
+   6    6 1718 1232 PO
+   6    6 1724 1232 PO
+   6    6 1730 1232 PO
+   6    6 1735 1232 PO
+   6    6 1741 1232 PO
+   6    6 1746 1232 PO
+   6    6 1752 1232 PO
+   6    6 1758 1232 PO
+   6    6 1763 1232 PO
+   6    6 1769 1232 PO
+   6    6 1774 1232 PO
+   6    6 1780 1232 PO
+   6    6 1786 1232 PO
+   6    6 1791 1232 PO
+   6    6 1797 1232 PO
+   6    6 1803 1232 PO
+/c10 { 1.000000 0.000000 1.000000 sr} bdef
+c10
+   6    6  682 1233 FO
+   6    6  687 1233 FO
+   6    6  693 1233 FO
+   6    6  698 1233 FO
+   6    6  704 1233 FO
+   6    6  710 1233 FO
+   6    6  715 1233 FO
+   6    6  721 1233 FO
+   6    6  726 1233 FO
+   6    6  732 1233 FO
+   6    6  738 1233 FO
+   6    6  743 1233 FO
+   6    6  749 1233 FO
+   6    6  754 1233 FO
+   6    6  760 1233 FO
+   6    6  766 1233 FO
+   6    6  771 1233 FO
+   6    6  777 1233 FO
+   6    6  782 1233 FO
+   6    6  788 1233 FO
+   6    6  794 1233 FO
+   6    6  799 1233 FO
+   6    6  805 1233 FO
+   6    6  810 1233 FO
+   6    6  816 1233 FO
+   6    6  822 1233 FO
+   6    6  827 1233 FO
+   6    6  833 1233 FO
+   6    6  838 1233 FO
+   6    6  844 1233 FO
+   6    6  850 1233 FO
+   6    6  855 1233 FO
+   6    6  861 1233 FO
+   6    6  866 1233 FO
+   6    6  872 1233 FO
+   6    6  878 1233 FO
+   6    6  883 1233 FO
+   6    6  889 1233 FO
+   6    6  894 1233 FO
+   6    6  900 1233 FO
+   6    6  906 1233 FO
+   6    6  911 1233 FO
+   6    6  917 1233 FO
+   6    6  923 1233 FO
+   6    6  928 1233 FO
+   6    6  934 1233 FO
+   6    6  939 1233 FO
+   6    6  945 1233 FO
+   6    6  951 1233 FO
+   6    6  956 1233 FO
+   6    6  962 1233 FO
+   6    6  967 1233 FO
+   6    6  973 1233 FO
+   6    6  979 1233 FO
+   6    6  984 1233 FO
+   6    6  990 1233 FO
+   6    6  995 1233 FO
+   6    6 1001 1233 FO
+   6    6 1007 1233 FO
+   6    6 1012 1233 FO
+   6    6 1018 1233 FO
+   6    6 1023 1233 FO
+   6    6 1029 1233 FO
+   6    6 1035 1233 FO
+   6    6 1040 1233 FO
+   6    6 1046 1233 FO
+   6    6 1051 1233 FO
+   6    6 1057 1233 FO
+   6    6 1063 1233 FO
+   6    6 1068 1233 FO
+   6    6 1074 1233 FO
+   6    6 1079 1233 FO
+   6    6 1085 1233 FO
+   6    6 1091 1233 FO
+   6    6 1096 1233 FO
+   6    6 1102 1233 FO
+   6    6 1107 1233 FO
+   6    6 1113 1189 FO
+   6    6 1119 1146 FO
+   6    6 1124 1103 FO
+   6    6 1130 1059 FO
+   6    6 1136 1016 FO
+   6    6 1141  973 FO
+   6    6 1147  929 FO
+   6    6 1152  886 FO
+   6    6 1158  843 FO
+   6    6 1164  799 FO
+   6    6 1169  756 FO
+   6    6 1175  713 FO
+   6    6 1180  669 FO
+   6    6 1186  626 FO
+   6    6 1192  583 FO
+   6    6 1197  539 FO
+   6    6 1203  506 FO
+   6    6 1208  494 FO
+   6    6 1214  491 FO
+   6    6 1220  489 FO
+   6    6 1225  489 FO
+   6    6 1231  489 FO
+   6    6 1236  489 FO
+   6    6 1242  489 FO
+   6    6 1248  489 FO
+   6    6 1253  489 FO
+   6    6 1259  503 FO
+   6    6 1264  508 FO
+   6    6 1270  510 FO
+   6    6 1276  510 FO
+   6    6 1281  510 FO
+   6    6 1287  510 FO
+   6    6 1292  510 FO
+   6    6 1298  510 FO
+   6    6 1304  510 FO
+   6    6 1309  510 FO
+   6    6 1315  510 FO
+   6    6 1320  510 FO
+   6    6 1326  510 FO
+   6    6 1332  510 FO
+   6    6 1337  510 FO
+   6    6 1343  510 FO
+   6    6 1348  510 FO
+   6    6 1354  510 FO
+   6    6 1360  510 FO
+   6    6 1365  510 FO
+   6    6 1371  510 FO
+   6    6 1377  510 FO
+   6    6 1382  510 FO
+   6    6 1388  510 FO
+   6    6 1393  510 FO
+   6    6 1399  521 FO
+   6    6 1405  541 FO
+   6    6 1410  570 FO
+   6    6 1416  606 FO
+   6    6 1421  648 FO
+   6    6 1427  694 FO
+   6    6 1433  742 FO
+   6    6 1438  792 FO
+   6    6 1444  841 FO
+   6    6 1449  888 FO
+   6    6 1455  932 FO
+   6    6 1461  973 FO
+   6    6 1466 1011 FO
+   6    6 1472 1045 FO
+   6    6 1477 1074 FO
+   6    6 1483 1100 FO
+   6    6 1489 1123 FO
+   6    6 1494 1142 FO
+   6    6 1500 1158 FO
+   6    6 1505 1171 FO
+   6    6 1511 1183 FO
+   6    6 1517 1192 FO
+   6    6 1522 1199 FO
+   6    6 1528 1206 FO
+   6    6 1533 1211 FO
+   6    6 1539 1215 FO
+   6    6 1545 1218 FO
+   6    6 1550 1221 FO
+   6    6 1556 1223 FO
+   6    6 1561 1225 FO
+   6    6 1567 1226 FO
+   6    6 1573 1227 FO
+   6    6 1578 1228 FO
+   6    6 1584 1229 FO
+   6    6 1590 1229 FO
+   6    6 1595 1230 FO
+   6    6 1601 1230 FO
+   6    6 1606 1231 FO
+   6    6 1612 1231 FO
+   6    6 1618 1231 FO
+   6    6 1623 1231 FO
+   6    6 1629 1231 FO
+   6    6 1634 1231 FO
+   6    6 1640 1232 FO
+   6    6 1646 1232 FO
+   6    6 1651 1232 FO
+   6    6 1657 1232 FO
+   6    6 1662 1232 FO
+   6    6 1668 1232 FO
+   6    6 1674 1232 FO
+   6    6 1679 1232 FO
+   6    6 1685 1232 FO
+   6    6 1690 1232 FO
+   6    6 1696 1232 FO
+   6    6 1702 1232 FO
+   6    6 1707 1232 FO
+   6    6 1713 1232 FO
+   6    6 1718 1232 FO
+   6    6 1724 1232 FO
+   6    6 1730 1232 FO
+   6    6 1735 1232 FO
+   6    6 1741 1232 FO
+   6    6 1746 1232 FO
+   6    6 1752 1232 FO
+   6    6 1758 1232 FO
+   6    6 1763 1232 FO
+   6    6 1769 1232 FO
+   6    6 1774 1232 FO
+   6    6 1780 1232 FO
+   6    6 1786 1232 FO
+   6    6 1791 1232 FO
+   6    6 1797 1232 FO
+   6    6 1803 1232 FO
+gs 682 222 1122 1012 rc
+/c11 { 0.000000 0.000000 1.000000 sr} bdef
+c11
+6 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 1 5 0 6 0 
+5 0 6 0 6 0 5 1 6 0 5 1 6 0 6 1 
+5 1 6 1 6 1 5 2 6 2 5 3 6 3 6 4 
+5 5 6 7 5 7 6 9 6 12 5 13 6 16 5 19 
+6 23 6 26 5 29 6 34 5 38 6 41 6 44 5 47 
+6 49 5 50 6 48 6 46 5 42 6 36 5 29 6 20 
+6 11 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 2 
+5 5 6 14 5 0 6 0 6 0 5 0 6 0 5 0 
+6 -2 6 -3 5 -12 6 -33 5 -44 6 -43 6 -43 5 -44 
+6 -43 5 -43 6 -44 6 -43 5 -43 6 -44 5 -43 6 -43 
+6 -44 5 -43 6 -43 6 -44 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+682 1233 201 MP stroke
+gr
+
+c11
+8 W
+682 1233 PD
+8 W
+687 1233 PD
+8 W
+693 1233 PD
+8 W
+698 1233 PD
+8 W
+704 1233 PD
+8 W
+710 1233 PD
+8 W
+715 1233 PD
+8 W
+721 1233 PD
+8 W
+726 1233 PD
+8 W
+732 1233 PD
+8 W
+738 1233 PD
+8 W
+743 1233 PD
+8 W
+749 1233 PD
+8 W
+754 1233 PD
+8 W
+760 1233 PD
+8 W
+766 1233 PD
+8 W
+771 1233 PD
+8 W
+777 1233 PD
+8 W
+782 1233 PD
+8 W
+788 1233 PD
+8 W
+794 1233 PD
+8 W
+799 1233 PD
+8 W
+805 1233 PD
+8 W
+810 1233 PD
+8 W
+816 1233 PD
+8 W
+822 1233 PD
+8 W
+827 1233 PD
+8 W
+833 1233 PD
+8 W
+838 1233 PD
+8 W
+844 1233 PD
+8 W
+850 1233 PD
+8 W
+855 1233 PD
+8 W
+861 1233 PD
+8 W
+866 1233 PD
+8 W
+872 1233 PD
+8 W
+878 1233 PD
+8 W
+883 1233 PD
+8 W
+889 1233 PD
+8 W
+894 1233 PD
+8 W
+900 1233 PD
+8 W
+906 1233 PD
+8 W
+911 1233 PD
+8 W
+917 1233 PD
+8 W
+923 1233 PD
+8 W
+928 1233 PD
+8 W
+934 1233 PD
+8 W
+939 1233 PD
+8 W
+945 1233 PD
+8 W
+951 1233 PD
+8 W
+956 1233 PD
+8 W
+962 1233 PD
+8 W
+967 1233 PD
+8 W
+973 1233 PD
+8 W
+979 1233 PD
+8 W
+984 1233 PD
+8 W
+990 1233 PD
+8 W
+995 1233 PD
+8 W
+1001 1233 PD
+8 W
+1007 1233 PD
+8 W
+1012 1233 PD
+8 W
+1018 1233 PD
+8 W
+1023 1233 PD
+8 W
+1029 1233 PD
+8 W
+1035 1233 PD
+8 W
+1040 1233 PD
+8 W
+1046 1233 PD
+8 W
+1051 1233 PD
+8 W
+1057 1233 PD
+8 W
+1063 1233 PD
+8 W
+1068 1233 PD
+8 W
+1074 1233 PD
+8 W
+1079 1233 PD
+8 W
+1085 1233 PD
+8 W
+1091 1233 PD
+8 W
+1096 1233 PD
+8 W
+1102 1233 PD
+8 W
+1107 1233 PD
+8 W
+1113 1189 PD
+8 W
+1119 1146 PD
+8 W
+1124 1103 PD
+8 W
+1130 1059 PD
+8 W
+1136 1016 PD
+8 W
+1141 973 PD
+8 W
+1147 929 PD
+8 W
+1152 886 PD
+8 W
+1158 843 PD
+8 W
+1164 799 PD
+8 W
+1169 756 PD
+8 W
+1175 713 PD
+8 W
+1180 669 PD
+8 W
+1186 626 PD
+8 W
+1192 583 PD
+8 W
+1197 539 PD
+8 W
+1203 506 PD
+8 W
+1208 494 PD
+8 W
+1214 491 PD
+8 W
+1220 489 PD
+8 W
+1225 489 PD
+8 W
+1231 489 PD
+8 W
+1236 489 PD
+8 W
+1242 489 PD
+8 W
+1248 489 PD
+8 W
+1253 489 PD
+8 W
+1259 503 PD
+8 W
+1264 508 PD
+8 W
+1270 510 PD
+8 W
+1276 510 PD
+8 W
+1281 510 PD
+8 W
+1287 510 PD
+8 W
+1292 510 PD
+8 W
+1298 510 PD
+8 W
+1304 510 PD
+8 W
+1309 510 PD
+8 W
+1315 510 PD
+8 W
+1320 510 PD
+8 W
+1326 510 PD
+8 W
+1332 510 PD
+8 W
+1337 510 PD
+8 W
+1343 510 PD
+8 W
+1348 510 PD
+8 W
+1354 510 PD
+8 W
+1360 510 PD
+8 W
+1365 510 PD
+8 W
+1371 510 PD
+8 W
+1377 510 PD
+8 W
+1382 510 PD
+8 W
+1388 510 PD
+8 W
+1393 510 PD
+8 W
+1399 521 PD
+8 W
+1405 541 PD
+8 W
+1410 570 PD
+8 W
+1416 606 PD
+8 W
+1421 648 PD
+8 W
+1427 694 PD
+8 W
+1433 742 PD
+8 W
+1438 792 PD
+8 W
+1444 841 PD
+8 W
+1449 888 PD
+8 W
+1455 932 PD
+8 W
+1461 973 PD
+8 W
+1466 1011 PD
+8 W
+1472 1045 PD
+8 W
+1477 1074 PD
+8 W
+1483 1100 PD
+8 W
+1489 1123 PD
+8 W
+1494 1142 PD
+8 W
+1500 1158 PD
+8 W
+1505 1171 PD
+8 W
+1511 1183 PD
+8 W
+1517 1192 PD
+8 W
+1522 1199 PD
+8 W
+1528 1206 PD
+8 W
+1533 1211 PD
+8 W
+1539 1215 PD
+8 W
+1545 1218 PD
+8 W
+1550 1221 PD
+8 W
+1556 1223 PD
+8 W
+1561 1225 PD
+8 W
+1567 1226 PD
+8 W
+1573 1227 PD
+8 W
+1578 1228 PD
+8 W
+1584 1229 PD
+8 W
+1590 1229 PD
+8 W
+1595 1230 PD
+8 W
+1601 1230 PD
+8 W
+1606 1231 PD
+8 W
+1612 1231 PD
+8 W
+1618 1231 PD
+8 W
+1623 1231 PD
+8 W
+1629 1231 PD
+8 W
+1634 1231 PD
+8 W
+1640 1232 PD
+8 W
+1646 1232 PD
+8 W
+1651 1232 PD
+8 W
+1657 1232 PD
+8 W
+1662 1232 PD
+8 W
+1668 1232 PD
+8 W
+1674 1232 PD
+8 W
+1679 1232 PD
+8 W
+1685 1232 PD
+8 W
+1690 1232 PD
+8 W
+1696 1232 PD
+8 W
+1702 1232 PD
+8 W
+1707 1232 PD
+8 W
+1713 1232 PD
+8 W
+1718 1232 PD
+8 W
+1724 1232 PD
+8 W
+1730 1232 PD
+8 W
+1735 1232 PD
+8 W
+1741 1232 PD
+8 W
+1746 1232 PD
+8 W
+1752 1232 PD
+8 W
+1758 1232 PD
+8 W
+1763 1232 PD
+8 W
+1769 1232 PD
+8 W
+1774 1232 PD
+8 W
+1780 1232 PD
+8 W
+1786 1232 PD
+8 W
+1791 1232 PD
+8 W
+1797 1232 PD
+8 W
+1803 1232 PD
+gs 682 222 1122 1012 rc
+gr
+
+0 sg
+1134 1333 mt 
+(Time [days]) s
+ 584  874 mt  -90 rotate
+(Canopy storage) s
+90 rotate
+ 920  191 mt 
+(a = 0.6 ; b = 200 ; c = 2.5 ; d = 0.83) s
+ 676 1249 mt 
+( ) s
+1798  237 mt 
+( ) s
+1.38889 w
+DO
+SO
+2.08333 w
+1 sg
+ 702  243 mt 1164  243 L
+ 702  426 mt 1164  426 L
+1164  426 mt 1164  243 L
+ 702  426 mt  702  243 L
+ 702  426 mt 1164  426 L
+ 702  426 mt  702  243 L
+ 702  243 mt 1164  243 L
+ 702  426 mt 1164  426 L
+1164  426 mt 1164  243 L
+ 702  426 mt  702  243 L
+0 sg
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 33.3333 FMSR
+
+ 861  283 mt 
+(scaled precipitation) s
+gs 702 243 463 184 rc
+c8
+122 0 726 270 2 MP stroke
+gr
+
+c8
+0 sg
+ 861  326 mt 
+(scaled evaporation) s
+gs 702 243 463 184 rc
+c9
+122 0 726 313 2 MP stroke
+gr
+
+c9
+0 sg
+ 861  368 mt 
+(measured storage) s
+gs 702 243 463 184 rc
+gs 774 342 28 28 rc
+1 sg
+   6    6  787  355 PO
+c10
+   6    6  787  355 FO
+gr
+
+c10
+gr
+
+c10
+0 sg
+ 861  411 mt 
+(simulated storage) s
+gs 702 243 463 184 rc
+c11
+122 0 726 398 2 MP stroke
+gs 761 372 53 53 rc
+8 W
+787 398 PD
+gr
+
+gr
+
+c11
+1 sg
+0 1011 1120 0 0 -1011 2156 1233 4 MP
+PP
+-1120 0 0 1011 1120 0 0 -1011 2156 1233 5 MP stroke
+1.38889 w
+DO
+SO
+2.08333 w
+0 sg
+2156  222 mt 3276  222 L
+2156 1233 mt 3276 1233 L
+3276 1233 mt 3276  222 L
+2156 1233 mt 2156  222 L
+2156 1233 mt 3276 1233 L
+2156 1233 mt 2156  222 L
+2156 1233 mt 2156 1221 L
+2156  222 mt 2156  233 L
+%%IncludeResource: font Helvetica
+/Helvetica /WindowsLatin1Encoding 41.6667 FMSR
+
+2145 1283 mt 
+(0) s
+2436 1233 mt 2436 1221 L
+2436  222 mt 2436  233 L
+2408 1283 mt 
+(0.5) s
+2716 1233 mt 2716 1221 L
+2716  222 mt 2716  233 L
+2705 1283 mt 
+(1) s
+2996 1233 mt 2996 1221 L
+2996  222 mt 2996  233 L
+2968 1283 mt 
+(1.5) s
+3276 1233 mt 3276 1221 L
+3276  222 mt 3276  233 L
+3265 1283 mt 
+(2) s
+2156 1233 mt 2167 1233 L
+3276 1233 mt 3264 1233 L
+2121 1248 mt 
+(0) s
+2156 1088 mt 2167 1088 L
+3276 1088 mt 3264 1088 L
+2087 1103 mt 
+(0.5) s
+2156  944 mt 2167  944 L
+3276  944 mt 3264  944 L
+2121  959 mt 
+(1) s
+2156  799 mt 2167  799 L
+3276  799 mt 3264  799 L
+2087  814 mt 
+(1.5) s
+2156  655 mt 2167  655 L
+3276  655 mt 3264  655 L
+2121  670 mt 
+(2) s
+2156  510 mt 2167  510 L
+3276  510 mt 3264  510 L
+2087  525 mt 
+(2.5) s
+2156  366 mt 2167  366 L
+3276  366 mt 3264  366 L
+2121  381 mt 
+(3) s
+2156  222 mt 2167  222 L
+3276  222 mt 3264  222 L
+2087  237 mt 
+(3.5) s
+2156  222 mt 3276  222 L
+2156 1233 mt 3276 1233 L
+3276 1233 mt 3276  222 L
+2156 1233 mt 2156  222 L
+gs 2156 222 1121 1012 rc
+c8
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 -909 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 909 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+2156 222 201 MP stroke
+c9
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 1 
+5 57 6 57 6 56 5 56 6 55 5 53 6 53 6 51 
+5 49 6 47 5 45 6 43 6 41 5 38 6 35 5 32 
+6 29 6 26 5 23 6 19 5 16 6 12 6 9 5 6 
+6 1 5 -1 6 -6 6 -9 5 -12 6 -16 5 -19 6 -23 
+6 -26 5 -29 6 -32 5 -35 6 -38 6 -41 5 -43 6 -45 
+5 -47 6 -49 6 -51 5 -53 6 -53 5 -55 6 -56 6 -56 
+5 -57 6 -58 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 1 5 57 6 57 6 56 5 56 
+6 55 5 53 6 53 6 51 5 49 6 47 5 45 6 43 
+6 41 5 38 6 35 5 32 6 29 6 26 5 23 6 19 
+5 16 6 12 6 9 5 6 6 1 5 -1 6 -6 6 -9 
+5 -12 6 -16 5 -19 6 -23 6 -26 5 -29 6 -32 5 -35 
+6 -38 6 -41 5 -43 6 -45 5 -47 6 -49 6 -51 5 -53 
+6 -53 5 -55 6 -56 6 -56 5 -57 6 -57 5 -1 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+2156 1233 201 MP stroke
+gr
+
+c9
+1 sg
+   6    6 2156 1233 PO
+   6    6 2161 1233 PO
+   6    6 2167 1233 PO
+   6    6 2172 1233 PO
+   6    6 2178 1233 PO
+   6    6 2184 1233 PO
+   6    6 2189 1233 PO
+   6    6 2195 1233 PO
+   6    6 2200 1233 PO
+   6    6 2206 1233 PO
+   6    6 2212 1233 PO
+   6    6 2217 1233 PO
+   6    6 2223 1233 PO
+   6    6 2228 1233 PO
+   6    6 2234 1233 PO
+   6    6 2240 1233 PO
+   6    6 2245 1233 PO
+   6    6 2251 1233 PO
+   6    6 2256 1233 PO
+   6    6 2262 1233 PO
+   6    6 2268 1233 PO
+   6    6 2273 1233 PO
+   6    6 2279 1233 PO
+   6    6 2284 1233 PO
+   6    6 2290 1233 PO
+   6    6 2296 1233 PO
+   6    6 2301 1233 PO
+   6    6 2307 1233 PO
+   6    6 2312 1233 PO
+   6    6 2318 1233 PO
+   6    6 2324 1233 PO
+   6    6 2329 1233 PO
+   6    6 2335 1233 PO
+   6    6 2340 1233 PO
+   6    6 2346 1233 PO
+   6    6 2352 1233 PO
+   6    6 2357 1233 PO
+   6    6 2363 1233 PO
+   6    6 2368 1233 PO
+   6    6 2374 1233 PO
+   6    6 2380 1233 PO
+   6    6 2385 1233 PO
+   6    6 2391 1233 PO
+   6    6 2396 1233 PO
+   6    6 2402 1233 PO
+   6    6 2408 1233 PO
+   6    6 2413 1233 PO
+   6    6 2419 1233 PO
+   6    6 2424 1233 PO
+   6    6 2430 1233 PO
+   6    6 2436 1233 PO
+   6    6 2441 1233 PO
+   6    6 2447 1233 PO
+   6    6 2452 1233 PO
+   6    6 2458 1233 PO
+   6    6 2464 1233 PO
+   6    6 2469 1233 PO
+   6    6 2475 1233 PO
+   6    6 2480 1233 PO
+   6    6 2486 1233 PO
+   6    6 2492 1233 PO
+   6    6 2497 1233 PO
+   6    6 2503 1233 PO
+   6    6 2508 1233 PO
+   6    6 2514 1233 PO
+   6    6 2520 1233 PO
+   6    6 2525 1233 PO
+   6    6 2531 1233 PO
+   6    6 2536 1233 PO
+   6    6 2542 1233 PO
+   6    6 2548 1233 PO
+   6    6 2553 1233 PO
+   6    6 2559 1233 PO
+   6    6 2564 1233 PO
+   6    6 2570 1233 PO
+   6    6 2576 1233 PO
+   6    6 2581 1233 PO
+   6    6 2587 1189 PO
+   6    6 2592 1146 PO
+   6    6 2598 1103 PO
+   6    6 2604 1059 PO
+   6    6 2609 1016 PO
+   6    6 2615  973 PO
+   6    6 2620  929 PO
+   6    6 2626  886 PO
+   6    6 2632  843 PO
+   6    6 2637  799 PO
+   6    6 2643  756 PO
+   6    6 2648  713 PO
+   6    6 2654  669 PO
+   6    6 2660  626 PO
+   6    6 2665  583 PO
+   6    6 2671  539 PO
+   6    6 2676  506 PO
+   6    6 2682  494 PO
+   6    6 2688  491 PO
+   6    6 2693  489 PO
+   6    6 2699  489 PO
+   6    6 2704  489 PO
+   6    6 2710  489 PO
+   6    6 2716  489 PO
+   6    6 2721  489 PO
+   6    6 2727  489 PO
+   6    6 2732  503 PO
+   6    6 2738  508 PO
+   6    6 2744  510 PO
+   6    6 2749  510 PO
+   6    6 2755  510 PO
+   6    6 2760  510 PO
+   6    6 2766  510 PO
+   6    6 2772  510 PO
+   6    6 2777  510 PO
+   6    6 2783  510 PO
+   6    6 2788  510 PO
+   6    6 2794  510 PO
+   6    6 2800  510 PO
+   6    6 2805  510 PO
+   6    6 2811  510 PO
+   6    6 2816  510 PO
+   6    6 2822  510 PO
+   6    6 2828  510 PO
+   6    6 2833  510 PO
+   6    6 2839  510 PO
+   6    6 2844  510 PO
+   6    6 2850  510 PO
+   6    6 2856  510 PO
+   6    6 2861  510 PO
+   6    6 2867  510 PO
+   6    6 2872  521 PO
+   6    6 2878  541 PO
+   6    6 2884  570 PO
+   6    6 2889  606 PO
+   6    6 2895  648 PO
+   6    6 2900  694 PO
+   6    6 2906  742 PO
+   6    6 2912  792 PO
+   6    6 2917  841 PO
+   6    6 2923  888 PO
+   6    6 2928  932 PO
+   6    6 2934  973 PO
+   6    6 2940 1011 PO
+   6    6 2945 1045 PO
+   6    6 2951 1074 PO
+   6    6 2956 1100 PO
+   6    6 2962 1123 PO
+   6    6 2968 1142 PO
+   6    6 2973 1158 PO
+   6    6 2979 1171 PO
+   6    6 2984 1183 PO
+   6    6 2990 1192 PO
+   6    6 2996 1199 PO
+   6    6 3001 1206 PO
+   6    6 3007 1211 PO
+   6    6 3012 1215 PO
+   6    6 3018 1218 PO
+   6    6 3024 1221 PO
+   6    6 3029 1223 PO
+   6    6 3035 1225 PO
+   6    6 3040 1226 PO
+   6    6 3046 1227 PO
+   6    6 3052 1228 PO
+   6    6 3057 1229 PO
+   6    6 3063 1229 PO
+   6    6 3068 1230 PO
+   6    6 3074 1230 PO
+   6    6 3080 1231 PO
+   6    6 3085 1231 PO
+   6    6 3091 1231 PO
+   6    6 3096 1231 PO
+   6    6 3102 1231 PO
+   6    6 3108 1231 PO
+   6    6 3113 1232 PO
+   6    6 3119 1232 PO
+   6    6 3124 1232 PO
+   6    6 3130 1232 PO
+   6    6 3136 1232 PO
+   6    6 3141 1232 PO
+   6    6 3147 1232 PO
+   6    6 3152 1232 PO
+   6    6 3158 1232 PO
+   6    6 3164 1232 PO
+   6    6 3169 1232 PO
+   6    6 3175 1232 PO
+   6    6 3180 1232 PO
+   6    6 3186 1232 PO
+   6    6 3192 1232 PO
+   6    6 3197 1232 PO
+   6    6 3203 1232 PO
+   6    6 3208 1232 PO
+   6    6 3214 1232 PO
+   6    6 3220 1232 PO
+   6    6 3225 1232 PO
+   6    6 3231 1232 PO
+   6    6 3236 1232 PO
+   6    6 3242 1232 PO
+   6    6 3248 1232 PO
+   6    6 3253 1232 PO
+   6    6 3259 1232 PO
+   6    6 3264 1232 PO
+   6    6 3270 1232 PO
+   6    6 3276 1232 PO
+c10
+   6    6 2156 1233 FO
+   6    6 2161 1233 FO
+   6    6 2167 1233 FO
+   6    6 2172 1233 FO
+   6    6 2178 1233 FO
+   6    6 2184 1233 FO
+   6    6 2189 1233 FO
+   6    6 2195 1233 FO
+   6    6 2200 1233 FO
+   6    6 2206 1233 FO
+   6    6 2212 1233 FO
+   6    6 2217 1233 FO
+   6    6 2223 1233 FO
+   6    6 2228 1233 FO
+   6    6 2234 1233 FO
+   6    6 2240 1233 FO
+   6    6 2245 1233 FO
+   6    6 2251 1233 FO
+   6    6 2256 1233 FO
+   6    6 2262 1233 FO
+   6    6 2268 1233 FO
+   6    6 2273 1233 FO
+   6    6 2279 1233 FO
+   6    6 2284 1233 FO
+   6    6 2290 1233 FO
+   6    6 2296 1233 FO
+   6    6 2301 1233 FO
+   6    6 2307 1233 FO
+   6    6 2312 1233 FO
+   6    6 2318 1233 FO
+   6    6 2324 1233 FO
+   6    6 2329 1233 FO
+   6    6 2335 1233 FO
+   6    6 2340 1233 FO
+   6    6 2346 1233 FO
+   6    6 2352 1233 FO
+   6    6 2357 1233 FO
+   6    6 2363 1233 FO
+   6    6 2368 1233 FO
+   6    6 2374 1233 FO
+   6    6 2380 1233 FO
+   6    6 2385 1233 FO
+   6    6 2391 1233 FO
+   6    6 2396 1233 FO
+   6    6 2402 1233 FO
+   6    6 2408 1233 FO
+   6    6 2413 1233 FO
+   6    6 2419 1233 FO
+   6    6 2424 1233 FO
+   6    6 2430 1233 FO
+   6    6 2436 1233 FO
+   6    6 2441 1233 FO
+   6    6 2447 1233 FO
+   6    6 2452 1233 FO
+   6    6 2458 1233 FO
+   6    6 2464 1233 FO
+   6    6 2469 1233 FO
+   6    6 2475 1233 FO
+   6    6 2480 1233 FO
+   6    6 2486 1233 FO
+   6    6 2492 1233 FO
+   6    6 2497 1233 FO
+   6    6 2503 1233 FO
+   6    6 2508 1233 FO
+   6    6 2514 1233 FO
+   6    6 2520 1233 FO
+   6    6 2525 1233 FO
+   6    6 2531 1233 FO
+   6    6 2536 1233 FO
+   6    6 2542 1233 FO
+   6    6 2548 1233 FO
+   6    6 2553 1233 FO
+   6    6 2559 1233 FO
+   6    6 2564 1233 FO
+   6    6 2570 1233 FO
+   6    6 2576 1233 FO
+   6    6 2581 1233 FO
+   6    6 2587 1189 FO
+   6    6 2592 1146 FO
+   6    6 2598 1103 FO
+   6    6 2604 1059 FO
+   6    6 2609 1016 FO
+   6    6 2615  973 FO
+   6    6 2620  929 FO
+   6    6 2626  886 FO
+   6    6 2632  843 FO
+   6    6 2637  799 FO
+   6    6 2643  756 FO
+   6    6 2648  713 FO
+   6    6 2654  669 FO
+   6    6 2660  626 FO
+   6    6 2665  583 FO
+   6    6 2671  539 FO
+   6    6 2676  506 FO
+   6    6 2682  494 FO
+   6    6 2688  491 FO
+   6    6 2693  489 FO
+   6    6 2699  489 FO
+   6    6 2704  489 FO
+   6    6 2710  489 FO
+   6    6 2716  489 FO
+   6    6 2721  489 FO
+   6    6 2727  489 FO
+   6    6 2732  503 FO
+   6    6 2738  508 FO
+   6    6 2744  510 FO
+   6    6 2749  510 FO
+   6    6 2755  510 FO
+   6    6 2760  510 FO
+   6    6 2766  510 FO
+   6    6 2772  510 FO
+   6    6 2777  510 FO
+   6    6 2783  510 FO
+   6    6 2788  510 FO
+   6    6 2794  510 FO
+   6    6 2800  510 FO
+   6    6 2805  510 FO
+   6    6 2811  510 FO
+   6    6 2816  510 FO
+   6    6 2822  510 FO
+   6    6 2828  510 FO
+   6    6 2833  510 FO
+   6    6 2839  510 FO
+   6    6 2844  510 FO
+   6    6 2850  510 FO
+   6    6 2856  510 FO
+   6    6 2861  510 FO
+   6    6 2867  510 FO
+   6    6 2872  521 FO
+   6    6 2878  541 FO
+   6    6 2884  570 FO
+   6    6 2889  606 FO
+   6    6 2895  648 FO
+   6    6 2900  694 FO
+   6    6 2906  742 FO
+   6    6 2912  792 FO
+   6    6 2917  841 FO
+   6    6 2923  888 FO
+   6    6 2928  932 FO
+   6    6 2934  973 FO
+   6    6 2940 1011 FO
+   6    6 2945 1045 FO
+   6    6 2951 1074 FO
+   6    6 2956 1100 FO
+   6    6 2962 1123 FO
+   6    6 2968 1142 FO
+   6    6 2973 1158 FO
+   6    6 2979 1171 FO
+   6    6 2984 1183 FO
+   6    6 2990 1192 FO
+   6    6 2996 1199 FO
+   6    6 3001 1206 FO
+   6    6 3007 1211 FO
+   6    6 3012 1215 FO
+   6    6 3018 1218 FO
+   6    6 3024 1221 FO
+   6    6 3029 1223 FO
+   6    6 3035 1225 FO
+   6    6 3040 1226 FO
+   6    6 3046 1227 FO
+   6    6 3052 1228 FO
+   6    6 3057 1229 FO
+   6    6 3063 1229 FO
+   6    6 3068 1230 FO
+   6    6 3074 1230 FO
+   6    6 3080 1231 FO
+   6    6 3085 1231 FO
+   6    6 3091 1231 FO
+   6    6 3096 1231 FO
+   6    6 3102 1231 FO
+   6    6 3108 1231 FO
+   6    6 3113 1232 FO
+   6    6 3119 1232 FO
+   6    6 3124 1232 FO
+   6    6 3130 1232 FO
+   6    6 3136 1232 FO
+   6    6 3141 1232 FO
+   6    6 3147 1232 FO
+   6    6 3152 1232 FO
+   6    6 3158 1232 FO
+   6    6 3164 1232 FO
+   6    6 3169 1232 FO
+   6    6 3175 1232 FO
+   6    6 3180 1232 FO
+   6    6 3186 1232 FO
+   6    6 3192 1232 FO
+   6    6 3197 1232 FO
+   6    6 3203 1232 FO
+   6    6 3208 1232 FO
+   6    6 3214 1232 FO
+   6    6 3220 1232 FO
+   6    6 3225 1232 FO
+   6    6 3231 1232 FO
+   6    6 3236 1232 FO
+   6    6 3242 1232 FO
+   6    6 3248 1232 FO
+   6    6 3253 1232 FO
+   6    6 3259 1232 FO
+   6    6 3264 1232 FO
+   6    6 3270 1232 FO
+   6    6 3276 1232 FO
+gs 2156 222 1121 1012 rc
+c11
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 1 6 0 6 0 
+5 0 6 0 5 0 6 1 6 0 5 1 6 0 5 1 
+6 1 6 1 5 1 6 2 5 2 6 3 6 3 5 4 
+6 5 5 7 6 7 6 9 5 12 6 13 5 16 6 19 
+6 23 5 26 6 29 5 34 6 38 6 41 5 44 6 47 
+5 49 6 50 6 48 5 46 6 42 5 36 6 29 6 20 
+5 11 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 2 
+6 5 5 14 6 0 5 0 6 0 6 0 5 0 6 0 
+5 -2 6 -3 6 -12 5 -33 6 -44 5 -43 6 -43 6 -44 
+5 -43 6 -43 5 -44 6 -43 6 -43 5 -44 6 -43 5 -43 
+6 -44 6 -43 5 -43 6 -44 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+2156 1233 201 MP stroke
+gr
+
+c11
+8 W
+2156 1233 PD
+8 W
+2161 1233 PD
+8 W
+2167 1233 PD
+8 W
+2172 1233 PD
+8 W
+2178 1233 PD
+8 W
+2184 1233 PD
+8 W
+2189 1233 PD
+8 W
+2195 1233 PD
+8 W
+2200 1233 PD
+8 W
+2206 1233 PD
+8 W
+2212 1233 PD
+8 W
+2217 1233 PD
+8 W
+2223 1233 PD
+8 W
+2228 1233 PD
+8 W
+2234 1233 PD
+8 W
+2240 1233 PD
+8 W
+2245 1233 PD
+8 W
+2251 1233 PD
+8 W
+2256 1233 PD
+8 W
+2262 1233 PD
+8 W
+2268 1233 PD
+8 W
+2273 1233 PD
+8 W
+2279 1233 PD
+8 W
+2284 1233 PD
+8 W
+2290 1233 PD
+8 W
+2296 1233 PD
+8 W
+2301 1233 PD
+8 W
+2307 1233 PD
+8 W
+2312 1233 PD
+8 W
+2318 1233 PD
+8 W
+2324 1233 PD
+8 W
+2329 1233 PD
+8 W
+2335 1233 PD
+8 W
+2340 1233 PD
+8 W
+2346 1233 PD
+8 W
+2352 1233 PD
+8 W
+2357 1233 PD
+8 W
+2363 1233 PD
+8 W
+2368 1233 PD
+8 W
+2374 1233 PD
+8 W
+2380 1233 PD
+8 W
+2385 1233 PD
+8 W
+2391 1233 PD
+8 W
+2396 1233 PD
+8 W
+2402 1233 PD
+8 W
+2408 1233 PD
+8 W
+2413 1233 PD
+8 W
+2419 1233 PD
+8 W
+2424 1233 PD
+8 W
+2430 1233 PD
+8 W
+2436 1233 PD
+8 W
+2441 1233 PD
+8 W
+2447 1233 PD
+8 W
+2452 1233 PD
+8 W
+2458 1233 PD
+8 W
+2464 1233 PD
+8 W
+2469 1233 PD
+8 W
+2475 1233 PD
+8 W
+2480 1233 PD
+8 W
+2486 1233 PD
+8 W
+2492 1233 PD
+8 W
+2497 1233 PD
+8 W
+2503 1233 PD
+8 W
+2508 1233 PD
+8 W
+2514 1233 PD
+8 W
+2520 1233 PD
+8 W
+2525 1233 PD
+8 W
+2531 1233 PD
+8 W
+2536 1233 PD
+8 W
+2542 1233 PD
+8 W
+2548 1233 PD
+8 W
+2553 1233 PD
+8 W
+2559 1233 PD
+8 W
+2564 1233 PD
+8 W
+2570 1233 PD
+8 W
+2576 1233 PD
+8 W
+2581 1233 PD
+8 W
+2587 1189 PD
+8 W
+2592 1146 PD
+8 W
+2598 1103 PD
+8 W
+2604 1059 PD
+8 W
+2609 1016 PD
+8 W
+2615 973 PD
+8 W
+2620 929 PD
+8 W
+2626 886 PD
+8 W
+2632 843 PD
+8 W
+2637 799 PD
+8 W
+2643 756 PD
+8 W
+2648 713 PD
+8 W
+2654 669 PD
+8 W
+2660 626 PD
+8 W
+2665 583 PD
+8 W
+2671 539 PD
+8 W
+2676 506 PD
+8 W
+2682 494 PD
+8 W
+2688 491 PD
+8 W
+2693 489 PD
+8 W
+2699 489 PD
+8 W
+2704 489 PD
+8 W
+2710 489 PD
+8 W
+2716 489 PD
+8 W
+2721 489 PD
+8 W
+2727 489 PD
+8 W
+2732 503 PD
+8 W
+2738 508 PD
+8 W
+2744 510 PD
+8 W
+2749 510 PD
+8 W
+2755 510 PD
+8 W
+2760 510 PD
+8 W
+2766 510 PD
+8 W
+2772 510 PD
+8 W
+2777 510 PD
+8 W
+2783 510 PD
+8 W
+2788 510 PD
+8 W
+2794 510 PD
+8 W
+2800 510 PD
+8 W
+2805 510 PD
+8 W
+2811 510 PD
+8 W
+2816 510 PD
+8 W
+2822 510 PD
+8 W
+2828 510 PD
+8 W
+2833 510 PD
+8 W
+2839 510 PD
+8 W
+2844 510 PD
+8 W
+2850 510 PD
+8 W
+2856 510 PD
+8 W
+2861 510 PD
+8 W
+2867 510 PD
+8 W
+2872 521 PD
+8 W
+2878 541 PD
+8 W
+2884 570 PD
+8 W
+2889 606 PD
+8 W
+2895 648 PD
+8 W
+2900 694 PD
+8 W
+2906 742 PD
+8 W
+2912 792 PD
+8 W
+2917 841 PD
+8 W
+2923 888 PD
+8 W
+2928 932 PD
+8 W
+2934 973 PD
+8 W
+2940 1011 PD
+8 W
+2945 1045 PD
+8 W
+2951 1074 PD
+8 W
+2956 1100 PD
+8 W
+2962 1123 PD
+8 W
+2968 1142 PD
+8 W
+2973 1158 PD
+8 W
+2979 1171 PD
+8 W
+2984 1183 PD
+8 W
+2990 1192 PD
+8 W
+2996 1199 PD
+8 W
+3001 1206 PD
+8 W
+3007 1211 PD
+8 W
+3012 1215 PD
+8 W
+3018 1218 PD
+8 W
+3024 1221 PD
+8 W
+3029 1223 PD
+8 W
+3035 1225 PD
+8 W
+3040 1226 PD
+8 W
+3046 1227 PD
+8 W
+3052 1228 PD
+8 W
+3057 1229 PD
+8 W
+3063 1229 PD
+8 W
+3068 1230 PD
+8 W
+3074 1230 PD
+8 W
+3080 1231 PD
+8 W
+3085 1231 PD
+8 W
+3091 1231 PD
+8 W
+3096 1231 PD
+8 W
+3102 1231 PD
+8 W
+3108 1231 PD
+8 W
+3113 1232 PD
+8 W
+3119 1232 PD
+8 W
+3124 1232 PD
+8 W
+3130 1232 PD
+8 W
+3136 1232 PD
+8 W
+3141 1232 PD
+8 W
+3147 1232 PD
+8 W
+3152 1232 PD
+8 W
+3158 1232 PD
+8 W
+3164 1232 PD
+8 W
+3169 1232 PD
+8 W
+3175 1232 PD
+8 W
+3180 1232 PD
+8 W
+3186 1232 PD
+8 W
+3192 1232 PD
+8 W
+3197 1232 PD
+8 W
+3203 1232 PD
+8 W
+3208 1232 PD
+8 W
+3214 1232 PD
+8 W
+3220 1232 PD
+8 W
+3225 1232 PD
+8 W
+3231 1232 PD
+8 W
+3236 1232 PD
+8 W
+3242 1232 PD
+8 W
+3248 1232 PD
+8 W
+3253 1232 PD
+8 W
+3259 1232 PD
+8 W
+3264 1232 PD
+8 W
+3270 1232 PD
+8 W
+3276 1232 PD
+gs 2156 222 1121 1012 rc
+gr
+
+0 sg
+2608 1333 mt 
+(Time [days]) s
+2058  874 mt  -90 rotate
+(Canopy storage) s
+90 rotate
+2393  191 mt 
+(a = 0.6 ; b = 200 ; c = 2.5 ; d = 0.83) s
+1 sg
+0 1011 1120 0 0 -1011 3630 1233 4 MP
+PP
+-1120 0 0 1011 1120 0 0 -1011 3630 1233 5 MP stroke
+1.38889 w
+DO
+SO
+2.08333 w
+0 sg
+3630  222 mt 4750  222 L
+3630 1233 mt 4750 1233 L
+4750 1233 mt 4750  222 L
+3630 1233 mt 3630  222 L
+3630 1233 mt 4750 1233 L
+3630 1233 mt 3630  222 L
+3630 1233 mt 3630 1221 L
+3630  222 mt 3630  233 L
+3619 1283 mt 
+(0) s
+3910 1233 mt 3910 1221 L
+3910  222 mt 3910  233 L
+3882 1283 mt 
+(0.5) s
+4190 1233 mt 4190 1221 L
+4190  222 mt 4190  233 L
+4179 1283 mt 
+(1) s
+4470 1233 mt 4470 1221 L
+4470  222 mt 4470  233 L
+4442 1283 mt 
+(1.5) s
+4750 1233 mt 4750 1221 L
+4750  222 mt 4750  233 L
+4739 1283 mt 
+(2) s
+3630 1233 mt 3641 1233 L
+4750 1233 mt 4738 1233 L
+3595 1248 mt 
+(0) s
+3630 1088 mt 3641 1088 L
+4750 1088 mt 4738 1088 L
+3561 1103 mt 
+(0.5) s
+3630  944 mt 3641  944 L
+4750  944 mt 4738  944 L
+3595  959 mt 
+(1) s
+3630  799 mt 3641  799 L
+4750  799 mt 4738  799 L
+3561  814 mt 
+(1.5) s
+3630  655 mt 3641  655 L
+4750  655 mt 4738  655 L
+3595  670 mt 
+(2) s
+3630  510 mt 3641  510 L
+4750  510 mt 4738  510 L
+3561  525 mt 
+(2.5) s
+3630  366 mt 3641  366 L
+4750  366 mt 4738  366 L
+3595  381 mt 
+(3) s
+3630  222 mt 3641  222 L
+4750  222 mt 4738  222 L
+3561  237 mt 
+(3.5) s
+3630  222 mt 4750  222 L
+3630 1233 mt 4750 1233 L
+4750 1233 mt 4750  222 L
+3630 1233 mt 3630  222 L
+gs 3630 222 1121 1012 rc
+c8
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 -909 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 909 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+3630 222 201 MP stroke
+c9
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 1 
+5 57 6 57 6 56 5 56 6 55 5 53 6 53 6 51 
+5 49 6 47 5 45 6 43 6 41 5 38 6 35 5 32 
+6 29 6 26 5 23 6 19 5 16 6 12 6 9 5 6 
+6 1 5 -1 6 -6 6 -9 5 -12 6 -16 5 -19 6 -23 
+6 -26 5 -29 6 -32 5 -35 6 -38 6 -41 5 -43 6 -45 
+5 -47 6 -49 6 -51 5 -53 6 -53 5 -55 6 -56 6 -56 
+5 -57 6 -58 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 1 5 57 6 57 6 56 5 56 
+6 55 5 53 6 53 6 51 5 49 6 47 5 45 6 43 
+6 41 5 38 6 35 5 32 6 29 6 26 5 23 6 19 
+5 16 6 12 6 9 5 6 6 1 5 -1 6 -6 6 -9 
+5 -12 6 -16 5 -19 6 -23 6 -26 5 -29 6 -32 5 -35 
+6 -38 6 -41 5 -43 6 -45 5 -47 6 -49 6 -51 5 -53 
+6 -53 5 -55 6 -56 6 -56 5 -57 6 -57 5 -1 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+3630 1233 201 MP stroke
+gr
+
+c9
+1 sg
+   6    6 3630 1233 PO
+   6    6 3635 1233 PO
+   6    6 3641 1233 PO
+   6    6 3646 1233 PO
+   6    6 3652 1233 PO
+   6    6 3658 1233 PO
+   6    6 3663 1233 PO
+   6    6 3669 1233 PO
+   6    6 3674 1233 PO
+   6    6 3680 1233 PO
+   6    6 3686 1233 PO
+   6    6 3691 1233 PO
+   6    6 3697 1233 PO
+   6    6 3702 1233 PO
+   6    6 3708 1233 PO
+   6    6 3714 1233 PO
+   6    6 3719 1233 PO
+   6    6 3725 1233 PO
+   6    6 3730 1233 PO
+   6    6 3736 1233 PO
+   6    6 3742 1233 PO
+   6    6 3747 1233 PO
+   6    6 3753 1233 PO
+   6    6 3758 1233 PO
+   6    6 3764 1233 PO
+   6    6 3770 1233 PO
+   6    6 3775 1233 PO
+   6    6 3781 1233 PO
+   6    6 3786 1233 PO
+   6    6 3792 1233 PO
+   6    6 3798 1233 PO
+   6    6 3803 1233 PO
+   6    6 3809 1233 PO
+   6    6 3814 1233 PO
+   6    6 3820 1233 PO
+   6    6 3826 1233 PO
+   6    6 3831 1233 PO
+   6    6 3837 1233 PO
+   6    6 3842 1233 PO
+   6    6 3848 1233 PO
+   6    6 3854 1233 PO
+   6    6 3859 1233 PO
+   6    6 3865 1233 PO
+   6    6 3870 1233 PO
+   6    6 3876 1233 PO
+   6    6 3882 1233 PO
+   6    6 3887 1233 PO
+   6    6 3893 1233 PO
+   6    6 3898 1233 PO
+   6    6 3904 1233 PO
+   6    6 3910 1233 PO
+   6    6 3915 1233 PO
+   6    6 3921 1233 PO
+   6    6 3926 1233 PO
+   6    6 3932 1233 PO
+   6    6 3938 1233 PO
+   6    6 3943 1233 PO
+   6    6 3949 1233 PO
+   6    6 3954 1233 PO
+   6    6 3960 1233 PO
+   6    6 3966 1233 PO
+   6    6 3971 1233 PO
+   6    6 3977 1233 PO
+   6    6 3982 1233 PO
+   6    6 3988 1233 PO
+   6    6 3994 1233 PO
+   6    6 3999 1233 PO
+   6    6 4005 1233 PO
+   6    6 4010 1233 PO
+   6    6 4016 1233 PO
+   6    6 4022 1233 PO
+   6    6 4027 1233 PO
+   6    6 4033 1233 PO
+   6    6 4038 1233 PO
+   6    6 4044 1233 PO
+   6    6 4050 1233 PO
+   6    6 4055 1233 PO
+   6    6 4061 1189 PO
+   6    6 4066 1146 PO
+   6    6 4072 1103 PO
+   6    6 4078 1059 PO
+   6    6 4083 1016 PO
+   6    6 4089  973 PO
+   6    6 4094  929 PO
+   6    6 4100  886 PO
+   6    6 4106  843 PO
+   6    6 4111  799 PO
+   6    6 4117  756 PO
+   6    6 4122  713 PO
+   6    6 4128  669 PO
+   6    6 4134  626 PO
+   6    6 4139  583 PO
+   6    6 4145  539 PO
+   6    6 4150  506 PO
+   6    6 4156  494 PO
+   6    6 4162  491 PO
+   6    6 4167  489 PO
+   6    6 4173  489 PO
+   6    6 4178  489 PO
+   6    6 4184  489 PO
+   6    6 4190  489 PO
+   6    6 4195  489 PO
+   6    6 4201  489 PO
+   6    6 4206  503 PO
+   6    6 4212  508 PO
+   6    6 4218  510 PO
+   6    6 4223  510 PO
+   6    6 4229  510 PO
+   6    6 4234  510 PO
+   6    6 4240  510 PO
+   6    6 4246  510 PO
+   6    6 4251  510 PO
+   6    6 4257  510 PO
+   6    6 4262  510 PO
+   6    6 4268  510 PO
+   6    6 4274  510 PO
+   6    6 4279  510 PO
+   6    6 4285  510 PO
+   6    6 4290  510 PO
+   6    6 4296  510 PO
+   6    6 4302  510 PO
+   6    6 4307  510 PO
+   6    6 4313  510 PO
+   6    6 4318  510 PO
+   6    6 4324  510 PO
+   6    6 4330  510 PO
+   6    6 4335  510 PO
+   6    6 4341  510 PO
+   6    6 4346  521 PO
+   6    6 4352  541 PO
+   6    6 4358  570 PO
+   6    6 4363  606 PO
+   6    6 4369  648 PO
+   6    6 4374  694 PO
+   6    6 4380  742 PO
+   6    6 4386  792 PO
+   6    6 4391  841 PO
+   6    6 4397  888 PO
+   6    6 4402  932 PO
+   6    6 4408  973 PO
+   6    6 4414 1011 PO
+   6    6 4419 1045 PO
+   6    6 4425 1074 PO
+   6    6 4430 1100 PO
+   6    6 4436 1123 PO
+   6    6 4442 1142 PO
+   6    6 4447 1158 PO
+   6    6 4453 1171 PO
+   6    6 4458 1183 PO
+   6    6 4464 1192 PO
+   6    6 4470 1199 PO
+   6    6 4475 1206 PO
+   6    6 4481 1211 PO
+   6    6 4486 1215 PO
+   6    6 4492 1218 PO
+   6    6 4498 1221 PO
+   6    6 4503 1223 PO
+   6    6 4509 1225 PO
+   6    6 4514 1226 PO
+   6    6 4520 1227 PO
+   6    6 4526 1228 PO
+   6    6 4531 1229 PO
+   6    6 4537 1229 PO
+   6    6 4542 1230 PO
+   6    6 4548 1230 PO
+   6    6 4554 1231 PO
+   6    6 4559 1231 PO
+   6    6 4565 1231 PO
+   6    6 4570 1231 PO
+   6    6 4576 1231 PO
+   6    6 4582 1231 PO
+   6    6 4587 1232 PO
+   6    6 4593 1232 PO
+   6    6 4598 1232 PO
+   6    6 4604 1232 PO
+   6    6 4610 1232 PO
+   6    6 4615 1232 PO
+   6    6 4621 1232 PO
+   6    6 4626 1232 PO
+   6    6 4632 1232 PO
+   6    6 4638 1232 PO
+   6    6 4643 1232 PO
+   6    6 4649 1232 PO
+   6    6 4654 1232 PO
+   6    6 4660 1232 PO
+   6    6 4666 1232 PO
+   6    6 4671 1232 PO
+   6    6 4677 1232 PO
+   6    6 4682 1232 PO
+   6    6 4688 1232 PO
+   6    6 4694 1232 PO
+   6    6 4699 1232 PO
+   6    6 4705 1232 PO
+   6    6 4710 1232 PO
+   6    6 4716 1232 PO
+   6    6 4722 1232 PO
+   6    6 4727 1232 PO
+   6    6 4733 1232 PO
+   6    6 4738 1232 PO
+   6    6 4744 1232 PO
+   6    6 4750 1232 PO
+c10
+   6    6 3630 1233 FO
+   6    6 3635 1233 FO
+   6    6 3641 1233 FO
+   6    6 3646 1233 FO
+   6    6 3652 1233 FO
+   6    6 3658 1233 FO
+   6    6 3663 1233 FO
+   6    6 3669 1233 FO
+   6    6 3674 1233 FO
+   6    6 3680 1233 FO
+   6    6 3686 1233 FO
+   6    6 3691 1233 FO
+   6    6 3697 1233 FO
+   6    6 3702 1233 FO
+   6    6 3708 1233 FO
+   6    6 3714 1233 FO
+   6    6 3719 1233 FO
+   6    6 3725 1233 FO
+   6    6 3730 1233 FO
+   6    6 3736 1233 FO
+   6    6 3742 1233 FO
+   6    6 3747 1233 FO
+   6    6 3753 1233 FO
+   6    6 3758 1233 FO
+   6    6 3764 1233 FO
+   6    6 3770 1233 FO
+   6    6 3775 1233 FO
+   6    6 3781 1233 FO
+   6    6 3786 1233 FO
+   6    6 3792 1233 FO
+   6    6 3798 1233 FO
+   6    6 3803 1233 FO
+   6    6 3809 1233 FO
+   6    6 3814 1233 FO
+   6    6 3820 1233 FO
+   6    6 3826 1233 FO
+   6    6 3831 1233 FO
+   6    6 3837 1233 FO
+   6    6 3842 1233 FO
+   6    6 3848 1233 FO
+   6    6 3854 1233 FO
+   6    6 3859 1233 FO
+   6    6 3865 1233 FO
+   6    6 3870 1233 FO
+   6    6 3876 1233 FO
+   6    6 3882 1233 FO
+   6    6 3887 1233 FO
+   6    6 3893 1233 FO
+   6    6 3898 1233 FO
+   6    6 3904 1233 FO
+   6    6 3910 1233 FO
+   6    6 3915 1233 FO
+   6    6 3921 1233 FO
+   6    6 3926 1233 FO
+   6    6 3932 1233 FO
+   6    6 3938 1233 FO
+   6    6 3943 1233 FO
+   6    6 3949 1233 FO
+   6    6 3954 1233 FO
+   6    6 3960 1233 FO
+   6    6 3966 1233 FO
+   6    6 3971 1233 FO
+   6    6 3977 1233 FO
+   6    6 3982 1233 FO
+   6    6 3988 1233 FO
+   6    6 3994 1233 FO
+   6    6 3999 1233 FO
+   6    6 4005 1233 FO
+   6    6 4010 1233 FO
+   6    6 4016 1233 FO
+   6    6 4022 1233 FO
+   6    6 4027 1233 FO
+   6    6 4033 1233 FO
+   6    6 4038 1233 FO
+   6    6 4044 1233 FO
+   6    6 4050 1233 FO
+   6    6 4055 1233 FO
+   6    6 4061 1189 FO
+   6    6 4066 1146 FO
+   6    6 4072 1103 FO
+   6    6 4078 1059 FO
+   6    6 4083 1016 FO
+   6    6 4089  973 FO
+   6    6 4094  929 FO
+   6    6 4100  886 FO
+   6    6 4106  843 FO
+   6    6 4111  799 FO
+   6    6 4117  756 FO
+   6    6 4122  713 FO
+   6    6 4128  669 FO
+   6    6 4134  626 FO
+   6    6 4139  583 FO
+   6    6 4145  539 FO
+   6    6 4150  506 FO
+   6    6 4156  494 FO
+   6    6 4162  491 FO
+   6    6 4167  489 FO
+   6    6 4173  489 FO
+   6    6 4178  489 FO
+   6    6 4184  489 FO
+   6    6 4190  489 FO
+   6    6 4195  489 FO
+   6    6 4201  489 FO
+   6    6 4206  503 FO
+   6    6 4212  508 FO
+   6    6 4218  510 FO
+   6    6 4223  510 FO
+   6    6 4229  510 FO
+   6    6 4234  510 FO
+   6    6 4240  510 FO
+   6    6 4246  510 FO
+   6    6 4251  510 FO
+   6    6 4257  510 FO
+   6    6 4262  510 FO
+   6    6 4268  510 FO
+   6    6 4274  510 FO
+   6    6 4279  510 FO
+   6    6 4285  510 FO
+   6    6 4290  510 FO
+   6    6 4296  510 FO
+   6    6 4302  510 FO
+   6    6 4307  510 FO
+   6    6 4313  510 FO
+   6    6 4318  510 FO
+   6    6 4324  510 FO
+   6    6 4330  510 FO
+   6    6 4335  510 FO
+   6    6 4341  510 FO
+   6    6 4346  521 FO
+   6    6 4352  541 FO
+   6    6 4358  570 FO
+   6    6 4363  606 FO
+   6    6 4369  648 FO
+   6    6 4374  694 FO
+   6    6 4380  742 FO
+   6    6 4386  792 FO
+   6    6 4391  841 FO
+   6    6 4397  888 FO
+   6    6 4402  932 FO
+   6    6 4408  973 FO
+   6    6 4414 1011 FO
+   6    6 4419 1045 FO
+   6    6 4425 1074 FO
+   6    6 4430 1100 FO
+   6    6 4436 1123 FO
+   6    6 4442 1142 FO
+   6    6 4447 1158 FO
+   6    6 4453 1171 FO
+   6    6 4458 1183 FO
+   6    6 4464 1192 FO
+   6    6 4470 1199 FO
+   6    6 4475 1206 FO
+   6    6 4481 1211 FO
+   6    6 4486 1215 FO
+   6    6 4492 1218 FO
+   6    6 4498 1221 FO
+   6    6 4503 1223 FO
+   6    6 4509 1225 FO
+   6    6 4514 1226 FO
+   6    6 4520 1227 FO
+   6    6 4526 1228 FO
+   6    6 4531 1229 FO
+   6    6 4537 1229 FO
+   6    6 4542 1230 FO
+   6    6 4548 1230 FO
+   6    6 4554 1231 FO
+   6    6 4559 1231 FO
+   6    6 4565 1231 FO
+   6    6 4570 1231 FO
+   6    6 4576 1231 FO
+   6    6 4582 1231 FO
+   6    6 4587 1232 FO
+   6    6 4593 1232 FO
+   6    6 4598 1232 FO
+   6    6 4604 1232 FO
+   6    6 4610 1232 FO
+   6    6 4615 1232 FO
+   6    6 4621 1232 FO
+   6    6 4626 1232 FO
+   6    6 4632 1232 FO
+   6    6 4638 1232 FO
+   6    6 4643 1232 FO
+   6    6 4649 1232 FO
+   6    6 4654 1232 FO
+   6    6 4660 1232 FO
+   6    6 4666 1232 FO
+   6    6 4671 1232 FO
+   6    6 4677 1232 FO
+   6    6 4682 1232 FO
+   6    6 4688 1232 FO
+   6    6 4694 1232 FO
+   6    6 4699 1232 FO
+   6    6 4705 1232 FO
+   6    6 4710 1232 FO
+   6    6 4716 1232 FO
+   6    6 4722 1232 FO
+   6    6 4727 1232 FO
+   6    6 4733 1232 FO
+   6    6 4738 1232 FO
+   6    6 4744 1232 FO
+   6    6 4750 1232 FO
+gs 3630 222 1121 1012 rc
+c11
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 1 6 0 6 0 
+5 0 6 0 5 0 6 1 6 0 5 1 6 0 5 1 
+6 1 6 1 5 1 6 2 5 2 6 3 6 3 5 4 
+6 5 5 7 6 7 6 9 5 12 6 13 5 16 6 19 
+6 23 5 26 6 29 5 34 6 38 6 41 5 44 6 47 
+5 49 6 50 6 48 5 46 6 42 5 36 6 29 6 20 
+5 11 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 2 
+6 5 5 14 6 0 5 0 6 0 6 0 5 0 6 0 
+5 -2 6 -3 6 -12 5 -33 6 -44 5 -43 6 -43 6 -44 
+5 -43 6 -43 5 -44 6 -43 6 -43 5 -44 6 -43 5 -43 
+6 -44 6 -43 5 -43 6 -44 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+3630 1233 201 MP stroke
+gr
+
+c11
+8 W
+3630 1233 PD
+8 W
+3635 1233 PD
+8 W
+3641 1233 PD
+8 W
+3646 1233 PD
+8 W
+3652 1233 PD
+8 W
+3658 1233 PD
+8 W
+3663 1233 PD
+8 W
+3669 1233 PD
+8 W
+3674 1233 PD
+8 W
+3680 1233 PD
+8 W
+3686 1233 PD
+8 W
+3691 1233 PD
+8 W
+3697 1233 PD
+8 W
+3702 1233 PD
+8 W
+3708 1233 PD
+8 W
+3714 1233 PD
+8 W
+3719 1233 PD
+8 W
+3725 1233 PD
+8 W
+3730 1233 PD
+8 W
+3736 1233 PD
+8 W
+3742 1233 PD
+8 W
+3747 1233 PD
+8 W
+3753 1233 PD
+8 W
+3758 1233 PD
+8 W
+3764 1233 PD
+8 W
+3770 1233 PD
+8 W
+3775 1233 PD
+8 W
+3781 1233 PD
+8 W
+3786 1233 PD
+8 W
+3792 1233 PD
+8 W
+3798 1233 PD
+8 W
+3803 1233 PD
+8 W
+3809 1233 PD
+8 W
+3814 1233 PD
+8 W
+3820 1233 PD
+8 W
+3826 1233 PD
+8 W
+3831 1233 PD
+8 W
+3837 1233 PD
+8 W
+3842 1233 PD
+8 W
+3848 1233 PD
+8 W
+3854 1233 PD
+8 W
+3859 1233 PD
+8 W
+3865 1233 PD
+8 W
+3870 1233 PD
+8 W
+3876 1233 PD
+8 W
+3882 1233 PD
+8 W
+3887 1233 PD
+8 W
+3893 1233 PD
+8 W
+3898 1233 PD
+8 W
+3904 1233 PD
+8 W
+3910 1233 PD
+8 W
+3915 1233 PD
+8 W
+3921 1233 PD
+8 W
+3926 1233 PD
+8 W
+3932 1233 PD
+8 W
+3938 1233 PD
+8 W
+3943 1233 PD
+8 W
+3949 1233 PD
+8 W
+3954 1233 PD
+8 W
+3960 1233 PD
+8 W
+3966 1233 PD
+8 W
+3971 1233 PD
+8 W
+3977 1233 PD
+8 W
+3982 1233 PD
+8 W
+3988 1233 PD
+8 W
+3994 1233 PD
+8 W
+3999 1233 PD
+8 W
+4005 1233 PD
+8 W
+4010 1233 PD
+8 W
+4016 1233 PD
+8 W
+4022 1233 PD
+8 W
+4027 1233 PD
+8 W
+4033 1233 PD
+8 W
+4038 1233 PD
+8 W
+4044 1233 PD
+8 W
+4050 1233 PD
+8 W
+4055 1233 PD
+8 W
+4061 1189 PD
+8 W
+4066 1146 PD
+8 W
+4072 1103 PD
+8 W
+4078 1059 PD
+8 W
+4083 1016 PD
+8 W
+4089 973 PD
+8 W
+4094 929 PD
+8 W
+4100 886 PD
+8 W
+4106 843 PD
+8 W
+4111 799 PD
+8 W
+4117 756 PD
+8 W
+4122 713 PD
+8 W
+4128 669 PD
+8 W
+4134 626 PD
+8 W
+4139 583 PD
+8 W
+4145 539 PD
+8 W
+4150 506 PD
+8 W
+4156 494 PD
+8 W
+4162 491 PD
+8 W
+4167 489 PD
+8 W
+4173 489 PD
+8 W
+4178 489 PD
+8 W
+4184 489 PD
+8 W
+4190 489 PD
+8 W
+4195 489 PD
+8 W
+4201 489 PD
+8 W
+4206 503 PD
+8 W
+4212 508 PD
+8 W
+4218 510 PD
+8 W
+4223 510 PD
+8 W
+4229 510 PD
+8 W
+4234 510 PD
+8 W
+4240 510 PD
+8 W
+4246 510 PD
+8 W
+4251 510 PD
+8 W
+4257 510 PD
+8 W
+4262 510 PD
+8 W
+4268 510 PD
+8 W
+4274 510 PD
+8 W
+4279 510 PD
+8 W
+4285 510 PD
+8 W
+4290 510 PD
+8 W
+4296 510 PD
+8 W
+4302 510 PD
+8 W
+4307 510 PD
+8 W
+4313 510 PD
+8 W
+4318 510 PD
+8 W
+4324 510 PD
+8 W
+4330 510 PD
+8 W
+4335 510 PD
+8 W
+4341 510 PD
+8 W
+4346 521 PD
+8 W
+4352 541 PD
+8 W
+4358 570 PD
+8 W
+4363 606 PD
+8 W
+4369 648 PD
+8 W
+4374 694 PD
+8 W
+4380 742 PD
+8 W
+4386 792 PD
+8 W
+4391 841 PD
+8 W
+4397 888 PD
+8 W
+4402 932 PD
+8 W
+4408 973 PD
+8 W
+4414 1011 PD
+8 W
+4419 1045 PD
+8 W
+4425 1074 PD
+8 W
+4430 1100 PD
+8 W
+4436 1123 PD
+8 W
+4442 1142 PD
+8 W
+4447 1158 PD
+8 W
+4453 1171 PD
+8 W
+4458 1183 PD
+8 W
+4464 1192 PD
+8 W
+4470 1199 PD
+8 W
+4475 1206 PD
+8 W
+4481 1211 PD
+8 W
+4486 1215 PD
+8 W
+4492 1218 PD
+8 W
+4498 1221 PD
+8 W
+4503 1223 PD
+8 W
+4509 1225 PD
+8 W
+4514 1226 PD
+8 W
+4520 1227 PD
+8 W
+4526 1228 PD
+8 W
+4531 1229 PD
+8 W
+4537 1229 PD
+8 W
+4542 1230 PD
+8 W
+4548 1230 PD
+8 W
+4554 1231 PD
+8 W
+4559 1231 PD
+8 W
+4565 1231 PD
+8 W
+4570 1231 PD
+8 W
+4576 1231 PD
+8 W
+4582 1231 PD
+8 W
+4587 1232 PD
+8 W
+4593 1232 PD
+8 W
+4598 1232 PD
+8 W
+4604 1232 PD
+8 W
+4610 1232 PD
+8 W
+4615 1232 PD
+8 W
+4621 1232 PD
+8 W
+4626 1232 PD
+8 W
+4632 1232 PD
+8 W
+4638 1232 PD
+8 W
+4643 1232 PD
+8 W
+4649 1232 PD
+8 W
+4654 1232 PD
+8 W
+4660 1232 PD
+8 W
+4666 1232 PD
+8 W
+4671 1232 PD
+8 W
+4677 1232 PD
+8 W
+4682 1232 PD
+8 W
+4688 1232 PD
+8 W
+4694 1232 PD
+8 W
+4699 1232 PD
+8 W
+4705 1232 PD
+8 W
+4710 1232 PD
+8 W
+4716 1232 PD
+8 W
+4722 1232 PD
+8 W
+4727 1232 PD
+8 W
+4733 1232 PD
+8 W
+4738 1232 PD
+8 W
+4744 1232 PD
+8 W
+4750 1232 PD
+gs 3630 222 1121 1012 rc
+gr
+
+0 sg
+4082 1333 mt 
+(Time [days]) s
+3532  874 mt  -90 rotate
+(Canopy storage) s
+90 rotate
+3867  191 mt 
+(a = 0.6 ; b = 200 ; c = 2.5 ; d = 0.83) s
+1 sg
+0 1011 1121 0 0 -1011 682 2637 4 MP
+PP
+-1121 0 0 1011 1121 0 0 -1011 682 2637 5 MP stroke
+1.38889 w
+DO
+SO
+2.08333 w
+0 sg
+ 682 1626 mt 1803 1626 L
+ 682 2637 mt 1803 2637 L
+1803 2637 mt 1803 1626 L
+ 682 2637 mt  682 1626 L
+ 682 2637 mt 1803 2637 L
+ 682 2637 mt  682 1626 L
+ 682 2637 mt  682 2625 L
+ 682 1626 mt  682 1637 L
+ 671 2687 mt 
+(0) s
+ 962 2637 mt  962 2625 L
+ 962 1626 mt  962 1637 L
+ 934 2687 mt 
+(0.5) s
+1242 2637 mt 1242 2625 L
+1242 1626 mt 1242 1637 L
+1231 2687 mt 
+(1) s
+1522 2637 mt 1522 2625 L
+1522 1626 mt 1522 1637 L
+1494 2687 mt 
+(1.5) s
+1803 2637 mt 1803 2625 L
+1803 1626 mt 1803 1637 L
+1792 2687 mt 
+(2) s
+ 682 2637 mt  693 2637 L
+1803 2637 mt 1791 2637 L
+ 647 2652 mt 
+(0) s
+ 682 2492 mt  693 2492 L
+1803 2492 mt 1791 2492 L
+ 613 2507 mt 
+(0.5) s
+ 682 2348 mt  693 2348 L
+1803 2348 mt 1791 2348 L
+ 647 2363 mt 
+(1) s
+ 682 2203 mt  693 2203 L
+1803 2203 mt 1791 2203 L
+ 613 2218 mt 
+(1.5) s
+ 682 2059 mt  693 2059 L
+1803 2059 mt 1791 2059 L
+ 647 2074 mt 
+(2) s
+ 682 1914 mt  693 1914 L
+1803 1914 mt 1791 1914 L
+ 613 1929 mt 
+(2.5) s
+ 682 1770 mt  693 1770 L
+1803 1770 mt 1791 1770 L
+ 647 1785 mt 
+(3) s
+ 682 1626 mt  693 1626 L
+1803 1626 mt 1791 1626 L
+ 613 1641 mt 
+(3.5) s
+ 682 1626 mt 1803 1626 L
+ 682 2637 mt 1803 2637 L
+1803 2637 mt 1803 1626 L
+ 682 2637 mt  682 1626 L
+gs 682 1626 1122 1012 rc
+c8
+6 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 -909 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 6 0 5 909 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+682 1626 201 MP stroke
+c9
+6 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 1 
+6 57 5 57 6 56 5 56 6 55 6 53 5 53 6 51 
+5 49 6 47 6 45 5 43 6 41 5 38 6 35 6 32 
+5 29 6 26 6 23 5 19 6 16 5 12 6 9 6 6 
+5 1 6 -1 5 -6 6 -9 6 -12 5 -16 6 -19 5 -23 
+6 -26 6 -29 5 -32 6 -35 5 -38 6 -41 6 -43 5 -45 
+6 -47 5 -49 6 -51 6 -53 5 -53 6 -55 5 -56 6 -56 
+6 -57 5 -58 6 0 5 0 6 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 6 0 5 58 6 57 5 56 6 56 
+6 55 5 53 6 53 5 51 6 49 6 47 5 45 6 43 
+5 41 6 38 6 35 5 32 6 29 5 26 6 23 6 19 
+5 16 6 12 5 9 6 6 6 1 5 -1 6 -6 5 -9 
+6 -12 6 -16 5 -19 6 -23 5 -26 6 -29 6 -32 5 -35 
+6 -38 6 -41 5 -43 6 -45 5 -47 6 -49 6 -51 5 -53 
+6 -53 5 -55 6 -56 6 -56 5 -57 6 -58 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+682 2637 201 MP stroke
+gr
+
+c9
+1 sg
+   6    6  682 2637 PO
+   6    6  687 2637 PO
+   6    6  693 2637 PO
+   6    6  698 2637 PO
+   6    6  704 2637 PO
+   6    6  710 2637 PO
+   6    6  715 2637 PO
+   6    6  721 2637 PO
+   6    6  726 2637 PO
+   6    6  732 2637 PO
+   6    6  738 2637 PO
+   6    6  743 2637 PO
+   6    6  749 2637 PO
+   6    6  754 2637 PO
+   6    6  760 2637 PO
+   6    6  766 2637 PO
+   6    6  771 2637 PO
+   6    6  777 2637 PO
+   6    6  782 2637 PO
+   6    6  788 2637 PO
+   6    6  794 2637 PO
+   6    6  799 2637 PO
+   6    6  805 2637 PO
+   6    6  810 2637 PO
+   6    6  816 2637 PO
+   6    6  822 2637 PO
+   6    6  827 2637 PO
+   6    6  833 2637 PO
+   6    6  838 2637 PO
+   6    6  844 2637 PO
+   6    6  850 2637 PO
+   6    6  855 2637 PO
+   6    6  861 2637 PO
+   6    6  866 2637 PO
+   6    6  872 2637 PO
+   6    6  878 2637 PO
+   6    6  883 2637 PO
+   6    6  889 2637 PO
+   6    6  894 2637 PO
+   6    6  900 2637 PO
+   6    6  906 2637 PO
+   6    6  911 2637 PO
+   6    6  917 2637 PO
+   6    6  923 2637 PO
+   6    6  928 2637 PO
+   6    6  934 2637 PO
+   6    6  939 2637 PO
+   6    6  945 2637 PO
+   6    6  951 2637 PO
+   6    6  956 2637 PO
+   6    6  962 2637 PO
+   6    6  967 2637 PO
+   6    6  973 2637 PO
+   6    6  979 2637 PO
+   6    6  984 2637 PO
+   6    6  990 2637 PO
+   6    6  995 2637 PO
+   6    6 1001 2637 PO
+   6    6 1007 2637 PO
+   6    6 1012 2637 PO
+   6    6 1018 2637 PO
+   6    6 1023 2637 PO
+   6    6 1029 2637 PO
+   6    6 1035 2637 PO
+   6    6 1040 2637 PO
+   6    6 1046 2637 PO
+   6    6 1051 2637 PO
+   6    6 1057 2637 PO
+   6    6 1063 2637 PO
+   6    6 1068 2637 PO
+   6    6 1074 2637 PO
+   6    6 1079 2637 PO
+   6    6 1085 2637 PO
+   6    6 1091 2637 PO
+   6    6 1096 2637 PO
+   6    6 1102 2637 PO
+   6    6 1107 2637 PO
+   6    6 1113 2593 PO
+   6    6 1119 2550 PO
+   6    6 1124 2507 PO
+   6    6 1130 2463 PO
+   6    6 1136 2420 PO
+   6    6 1141 2377 PO
+   6    6 1147 2333 PO
+   6    6 1152 2290 PO
+   6    6 1158 2247 PO
+   6    6 1164 2203 PO
+   6    6 1169 2160 PO
+   6    6 1175 2117 PO
+   6    6 1180 2073 PO
+   6    6 1186 2030 PO
+   6    6 1192 1987 PO
+   6    6 1197 1943 PO
+   6    6 1203 1910 PO
+   6    6 1208 1898 PO
+   6    6 1214 1895 PO
+   6    6 1220 1893 PO
+   6    6 1225 1893 PO
+   6    6 1231 1893 PO
+   6    6 1236 1893 PO
+   6    6 1242 1893 PO
+   6    6 1248 1893 PO
+   6    6 1253 1893 PO
+   6    6 1259 1907 PO
+   6    6 1264 1912 PO
+   6    6 1270 1914 PO
+   6    6 1276 1914 PO
+   6    6 1281 1914 PO
+   6    6 1287 1914 PO
+   6    6 1292 1914 PO
+   6    6 1298 1914 PO
+   6    6 1304 1914 PO
+   6    6 1309 1914 PO
+   6    6 1315 1914 PO
+   6    6 1320 1914 PO
+   6    6 1326 1914 PO
+   6    6 1332 1914 PO
+   6    6 1337 1914 PO
+   6    6 1343 1914 PO
+   6    6 1348 1914 PO
+   6    6 1354 1914 PO
+   6    6 1360 1914 PO
+   6    6 1365 1914 PO
+   6    6 1371 1914 PO
+   6    6 1377 1914 PO
+   6    6 1382 1914 PO
+   6    6 1388 1914 PO
+   6    6 1393 1914 PO
+   6    6 1399 1925 PO
+   6    6 1405 1945 PO
+   6    6 1410 1974 PO
+   6    6 1416 2010 PO
+   6    6 1421 2052 PO
+   6    6 1427 2098 PO
+   6    6 1433 2146 PO
+   6    6 1438 2196 PO
+   6    6 1444 2245 PO
+   6    6 1449 2292 PO
+   6    6 1455 2336 PO
+   6    6 1461 2377 PO
+   6    6 1466 2415 PO
+   6    6 1472 2449 PO
+   6    6 1477 2478 PO
+   6    6 1483 2504 PO
+   6    6 1489 2527 PO
+   6    6 1494 2546 PO
+   6    6 1500 2562 PO
+   6    6 1505 2575 PO
+   6    6 1511 2587 PO
+   6    6 1517 2596 PO
+   6    6 1522 2603 PO
+   6    6 1528 2610 PO
+   6    6 1533 2615 PO
+   6    6 1539 2619 PO
+   6    6 1545 2622 PO
+   6    6 1550 2625 PO
+   6    6 1556 2627 PO
+   6    6 1561 2629 PO
+   6    6 1567 2630 PO
+   6    6 1573 2631 PO
+   6    6 1578 2632 PO
+   6    6 1584 2633 PO
+   6    6 1590 2633 PO
+   6    6 1595 2634 PO
+   6    6 1601 2634 PO
+   6    6 1606 2635 PO
+   6    6 1612 2635 PO
+   6    6 1618 2635 PO
+   6    6 1623 2635 PO
+   6    6 1629 2635 PO
+   6    6 1634 2635 PO
+   6    6 1640 2636 PO
+   6    6 1646 2636 PO
+   6    6 1651 2636 PO
+   6    6 1657 2636 PO
+   6    6 1662 2636 PO
+   6    6 1668 2636 PO
+   6    6 1674 2636 PO
+   6    6 1679 2636 PO
+   6    6 1685 2636 PO
+   6    6 1690 2636 PO
+   6    6 1696 2636 PO
+   6    6 1702 2636 PO
+   6    6 1707 2636 PO
+   6    6 1713 2636 PO
+   6    6 1718 2636 PO
+   6    6 1724 2636 PO
+   6    6 1730 2636 PO
+   6    6 1735 2636 PO
+   6    6 1741 2636 PO
+   6    6 1746 2636 PO
+   6    6 1752 2636 PO
+   6    6 1758 2636 PO
+   6    6 1763 2636 PO
+   6    6 1769 2636 PO
+   6    6 1774 2636 PO
+   6    6 1780 2636 PO
+   6    6 1786 2636 PO
+   6    6 1791 2636 PO
+   6    6 1797 2636 PO
+   6    6 1803 2636 PO
+c10
+   6    6  682 2637 FO
+   6    6  687 2637 FO
+   6    6  693 2637 FO
+   6    6  698 2637 FO
+   6    6  704 2637 FO
+   6    6  710 2637 FO
+   6    6  715 2637 FO
+   6    6  721 2637 FO
+   6    6  726 2637 FO
+   6    6  732 2637 FO
+   6    6  738 2637 FO
+   6    6  743 2637 FO
+   6    6  749 2637 FO
+   6    6  754 2637 FO
+   6    6  760 2637 FO
+   6    6  766 2637 FO
+   6    6  771 2637 FO
+   6    6  777 2637 FO
+   6    6  782 2637 FO
+   6    6  788 2637 FO
+   6    6  794 2637 FO
+   6    6  799 2637 FO
+   6    6  805 2637 FO
+   6    6  810 2637 FO
+   6    6  816 2637 FO
+   6    6  822 2637 FO
+   6    6  827 2637 FO
+   6    6  833 2637 FO
+   6    6  838 2637 FO
+   6    6  844 2637 FO
+   6    6  850 2637 FO
+   6    6  855 2637 FO
+   6    6  861 2637 FO
+   6    6  866 2637 FO
+   6    6  872 2637 FO
+   6    6  878 2637 FO
+   6    6  883 2637 FO
+   6    6  889 2637 FO
+   6    6  894 2637 FO
+   6    6  900 2637 FO
+   6    6  906 2637 FO
+   6    6  911 2637 FO
+   6    6  917 2637 FO
+   6    6  923 2637 FO
+   6    6  928 2637 FO
+   6    6  934 2637 FO
+   6    6  939 2637 FO
+   6    6  945 2637 FO
+   6    6  951 2637 FO
+   6    6  956 2637 FO
+   6    6  962 2637 FO
+   6    6  967 2637 FO
+   6    6  973 2637 FO
+   6    6  979 2637 FO
+   6    6  984 2637 FO
+   6    6  990 2637 FO
+   6    6  995 2637 FO
+   6    6 1001 2637 FO
+   6    6 1007 2637 FO
+   6    6 1012 2637 FO
+   6    6 1018 2637 FO
+   6    6 1023 2637 FO
+   6    6 1029 2637 FO
+   6    6 1035 2637 FO
+   6    6 1040 2637 FO
+   6    6 1046 2637 FO
+   6    6 1051 2637 FO
+   6    6 1057 2637 FO
+   6    6 1063 2637 FO
+   6    6 1068 2637 FO
+   6    6 1074 2637 FO
+   6    6 1079 2637 FO
+   6    6 1085 2637 FO
+   6    6 1091 2637 FO
+   6    6 1096 2637 FO
+   6    6 1102 2637 FO
+   6    6 1107 2637 FO
+   6    6 1113 2593 FO
+   6    6 1119 2550 FO
+   6    6 1124 2507 FO
+   6    6 1130 2463 FO
+   6    6 1136 2420 FO
+   6    6 1141 2377 FO
+   6    6 1147 2333 FO
+   6    6 1152 2290 FO
+   6    6 1158 2247 FO
+   6    6 1164 2203 FO
+   6    6 1169 2160 FO
+   6    6 1175 2117 FO
+   6    6 1180 2073 FO
+   6    6 1186 2030 FO
+   6    6 1192 1987 FO
+   6    6 1197 1943 FO
+   6    6 1203 1910 FO
+   6    6 1208 1898 FO
+   6    6 1214 1895 FO
+   6    6 1220 1893 FO
+   6    6 1225 1893 FO
+   6    6 1231 1893 FO
+   6    6 1236 1893 FO
+   6    6 1242 1893 FO
+   6    6 1248 1893 FO
+   6    6 1253 1893 FO
+   6    6 1259 1907 FO
+   6    6 1264 1912 FO
+   6    6 1270 1914 FO
+   6    6 1276 1914 FO
+   6    6 1281 1914 FO
+   6    6 1287 1914 FO
+   6    6 1292 1914 FO
+   6    6 1298 1914 FO
+   6    6 1304 1914 FO
+   6    6 1309 1914 FO
+   6    6 1315 1914 FO
+   6    6 1320 1914 FO
+   6    6 1326 1914 FO
+   6    6 1332 1914 FO
+   6    6 1337 1914 FO
+   6    6 1343 1914 FO
+   6    6 1348 1914 FO
+   6    6 1354 1914 FO
+   6    6 1360 1914 FO
+   6    6 1365 1914 FO
+   6    6 1371 1914 FO
+   6    6 1377 1914 FO
+   6    6 1382 1914 FO
+   6    6 1388 1914 FO
+   6    6 1393 1914 FO
+   6    6 1399 1925 FO
+   6    6 1405 1945 FO
+   6    6 1410 1974 FO
+   6    6 1416 2010 FO
+   6    6 1421 2052 FO
+   6    6 1427 2098 FO
+   6    6 1433 2146 FO
+   6    6 1438 2196 FO
+   6    6 1444 2245 FO
+   6    6 1449 2292 FO
+   6    6 1455 2336 FO
+   6    6 1461 2377 FO
+   6    6 1466 2415 FO
+   6    6 1472 2449 FO
+   6    6 1477 2478 FO
+   6    6 1483 2504 FO
+   6    6 1489 2527 FO
+   6    6 1494 2546 FO
+   6    6 1500 2562 FO
+   6    6 1505 2575 FO
+   6    6 1511 2587 FO
+   6    6 1517 2596 FO
+   6    6 1522 2603 FO
+   6    6 1528 2610 FO
+   6    6 1533 2615 FO
+   6    6 1539 2619 FO
+   6    6 1545 2622 FO
+   6    6 1550 2625 FO
+   6    6 1556 2627 FO
+   6    6 1561 2629 FO
+   6    6 1567 2630 FO
+   6    6 1573 2631 FO
+   6    6 1578 2632 FO
+   6    6 1584 2633 FO
+   6    6 1590 2633 FO
+   6    6 1595 2634 FO
+   6    6 1601 2634 FO
+   6    6 1606 2635 FO
+   6    6 1612 2635 FO
+   6    6 1618 2635 FO
+   6    6 1623 2635 FO
+   6    6 1629 2635 FO
+   6    6 1634 2635 FO
+   6    6 1640 2636 FO
+   6    6 1646 2636 FO
+   6    6 1651 2636 FO
+   6    6 1657 2636 FO
+   6    6 1662 2636 FO
+   6    6 1668 2636 FO
+   6    6 1674 2636 FO
+   6    6 1679 2636 FO
+   6    6 1685 2636 FO
+   6    6 1690 2636 FO
+   6    6 1696 2636 FO
+   6    6 1702 2636 FO
+   6    6 1707 2636 FO
+   6    6 1713 2636 FO
+   6    6 1718 2636 FO
+   6    6 1724 2636 FO
+   6    6 1730 2636 FO
+   6    6 1735 2636 FO
+   6    6 1741 2636 FO
+   6    6 1746 2636 FO
+   6    6 1752 2636 FO
+   6    6 1758 2636 FO
+   6    6 1763 2636 FO
+   6    6 1769 2636 FO
+   6    6 1774 2636 FO
+   6    6 1780 2636 FO
+   6    6 1786 2636 FO
+   6    6 1791 2636 FO
+   6    6 1797 2636 FO
+   6    6 1803 2636 FO
+gs 682 1626 1122 1012 rc
+c11
+6 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 1 5 0 6 0 
+5 0 6 0 6 0 5 1 6 0 5 1 6 0 6 1 
+5 1 6 1 6 1 5 2 6 2 5 3 6 3 6 4 
+5 5 6 7 5 7 6 9 6 12 5 13 6 16 5 19 
+6 23 6 26 5 29 6 34 5 38 6 41 6 44 5 47 
+6 49 5 50 6 48 6 46 5 42 6 36 5 29 6 20 
+6 11 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 2 
+5 5 6 14 5 0 6 0 6 0 5 0 6 0 5 0 
+6 -2 6 -3 5 -12 6 -33 5 -44 6 -43 6 -43 5 -44 
+6 -43 5 -43 6 -44 6 -43 5 -43 6 -44 5 -43 6 -43 
+6 -44 5 -43 6 -43 6 -44 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+682 2637 201 MP stroke
+gr
+
+c11
+8 W
+682 2637 PD
+8 W
+687 2637 PD
+8 W
+693 2637 PD
+8 W
+698 2637 PD
+8 W
+704 2637 PD
+8 W
+710 2637 PD
+8 W
+715 2637 PD
+8 W
+721 2637 PD
+8 W
+726 2637 PD
+8 W
+732 2637 PD
+8 W
+738 2637 PD
+8 W
+743 2637 PD
+8 W
+749 2637 PD
+8 W
+754 2637 PD
+8 W
+760 2637 PD
+8 W
+766 2637 PD
+8 W
+771 2637 PD
+8 W
+777 2637 PD
+8 W
+782 2637 PD
+8 W
+788 2637 PD
+8 W
+794 2637 PD
+8 W
+799 2637 PD
+8 W
+805 2637 PD
+8 W
+810 2637 PD
+8 W
+816 2637 PD
+8 W
+822 2637 PD
+8 W
+827 2637 PD
+8 W
+833 2637 PD
+8 W
+838 2637 PD
+8 W
+844 2637 PD
+8 W
+850 2637 PD
+8 W
+855 2637 PD
+8 W
+861 2637 PD
+8 W
+866 2637 PD
+8 W
+872 2637 PD
+8 W
+878 2637 PD
+8 W
+883 2637 PD
+8 W
+889 2637 PD
+8 W
+894 2637 PD
+8 W
+900 2637 PD
+8 W
+906 2637 PD
+8 W
+911 2637 PD
+8 W
+917 2637 PD
+8 W
+923 2637 PD
+8 W
+928 2637 PD
+8 W
+934 2637 PD
+8 W
+939 2637 PD
+8 W
+945 2637 PD
+8 W
+951 2637 PD
+8 W
+956 2637 PD
+8 W
+962 2637 PD
+8 W
+967 2637 PD
+8 W
+973 2637 PD
+8 W
+979 2637 PD
+8 W
+984 2637 PD
+8 W
+990 2637 PD
+8 W
+995 2637 PD
+8 W
+1001 2637 PD
+8 W
+1007 2637 PD
+8 W
+1012 2637 PD
+8 W
+1018 2637 PD
+8 W
+1023 2637 PD
+8 W
+1029 2637 PD
+8 W
+1035 2637 PD
+8 W
+1040 2637 PD
+8 W
+1046 2637 PD
+8 W
+1051 2637 PD
+8 W
+1057 2637 PD
+8 W
+1063 2637 PD
+8 W
+1068 2637 PD
+8 W
+1074 2637 PD
+8 W
+1079 2637 PD
+8 W
+1085 2637 PD
+8 W
+1091 2637 PD
+8 W
+1096 2637 PD
+8 W
+1102 2637 PD
+8 W
+1107 2637 PD
+8 W
+1113 2593 PD
+8 W
+1119 2550 PD
+8 W
+1124 2507 PD
+8 W
+1130 2463 PD
+8 W
+1136 2420 PD
+8 W
+1141 2377 PD
+8 W
+1147 2333 PD
+8 W
+1152 2290 PD
+8 W
+1158 2247 PD
+8 W
+1164 2203 PD
+8 W
+1169 2160 PD
+8 W
+1175 2117 PD
+8 W
+1180 2073 PD
+8 W
+1186 2030 PD
+8 W
+1192 1987 PD
+8 W
+1197 1943 PD
+8 W
+1203 1910 PD
+8 W
+1208 1898 PD
+8 W
+1214 1895 PD
+8 W
+1220 1893 PD
+8 W
+1225 1893 PD
+8 W
+1231 1893 PD
+8 W
+1236 1893 PD
+8 W
+1242 1893 PD
+8 W
+1248 1893 PD
+8 W
+1253 1893 PD
+8 W
+1259 1907 PD
+8 W
+1264 1912 PD
+8 W
+1270 1914 PD
+8 W
+1276 1914 PD
+8 W
+1281 1914 PD
+8 W
+1287 1914 PD
+8 W
+1292 1914 PD
+8 W
+1298 1914 PD
+8 W
+1304 1914 PD
+8 W
+1309 1914 PD
+8 W
+1315 1914 PD
+8 W
+1320 1914 PD
+8 W
+1326 1914 PD
+8 W
+1332 1914 PD
+8 W
+1337 1914 PD
+8 W
+1343 1914 PD
+8 W
+1348 1914 PD
+8 W
+1354 1914 PD
+8 W
+1360 1914 PD
+8 W
+1365 1914 PD
+8 W
+1371 1914 PD
+8 W
+1377 1914 PD
+8 W
+1382 1914 PD
+8 W
+1388 1914 PD
+8 W
+1393 1914 PD
+8 W
+1399 1925 PD
+8 W
+1405 1945 PD
+8 W
+1410 1974 PD
+8 W
+1416 2010 PD
+8 W
+1421 2052 PD
+8 W
+1427 2098 PD
+8 W
+1433 2146 PD
+8 W
+1438 2196 PD
+8 W
+1444 2245 PD
+8 W
+1449 2292 PD
+8 W
+1455 2336 PD
+8 W
+1461 2377 PD
+8 W
+1466 2415 PD
+8 W
+1472 2449 PD
+8 W
+1477 2478 PD
+8 W
+1483 2504 PD
+8 W
+1489 2527 PD
+8 W
+1494 2546 PD
+8 W
+1500 2562 PD
+8 W
+1505 2575 PD
+8 W
+1511 2587 PD
+8 W
+1517 2596 PD
+8 W
+1522 2603 PD
+8 W
+1528 2610 PD
+8 W
+1533 2615 PD
+8 W
+1539 2619 PD
+8 W
+1545 2622 PD
+8 W
+1550 2625 PD
+8 W
+1556 2627 PD
+8 W
+1561 2629 PD
+8 W
+1567 2630 PD
+8 W
+1573 2631 PD
+8 W
+1578 2632 PD
+8 W
+1584 2633 PD
+8 W
+1590 2633 PD
+8 W
+1595 2634 PD
+8 W
+1601 2634 PD
+8 W
+1606 2635 PD
+8 W
+1612 2635 PD
+8 W
+1618 2635 PD
+8 W
+1623 2635 PD
+8 W
+1629 2635 PD
+8 W
+1634 2635 PD
+8 W
+1640 2636 PD
+8 W
+1646 2636 PD
+8 W
+1651 2636 PD
+8 W
+1657 2636 PD
+8 W
+1662 2636 PD
+8 W
+1668 2636 PD
+8 W
+1674 2636 PD
+8 W
+1679 2636 PD
+8 W
+1685 2636 PD
+8 W
+1690 2636 PD
+8 W
+1696 2636 PD
+8 W
+1702 2636 PD
+8 W
+1707 2636 PD
+8 W
+1713 2636 PD
+8 W
+1718 2636 PD
+8 W
+1724 2636 PD
+8 W
+1730 2636 PD
+8 W
+1735 2636 PD
+8 W
+1741 2636 PD
+8 W
+1746 2636 PD
+8 W
+1752 2636 PD
+8 W
+1758 2636 PD
+8 W
+1763 2636 PD
+8 W
+1769 2636 PD
+8 W
+1774 2636 PD
+8 W
+1780 2636 PD
+8 W
+1786 2636 PD
+8 W
+1791 2636 PD
+8 W
+1797 2636 PD
+8 W
+1803 2636 PD
+gs 682 1626 1122 1012 rc
+gr
+
+0 sg
+1134 2737 mt 
+(Time [days]) s
+ 584 2278 mt  -90 rotate
+(Canopy storage) s
+90 rotate
+ 920 1595 mt 
+(a = 0.6 ; b = 200 ; c = 2.5 ; d = 0.83) s
+1 sg
+0 1011 1120 0 0 -1011 2156 2637 4 MP
+PP
+-1120 0 0 1011 1120 0 0 -1011 2156 2637 5 MP stroke
+1.38889 w
+DO
+SO
+2.08333 w
+0 sg
+2156 1626 mt 3276 1626 L
+2156 2637 mt 3276 2637 L
+3276 2637 mt 3276 1626 L
+2156 2637 mt 2156 1626 L
+2156 2637 mt 3276 2637 L
+2156 2637 mt 2156 1626 L
+2156 2637 mt 2156 2625 L
+2156 1626 mt 2156 1637 L
+2145 2687 mt 
+(0) s
+2436 2637 mt 2436 2625 L
+2436 1626 mt 2436 1637 L
+2408 2687 mt 
+(0.5) s
+2716 2637 mt 2716 2625 L
+2716 1626 mt 2716 1637 L
+2705 2687 mt 
+(1) s
+2996 2637 mt 2996 2625 L
+2996 1626 mt 2996 1637 L
+2968 2687 mt 
+(1.5) s
+3276 2637 mt 3276 2625 L
+3276 1626 mt 3276 1637 L
+3265 2687 mt 
+(2) s
+2156 2637 mt 2167 2637 L
+3276 2637 mt 3264 2637 L
+2121 2652 mt 
+(0) s
+2156 2492 mt 2167 2492 L
+3276 2492 mt 3264 2492 L
+2087 2507 mt 
+(0.5) s
+2156 2348 mt 2167 2348 L
+3276 2348 mt 3264 2348 L
+2121 2363 mt 
+(1) s
+2156 2203 mt 2167 2203 L
+3276 2203 mt 3264 2203 L
+2087 2218 mt 
+(1.5) s
+2156 2059 mt 2167 2059 L
+3276 2059 mt 3264 2059 L
+2121 2074 mt 
+(2) s
+2156 1914 mt 2167 1914 L
+3276 1914 mt 3264 1914 L
+2087 1929 mt 
+(2.5) s
+2156 1770 mt 2167 1770 L
+3276 1770 mt 3264 1770 L
+2121 1785 mt 
+(3) s
+2156 1626 mt 2167 1626 L
+3276 1626 mt 3264 1626 L
+2087 1641 mt 
+(3.5) s
+2156 1626 mt 3276 1626 L
+2156 2637 mt 3276 2637 L
+3276 2637 mt 3276 1626 L
+2156 2637 mt 2156 1626 L
+gs 2156 1626 1121 1012 rc
+c8
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 -909 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 909 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+2156 1626 201 MP stroke
+c9
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 1 
+5 57 6 57 6 56 5 56 6 55 5 53 6 53 6 51 
+5 49 6 47 5 45 6 43 6 41 5 38 6 35 5 32 
+6 29 6 26 5 23 6 19 5 16 6 12 6 9 5 6 
+6 1 5 -1 6 -6 6 -9 5 -12 6 -16 5 -19 6 -23 
+6 -26 5 -29 6 -32 5 -35 6 -38 6 -41 5 -43 6 -45 
+5 -47 6 -49 6 -51 5 -53 6 -53 5 -55 6 -56 6 -56 
+5 -57 6 -58 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 58 6 57 6 56 5 56 
+6 55 5 53 6 53 6 51 5 49 6 47 5 45 6 43 
+6 41 5 38 6 35 5 32 6 29 6 26 5 23 6 19 
+5 16 6 12 6 9 5 6 6 1 5 -1 6 -6 6 -9 
+5 -12 6 -16 5 -19 6 -23 6 -26 5 -29 6 -32 5 -35 
+6 -38 6 -41 5 -43 6 -45 5 -47 6 -49 6 -51 5 -53 
+6 -53 5 -55 6 -56 6 -56 5 -57 6 -58 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+2156 2637 201 MP stroke
+gr
+
+c9
+1 sg
+   6    6 2156 2637 PO
+   6    6 2161 2637 PO
+   6    6 2167 2637 PO
+   6    6 2172 2637 PO
+   6    6 2178 2637 PO
+   6    6 2184 2637 PO
+   6    6 2189 2637 PO
+   6    6 2195 2637 PO
+   6    6 2200 2637 PO
+   6    6 2206 2637 PO
+   6    6 2212 2637 PO
+   6    6 2217 2637 PO
+   6    6 2223 2637 PO
+   6    6 2228 2637 PO
+   6    6 2234 2637 PO
+   6    6 2240 2637 PO
+   6    6 2245 2637 PO
+   6    6 2251 2637 PO
+   6    6 2256 2637 PO
+   6    6 2262 2637 PO
+   6    6 2268 2637 PO
+   6    6 2273 2637 PO
+   6    6 2279 2637 PO
+   6    6 2284 2637 PO
+   6    6 2290 2637 PO
+   6    6 2296 2637 PO
+   6    6 2301 2637 PO
+   6    6 2307 2637 PO
+   6    6 2312 2637 PO
+   6    6 2318 2637 PO
+   6    6 2324 2637 PO
+   6    6 2329 2637 PO
+   6    6 2335 2637 PO
+   6    6 2340 2637 PO
+   6    6 2346 2637 PO
+   6    6 2352 2637 PO
+   6    6 2357 2637 PO
+   6    6 2363 2637 PO
+   6    6 2368 2637 PO
+   6    6 2374 2637 PO
+   6    6 2380 2637 PO
+   6    6 2385 2637 PO
+   6    6 2391 2637 PO
+   6    6 2396 2637 PO
+   6    6 2402 2637 PO
+   6    6 2408 2637 PO
+   6    6 2413 2637 PO
+   6    6 2419 2637 PO
+   6    6 2424 2637 PO
+   6    6 2430 2637 PO
+   6    6 2436 2637 PO
+   6    6 2441 2637 PO
+   6    6 2447 2637 PO
+   6    6 2452 2637 PO
+   6    6 2458 2637 PO
+   6    6 2464 2637 PO
+   6    6 2469 2637 PO
+   6    6 2475 2637 PO
+   6    6 2480 2637 PO
+   6    6 2486 2637 PO
+   6    6 2492 2637 PO
+   6    6 2497 2637 PO
+   6    6 2503 2637 PO
+   6    6 2508 2637 PO
+   6    6 2514 2637 PO
+   6    6 2520 2637 PO
+   6    6 2525 2637 PO
+   6    6 2531 2637 PO
+   6    6 2536 2637 PO
+   6    6 2542 2637 PO
+   6    6 2548 2637 PO
+   6    6 2553 2637 PO
+   6    6 2559 2637 PO
+   6    6 2564 2637 PO
+   6    6 2570 2637 PO
+   6    6 2576 2637 PO
+   6    6 2581 2637 PO
+   6    6 2587 2593 PO
+   6    6 2592 2550 PO
+   6    6 2598 2507 PO
+   6    6 2604 2463 PO
+   6    6 2609 2420 PO
+   6    6 2615 2377 PO
+   6    6 2620 2333 PO
+   6    6 2626 2290 PO
+   6    6 2632 2247 PO
+   6    6 2637 2203 PO
+   6    6 2643 2160 PO
+   6    6 2648 2117 PO
+   6    6 2654 2073 PO
+   6    6 2660 2030 PO
+   6    6 2665 1987 PO
+   6    6 2671 1943 PO
+   6    6 2676 1910 PO
+   6    6 2682 1898 PO
+   6    6 2688 1895 PO
+   6    6 2693 1893 PO
+   6    6 2699 1893 PO
+   6    6 2704 1893 PO
+   6    6 2710 1893 PO
+   6    6 2716 1893 PO
+   6    6 2721 1893 PO
+   6    6 2727 1893 PO
+   6    6 2732 1907 PO
+   6    6 2738 1912 PO
+   6    6 2744 1914 PO
+   6    6 2749 1914 PO
+   6    6 2755 1914 PO
+   6    6 2760 1914 PO
+   6    6 2766 1914 PO
+   6    6 2772 1914 PO
+   6    6 2777 1914 PO
+   6    6 2783 1914 PO
+   6    6 2788 1914 PO
+   6    6 2794 1914 PO
+   6    6 2800 1914 PO
+   6    6 2805 1914 PO
+   6    6 2811 1914 PO
+   6    6 2816 1914 PO
+   6    6 2822 1914 PO
+   6    6 2828 1914 PO
+   6    6 2833 1914 PO
+   6    6 2839 1914 PO
+   6    6 2844 1914 PO
+   6    6 2850 1914 PO
+   6    6 2856 1914 PO
+   6    6 2861 1914 PO
+   6    6 2867 1914 PO
+   6    6 2872 1925 PO
+   6    6 2878 1945 PO
+   6    6 2884 1974 PO
+   6    6 2889 2010 PO
+   6    6 2895 2052 PO
+   6    6 2900 2098 PO
+   6    6 2906 2146 PO
+   6    6 2912 2196 PO
+   6    6 2917 2245 PO
+   6    6 2923 2292 PO
+   6    6 2928 2336 PO
+   6    6 2934 2377 PO
+   6    6 2940 2415 PO
+   6    6 2945 2449 PO
+   6    6 2951 2478 PO
+   6    6 2956 2504 PO
+   6    6 2962 2527 PO
+   6    6 2968 2546 PO
+   6    6 2973 2562 PO
+   6    6 2979 2575 PO
+   6    6 2984 2587 PO
+   6    6 2990 2596 PO
+   6    6 2996 2603 PO
+   6    6 3001 2610 PO
+   6    6 3007 2615 PO
+   6    6 3012 2619 PO
+   6    6 3018 2622 PO
+   6    6 3024 2625 PO
+   6    6 3029 2627 PO
+   6    6 3035 2629 PO
+   6    6 3040 2630 PO
+   6    6 3046 2631 PO
+   6    6 3052 2632 PO
+   6    6 3057 2633 PO
+   6    6 3063 2633 PO
+   6    6 3068 2634 PO
+   6    6 3074 2634 PO
+   6    6 3080 2635 PO
+   6    6 3085 2635 PO
+   6    6 3091 2635 PO
+   6    6 3096 2635 PO
+   6    6 3102 2635 PO
+   6    6 3108 2635 PO
+   6    6 3113 2636 PO
+   6    6 3119 2636 PO
+   6    6 3124 2636 PO
+   6    6 3130 2636 PO
+   6    6 3136 2636 PO
+   6    6 3141 2636 PO
+   6    6 3147 2636 PO
+   6    6 3152 2636 PO
+   6    6 3158 2636 PO
+   6    6 3164 2636 PO
+   6    6 3169 2636 PO
+   6    6 3175 2636 PO
+   6    6 3180 2636 PO
+   6    6 3186 2636 PO
+   6    6 3192 2636 PO
+   6    6 3197 2636 PO
+   6    6 3203 2636 PO
+   6    6 3208 2636 PO
+   6    6 3214 2636 PO
+   6    6 3220 2636 PO
+   6    6 3225 2636 PO
+   6    6 3231 2636 PO
+   6    6 3236 2636 PO
+   6    6 3242 2636 PO
+   6    6 3248 2636 PO
+   6    6 3253 2636 PO
+   6    6 3259 2636 PO
+   6    6 3264 2636 PO
+   6    6 3270 2636 PO
+   6    6 3276 2636 PO
+c10
+   6    6 2156 2637 FO
+   6    6 2161 2637 FO
+   6    6 2167 2637 FO
+   6    6 2172 2637 FO
+   6    6 2178 2637 FO
+   6    6 2184 2637 FO
+   6    6 2189 2637 FO
+   6    6 2195 2637 FO
+   6    6 2200 2637 FO
+   6    6 2206 2637 FO
+   6    6 2212 2637 FO
+   6    6 2217 2637 FO
+   6    6 2223 2637 FO
+   6    6 2228 2637 FO
+   6    6 2234 2637 FO
+   6    6 2240 2637 FO
+   6    6 2245 2637 FO
+   6    6 2251 2637 FO
+   6    6 2256 2637 FO
+   6    6 2262 2637 FO
+   6    6 2268 2637 FO
+   6    6 2273 2637 FO
+   6    6 2279 2637 FO
+   6    6 2284 2637 FO
+   6    6 2290 2637 FO
+   6    6 2296 2637 FO
+   6    6 2301 2637 FO
+   6    6 2307 2637 FO
+   6    6 2312 2637 FO
+   6    6 2318 2637 FO
+   6    6 2324 2637 FO
+   6    6 2329 2637 FO
+   6    6 2335 2637 FO
+   6    6 2340 2637 FO
+   6    6 2346 2637 FO
+   6    6 2352 2637 FO
+   6    6 2357 2637 FO
+   6    6 2363 2637 FO
+   6    6 2368 2637 FO
+   6    6 2374 2637 FO
+   6    6 2380 2637 FO
+   6    6 2385 2637 FO
+   6    6 2391 2637 FO
+   6    6 2396 2637 FO
+   6    6 2402 2637 FO
+   6    6 2408 2637 FO
+   6    6 2413 2637 FO
+   6    6 2419 2637 FO
+   6    6 2424 2637 FO
+   6    6 2430 2637 FO
+   6    6 2436 2637 FO
+   6    6 2441 2637 FO
+   6    6 2447 2637 FO
+   6    6 2452 2637 FO
+   6    6 2458 2637 FO
+   6    6 2464 2637 FO
+   6    6 2469 2637 FO
+   6    6 2475 2637 FO
+   6    6 2480 2637 FO
+   6    6 2486 2637 FO
+   6    6 2492 2637 FO
+   6    6 2497 2637 FO
+   6    6 2503 2637 FO
+   6    6 2508 2637 FO
+   6    6 2514 2637 FO
+   6    6 2520 2637 FO
+   6    6 2525 2637 FO
+   6    6 2531 2637 FO
+   6    6 2536 2637 FO
+   6    6 2542 2637 FO
+   6    6 2548 2637 FO
+   6    6 2553 2637 FO
+   6    6 2559 2637 FO
+   6    6 2564 2637 FO
+   6    6 2570 2637 FO
+   6    6 2576 2637 FO
+   6    6 2581 2637 FO
+   6    6 2587 2593 FO
+   6    6 2592 2550 FO
+   6    6 2598 2507 FO
+   6    6 2604 2463 FO
+   6    6 2609 2420 FO
+   6    6 2615 2377 FO
+   6    6 2620 2333 FO
+   6    6 2626 2290 FO
+   6    6 2632 2247 FO
+   6    6 2637 2203 FO
+   6    6 2643 2160 FO
+   6    6 2648 2117 FO
+   6    6 2654 2073 FO
+   6    6 2660 2030 FO
+   6    6 2665 1987 FO
+   6    6 2671 1943 FO
+   6    6 2676 1910 FO
+   6    6 2682 1898 FO
+   6    6 2688 1895 FO
+   6    6 2693 1893 FO
+   6    6 2699 1893 FO
+   6    6 2704 1893 FO
+   6    6 2710 1893 FO
+   6    6 2716 1893 FO
+   6    6 2721 1893 FO
+   6    6 2727 1893 FO
+   6    6 2732 1907 FO
+   6    6 2738 1912 FO
+   6    6 2744 1914 FO
+   6    6 2749 1914 FO
+   6    6 2755 1914 FO
+   6    6 2760 1914 FO
+   6    6 2766 1914 FO
+   6    6 2772 1914 FO
+   6    6 2777 1914 FO
+   6    6 2783 1914 FO
+   6    6 2788 1914 FO
+   6    6 2794 1914 FO
+   6    6 2800 1914 FO
+   6    6 2805 1914 FO
+   6    6 2811 1914 FO
+   6    6 2816 1914 FO
+   6    6 2822 1914 FO
+   6    6 2828 1914 FO
+   6    6 2833 1914 FO
+   6    6 2839 1914 FO
+   6    6 2844 1914 FO
+   6    6 2850 1914 FO
+   6    6 2856 1914 FO
+   6    6 2861 1914 FO
+   6    6 2867 1914 FO
+   6    6 2872 1925 FO
+   6    6 2878 1945 FO
+   6    6 2884 1974 FO
+   6    6 2889 2010 FO
+   6    6 2895 2052 FO
+   6    6 2900 2098 FO
+   6    6 2906 2146 FO
+   6    6 2912 2196 FO
+   6    6 2917 2245 FO
+   6    6 2923 2292 FO
+   6    6 2928 2336 FO
+   6    6 2934 2377 FO
+   6    6 2940 2415 FO
+   6    6 2945 2449 FO
+   6    6 2951 2478 FO
+   6    6 2956 2504 FO
+   6    6 2962 2527 FO
+   6    6 2968 2546 FO
+   6    6 2973 2562 FO
+   6    6 2979 2575 FO
+   6    6 2984 2587 FO
+   6    6 2990 2596 FO
+   6    6 2996 2603 FO
+   6    6 3001 2610 FO
+   6    6 3007 2615 FO
+   6    6 3012 2619 FO
+   6    6 3018 2622 FO
+   6    6 3024 2625 FO
+   6    6 3029 2627 FO
+   6    6 3035 2629 FO
+   6    6 3040 2630 FO
+   6    6 3046 2631 FO
+   6    6 3052 2632 FO
+   6    6 3057 2633 FO
+   6    6 3063 2633 FO
+   6    6 3068 2634 FO
+   6    6 3074 2634 FO
+   6    6 3080 2635 FO
+   6    6 3085 2635 FO
+   6    6 3091 2635 FO
+   6    6 3096 2635 FO
+   6    6 3102 2635 FO
+   6    6 3108 2635 FO
+   6    6 3113 2636 FO
+   6    6 3119 2636 FO
+   6    6 3124 2636 FO
+   6    6 3130 2636 FO
+   6    6 3136 2636 FO
+   6    6 3141 2636 FO
+   6    6 3147 2636 FO
+   6    6 3152 2636 FO
+   6    6 3158 2636 FO
+   6    6 3164 2636 FO
+   6    6 3169 2636 FO
+   6    6 3175 2636 FO
+   6    6 3180 2636 FO
+   6    6 3186 2636 FO
+   6    6 3192 2636 FO
+   6    6 3197 2636 FO
+   6    6 3203 2636 FO
+   6    6 3208 2636 FO
+   6    6 3214 2636 FO
+   6    6 3220 2636 FO
+   6    6 3225 2636 FO
+   6    6 3231 2636 FO
+   6    6 3236 2636 FO
+   6    6 3242 2636 FO
+   6    6 3248 2636 FO
+   6    6 3253 2636 FO
+   6    6 3259 2636 FO
+   6    6 3264 2636 FO
+   6    6 3270 2636 FO
+   6    6 3276 2636 FO
+gs 2156 1626 1121 1012 rc
+c11
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 1 6 0 6 0 
+5 0 6 0 5 0 6 1 6 0 5 1 6 0 5 1 
+6 1 6 1 5 1 6 2 5 2 6 3 6 3 5 4 
+6 5 5 7 6 7 6 9 5 12 6 13 5 16 6 19 
+6 23 5 26 6 29 5 34 6 38 6 41 5 44 6 47 
+5 49 6 50 6 48 5 46 6 42 5 36 6 29 6 20 
+5 11 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 2 
+6 5 5 14 6 0 5 0 6 0 6 0 5 0 6 0 
+5 -2 6 -3 6 -12 5 -33 6 -44 5 -43 6 -43 6 -44 
+5 -43 6 -43 5 -44 6 -43 6 -43 5 -44 6 -43 5 -43 
+6 -44 6 -43 5 -43 6 -44 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+2156 2637 201 MP stroke
+gr
+
+c11
+8 W
+2156 2637 PD
+8 W
+2161 2637 PD
+8 W
+2167 2637 PD
+8 W
+2172 2637 PD
+8 W
+2178 2637 PD
+8 W
+2184 2637 PD
+8 W
+2189 2637 PD
+8 W
+2195 2637 PD
+8 W
+2200 2637 PD
+8 W
+2206 2637 PD
+8 W
+2212 2637 PD
+8 W
+2217 2637 PD
+8 W
+2223 2637 PD
+8 W
+2228 2637 PD
+8 W
+2234 2637 PD
+8 W
+2240 2637 PD
+8 W
+2245 2637 PD
+8 W
+2251 2637 PD
+8 W
+2256 2637 PD
+8 W
+2262 2637 PD
+8 W
+2268 2637 PD
+8 W
+2273 2637 PD
+8 W
+2279 2637 PD
+8 W
+2284 2637 PD
+8 W
+2290 2637 PD
+8 W
+2296 2637 PD
+8 W
+2301 2637 PD
+8 W
+2307 2637 PD
+8 W
+2312 2637 PD
+8 W
+2318 2637 PD
+8 W
+2324 2637 PD
+8 W
+2329 2637 PD
+8 W
+2335 2637 PD
+8 W
+2340 2637 PD
+8 W
+2346 2637 PD
+8 W
+2352 2637 PD
+8 W
+2357 2637 PD
+8 W
+2363 2637 PD
+8 W
+2368 2637 PD
+8 W
+2374 2637 PD
+8 W
+2380 2637 PD
+8 W
+2385 2637 PD
+8 W
+2391 2637 PD
+8 W
+2396 2637 PD
+8 W
+2402 2637 PD
+8 W
+2408 2637 PD
+8 W
+2413 2637 PD
+8 W
+2419 2637 PD
+8 W
+2424 2637 PD
+8 W
+2430 2637 PD
+8 W
+2436 2637 PD
+8 W
+2441 2637 PD
+8 W
+2447 2637 PD
+8 W
+2452 2637 PD
+8 W
+2458 2637 PD
+8 W
+2464 2637 PD
+8 W
+2469 2637 PD
+8 W
+2475 2637 PD
+8 W
+2480 2637 PD
+8 W
+2486 2637 PD
+8 W
+2492 2637 PD
+8 W
+2497 2637 PD
+8 W
+2503 2637 PD
+8 W
+2508 2637 PD
+8 W
+2514 2637 PD
+8 W
+2520 2637 PD
+8 W
+2525 2637 PD
+8 W
+2531 2637 PD
+8 W
+2536 2637 PD
+8 W
+2542 2637 PD
+8 W
+2548 2637 PD
+8 W
+2553 2637 PD
+8 W
+2559 2637 PD
+8 W
+2564 2637 PD
+8 W
+2570 2637 PD
+8 W
+2576 2637 PD
+8 W
+2581 2637 PD
+8 W
+2587 2593 PD
+8 W
+2592 2550 PD
+8 W
+2598 2507 PD
+8 W
+2604 2463 PD
+8 W
+2609 2420 PD
+8 W
+2615 2377 PD
+8 W
+2620 2333 PD
+8 W
+2626 2290 PD
+8 W
+2632 2247 PD
+8 W
+2637 2203 PD
+8 W
+2643 2160 PD
+8 W
+2648 2117 PD
+8 W
+2654 2073 PD
+8 W
+2660 2030 PD
+8 W
+2665 1987 PD
+8 W
+2671 1943 PD
+8 W
+2676 1910 PD
+8 W
+2682 1898 PD
+8 W
+2688 1895 PD
+8 W
+2693 1893 PD
+8 W
+2699 1893 PD
+8 W
+2704 1893 PD
+8 W
+2710 1893 PD
+8 W
+2716 1893 PD
+8 W
+2721 1893 PD
+8 W
+2727 1893 PD
+8 W
+2732 1907 PD
+8 W
+2738 1912 PD
+8 W
+2744 1914 PD
+8 W
+2749 1914 PD
+8 W
+2755 1914 PD
+8 W
+2760 1914 PD
+8 W
+2766 1914 PD
+8 W
+2772 1914 PD
+8 W
+2777 1914 PD
+8 W
+2783 1914 PD
+8 W
+2788 1914 PD
+8 W
+2794 1914 PD
+8 W
+2800 1914 PD
+8 W
+2805 1914 PD
+8 W
+2811 1914 PD
+8 W
+2816 1914 PD
+8 W
+2822 1914 PD
+8 W
+2828 1914 PD
+8 W
+2833 1914 PD
+8 W
+2839 1914 PD
+8 W
+2844 1914 PD
+8 W
+2850 1914 PD
+8 W
+2856 1914 PD
+8 W
+2861 1914 PD
+8 W
+2867 1914 PD
+8 W
+2872 1925 PD
+8 W
+2878 1945 PD
+8 W
+2884 1974 PD
+8 W
+2889 2010 PD
+8 W
+2895 2052 PD
+8 W
+2900 2098 PD
+8 W
+2906 2146 PD
+8 W
+2912 2196 PD
+8 W
+2917 2245 PD
+8 W
+2923 2292 PD
+8 W
+2928 2336 PD
+8 W
+2934 2377 PD
+8 W
+2940 2415 PD
+8 W
+2945 2449 PD
+8 W
+2951 2478 PD
+8 W
+2956 2504 PD
+8 W
+2962 2527 PD
+8 W
+2968 2546 PD
+8 W
+2973 2562 PD
+8 W
+2979 2575 PD
+8 W
+2984 2587 PD
+8 W
+2990 2596 PD
+8 W
+2996 2603 PD
+8 W
+3001 2610 PD
+8 W
+3007 2615 PD
+8 W
+3012 2619 PD
+8 W
+3018 2622 PD
+8 W
+3024 2625 PD
+8 W
+3029 2627 PD
+8 W
+3035 2629 PD
+8 W
+3040 2630 PD
+8 W
+3046 2631 PD
+8 W
+3052 2632 PD
+8 W
+3057 2633 PD
+8 W
+3063 2633 PD
+8 W
+3068 2634 PD
+8 W
+3074 2634 PD
+8 W
+3080 2635 PD
+8 W
+3085 2635 PD
+8 W
+3091 2635 PD
+8 W
+3096 2635 PD
+8 W
+3102 2635 PD
+8 W
+3108 2635 PD
+8 W
+3113 2636 PD
+8 W
+3119 2636 PD
+8 W
+3124 2636 PD
+8 W
+3130 2636 PD
+8 W
+3136 2636 PD
+8 W
+3141 2636 PD
+8 W
+3147 2636 PD
+8 W
+3152 2636 PD
+8 W
+3158 2636 PD
+8 W
+3164 2636 PD
+8 W
+3169 2636 PD
+8 W
+3175 2636 PD
+8 W
+3180 2636 PD
+8 W
+3186 2636 PD
+8 W
+3192 2636 PD
+8 W
+3197 2636 PD
+8 W
+3203 2636 PD
+8 W
+3208 2636 PD
+8 W
+3214 2636 PD
+8 W
+3220 2636 PD
+8 W
+3225 2636 PD
+8 W
+3231 2636 PD
+8 W
+3236 2636 PD
+8 W
+3242 2636 PD
+8 W
+3248 2636 PD
+8 W
+3253 2636 PD
+8 W
+3259 2636 PD
+8 W
+3264 2636 PD
+8 W
+3270 2636 PD
+8 W
+3276 2636 PD
+gs 2156 1626 1121 1012 rc
+gr
+
+0 sg
+2608 2737 mt 
+(Time [days]) s
+2058 2278 mt  -90 rotate
+(Canopy storage) s
+90 rotate
+2393 1595 mt 
+(a = 0.6 ; b = 200 ; c = 2.5 ; d = 0.83) s
+1 sg
+0 1011 1120 0 0 -1011 3630 2637 4 MP
+PP
+-1120 0 0 1011 1120 0 0 -1011 3630 2637 5 MP stroke
+1.38889 w
+DO
+SO
+2.08333 w
+0 sg
+3630 1626 mt 4750 1626 L
+3630 2637 mt 4750 2637 L
+4750 2637 mt 4750 1626 L
+3630 2637 mt 3630 1626 L
+3630 2637 mt 4750 2637 L
+3630 2637 mt 3630 1626 L
+3630 2637 mt 3630 2625 L
+3630 1626 mt 3630 1637 L
+3619 2687 mt 
+(0) s
+3910 2637 mt 3910 2625 L
+3910 1626 mt 3910 1637 L
+3882 2687 mt 
+(0.5) s
+4190 2637 mt 4190 2625 L
+4190 1626 mt 4190 1637 L
+4179 2687 mt 
+(1) s
+4470 2637 mt 4470 2625 L
+4470 1626 mt 4470 1637 L
+4442 2687 mt 
+(1.5) s
+4750 2637 mt 4750 2625 L
+4750 1626 mt 4750 1637 L
+4739 2687 mt 
+(2) s
+3630 2637 mt 3641 2637 L
+4750 2637 mt 4738 2637 L
+3595 2652 mt 
+(0) s
+3630 2492 mt 3641 2492 L
+4750 2492 mt 4738 2492 L
+3561 2507 mt 
+(0.5) s
+3630 2348 mt 3641 2348 L
+4750 2348 mt 4738 2348 L
+3595 2363 mt 
+(1) s
+3630 2203 mt 3641 2203 L
+4750 2203 mt 4738 2203 L
+3561 2218 mt 
+(1.5) s
+3630 2059 mt 3641 2059 L
+4750 2059 mt 4738 2059 L
+3595 2074 mt 
+(2) s
+3630 1914 mt 3641 1914 L
+4750 1914 mt 4738 1914 L
+3561 1929 mt 
+(2.5) s
+3630 1770 mt 3641 1770 L
+4750 1770 mt 4738 1770 L
+3595 1785 mt 
+(3) s
+3630 1626 mt 3641 1626 L
+4750 1626 mt 4738 1626 L
+3561 1641 mt 
+(3.5) s
+3630 1626 mt 4750 1626 L
+3630 2637 mt 4750 2637 L
+4750 2637 mt 4750 1626 L
+3630 2637 mt 3630 1626 L
+gs 3630 1626 1121 1012 rc
+c8
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 -909 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 909 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+3630 1626 201 MP stroke
+c9
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 1 
+5 57 6 57 6 56 5 56 6 55 5 53 6 53 6 51 
+5 49 6 47 5 45 6 43 6 41 5 38 6 35 5 32 
+6 29 6 26 5 23 6 19 5 16 6 12 6 9 5 6 
+6 1 5 -1 6 -6 6 -9 5 -12 6 -16 5 -19 6 -23 
+6 -26 5 -29 6 -32 5 -35 6 -38 6 -41 5 -43 6 -45 
+5 -47 6 -49 6 -51 5 -53 6 -53 5 -55 6 -56 6 -56 
+5 -57 6 -58 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 58 6 57 6 56 5 56 
+6 55 5 53 6 53 6 51 5 49 6 47 5 45 6 43 
+6 41 5 38 6 35 5 32 6 29 6 26 5 23 6 19 
+5 16 6 12 6 9 5 6 6 1 5 -1 6 -6 6 -9 
+5 -12 6 -16 5 -19 6 -23 6 -26 5 -29 6 -32 5 -35 
+6 -38 6 -41 5 -43 6 -45 5 -47 6 -49 6 -51 5 -53 
+6 -53 5 -55 6 -56 6 -56 5 -57 6 -58 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+3630 2637 201 MP stroke
+gr
+
+c9
+1 sg
+   6    6 3630 2637 PO
+   6    6 3635 2637 PO
+   6    6 3641 2637 PO
+   6    6 3646 2637 PO
+   6    6 3652 2637 PO
+   6    6 3658 2637 PO
+   6    6 3663 2637 PO
+   6    6 3669 2637 PO
+   6    6 3674 2637 PO
+   6    6 3680 2637 PO
+   6    6 3686 2637 PO
+   6    6 3691 2637 PO
+   6    6 3697 2637 PO
+   6    6 3702 2637 PO
+   6    6 3708 2637 PO
+   6    6 3714 2637 PO
+   6    6 3719 2637 PO
+   6    6 3725 2637 PO
+   6    6 3730 2637 PO
+   6    6 3736 2637 PO
+   6    6 3742 2637 PO
+   6    6 3747 2637 PO
+   6    6 3753 2637 PO
+   6    6 3758 2637 PO
+   6    6 3764 2637 PO
+   6    6 3770 2637 PO
+   6    6 3775 2637 PO
+   6    6 3781 2637 PO
+   6    6 3786 2637 PO
+   6    6 3792 2637 PO
+   6    6 3798 2637 PO
+   6    6 3803 2637 PO
+   6    6 3809 2637 PO
+   6    6 3814 2637 PO
+   6    6 3820 2637 PO
+   6    6 3826 2637 PO
+   6    6 3831 2637 PO
+   6    6 3837 2637 PO
+   6    6 3842 2637 PO
+   6    6 3848 2637 PO
+   6    6 3854 2637 PO
+   6    6 3859 2637 PO
+   6    6 3865 2637 PO
+   6    6 3870 2637 PO
+   6    6 3876 2637 PO
+   6    6 3882 2637 PO
+   6    6 3887 2637 PO
+   6    6 3893 2637 PO
+   6    6 3898 2637 PO
+   6    6 3904 2637 PO
+   6    6 3910 2637 PO
+   6    6 3915 2637 PO
+   6    6 3921 2637 PO
+   6    6 3926 2637 PO
+   6    6 3932 2637 PO
+   6    6 3938 2637 PO
+   6    6 3943 2637 PO
+   6    6 3949 2637 PO
+   6    6 3954 2637 PO
+   6    6 3960 2637 PO
+   6    6 3966 2637 PO
+   6    6 3971 2637 PO
+   6    6 3977 2637 PO
+   6    6 3982 2637 PO
+   6    6 3988 2637 PO
+   6    6 3994 2637 PO
+   6    6 3999 2637 PO
+   6    6 4005 2637 PO
+   6    6 4010 2637 PO
+   6    6 4016 2637 PO
+   6    6 4022 2637 PO
+   6    6 4027 2637 PO
+   6    6 4033 2637 PO
+   6    6 4038 2637 PO
+   6    6 4044 2637 PO
+   6    6 4050 2637 PO
+   6    6 4055 2637 PO
+   6    6 4061 2593 PO
+   6    6 4066 2550 PO
+   6    6 4072 2507 PO
+   6    6 4078 2463 PO
+   6    6 4083 2420 PO
+   6    6 4089 2377 PO
+   6    6 4094 2333 PO
+   6    6 4100 2290 PO
+   6    6 4106 2247 PO
+   6    6 4111 2203 PO
+   6    6 4117 2160 PO
+   6    6 4122 2117 PO
+   6    6 4128 2073 PO
+   6    6 4134 2030 PO
+   6    6 4139 1987 PO
+   6    6 4145 1943 PO
+   6    6 4150 1910 PO
+   6    6 4156 1898 PO
+   6    6 4162 1895 PO
+   6    6 4167 1893 PO
+   6    6 4173 1893 PO
+   6    6 4178 1893 PO
+   6    6 4184 1893 PO
+   6    6 4190 1893 PO
+   6    6 4195 1893 PO
+   6    6 4201 1893 PO
+   6    6 4206 1907 PO
+   6    6 4212 1912 PO
+   6    6 4218 1914 PO
+   6    6 4223 1914 PO
+   6    6 4229 1914 PO
+   6    6 4234 1914 PO
+   6    6 4240 1914 PO
+   6    6 4246 1914 PO
+   6    6 4251 1914 PO
+   6    6 4257 1914 PO
+   6    6 4262 1914 PO
+   6    6 4268 1914 PO
+   6    6 4274 1914 PO
+   6    6 4279 1914 PO
+   6    6 4285 1914 PO
+   6    6 4290 1914 PO
+   6    6 4296 1914 PO
+   6    6 4302 1914 PO
+   6    6 4307 1914 PO
+   6    6 4313 1914 PO
+   6    6 4318 1914 PO
+   6    6 4324 1914 PO
+   6    6 4330 1914 PO
+   6    6 4335 1914 PO
+   6    6 4341 1914 PO
+   6    6 4346 1925 PO
+   6    6 4352 1945 PO
+   6    6 4358 1974 PO
+   6    6 4363 2010 PO
+   6    6 4369 2052 PO
+   6    6 4374 2098 PO
+   6    6 4380 2146 PO
+   6    6 4386 2196 PO
+   6    6 4391 2245 PO
+   6    6 4397 2292 PO
+   6    6 4402 2336 PO
+   6    6 4408 2377 PO
+   6    6 4414 2415 PO
+   6    6 4419 2449 PO
+   6    6 4425 2478 PO
+   6    6 4430 2504 PO
+   6    6 4436 2527 PO
+   6    6 4442 2546 PO
+   6    6 4447 2562 PO
+   6    6 4453 2575 PO
+   6    6 4458 2587 PO
+   6    6 4464 2596 PO
+   6    6 4470 2603 PO
+   6    6 4475 2610 PO
+   6    6 4481 2615 PO
+   6    6 4486 2619 PO
+   6    6 4492 2622 PO
+   6    6 4498 2625 PO
+   6    6 4503 2627 PO
+   6    6 4509 2629 PO
+   6    6 4514 2630 PO
+   6    6 4520 2631 PO
+   6    6 4526 2632 PO
+   6    6 4531 2633 PO
+   6    6 4537 2633 PO
+   6    6 4542 2634 PO
+   6    6 4548 2634 PO
+   6    6 4554 2635 PO
+   6    6 4559 2635 PO
+   6    6 4565 2635 PO
+   6    6 4570 2635 PO
+   6    6 4576 2635 PO
+   6    6 4582 2635 PO
+   6    6 4587 2636 PO
+   6    6 4593 2636 PO
+   6    6 4598 2636 PO
+   6    6 4604 2636 PO
+   6    6 4610 2636 PO
+   6    6 4615 2636 PO
+   6    6 4621 2636 PO
+   6    6 4626 2636 PO
+   6    6 4632 2636 PO
+   6    6 4638 2636 PO
+   6    6 4643 2636 PO
+   6    6 4649 2636 PO
+   6    6 4654 2636 PO
+   6    6 4660 2636 PO
+   6    6 4666 2636 PO
+   6    6 4671 2636 PO
+   6    6 4677 2636 PO
+   6    6 4682 2636 PO
+   6    6 4688 2636 PO
+   6    6 4694 2636 PO
+   6    6 4699 2636 PO
+   6    6 4705 2636 PO
+   6    6 4710 2636 PO
+   6    6 4716 2636 PO
+   6    6 4722 2636 PO
+   6    6 4727 2636 PO
+   6    6 4733 2636 PO
+   6    6 4738 2636 PO
+   6    6 4744 2636 PO
+   6    6 4750 2636 PO
+c10
+   6    6 3630 2637 FO
+   6    6 3635 2637 FO
+   6    6 3641 2637 FO
+   6    6 3646 2637 FO
+   6    6 3652 2637 FO
+   6    6 3658 2637 FO
+   6    6 3663 2637 FO
+   6    6 3669 2637 FO
+   6    6 3674 2637 FO
+   6    6 3680 2637 FO
+   6    6 3686 2637 FO
+   6    6 3691 2637 FO
+   6    6 3697 2637 FO
+   6    6 3702 2637 FO
+   6    6 3708 2637 FO
+   6    6 3714 2637 FO
+   6    6 3719 2637 FO
+   6    6 3725 2637 FO
+   6    6 3730 2637 FO
+   6    6 3736 2637 FO
+   6    6 3742 2637 FO
+   6    6 3747 2637 FO
+   6    6 3753 2637 FO
+   6    6 3758 2637 FO
+   6    6 3764 2637 FO
+   6    6 3770 2637 FO
+   6    6 3775 2637 FO
+   6    6 3781 2637 FO
+   6    6 3786 2637 FO
+   6    6 3792 2637 FO
+   6    6 3798 2637 FO
+   6    6 3803 2637 FO
+   6    6 3809 2637 FO
+   6    6 3814 2637 FO
+   6    6 3820 2637 FO
+   6    6 3826 2637 FO
+   6    6 3831 2637 FO
+   6    6 3837 2637 FO
+   6    6 3842 2637 FO
+   6    6 3848 2637 FO
+   6    6 3854 2637 FO
+   6    6 3859 2637 FO
+   6    6 3865 2637 FO
+   6    6 3870 2637 FO
+   6    6 3876 2637 FO
+   6    6 3882 2637 FO
+   6    6 3887 2637 FO
+   6    6 3893 2637 FO
+   6    6 3898 2637 FO
+   6    6 3904 2637 FO
+   6    6 3910 2637 FO
+   6    6 3915 2637 FO
+   6    6 3921 2637 FO
+   6    6 3926 2637 FO
+   6    6 3932 2637 FO
+   6    6 3938 2637 FO
+   6    6 3943 2637 FO
+   6    6 3949 2637 FO
+   6    6 3954 2637 FO
+   6    6 3960 2637 FO
+   6    6 3966 2637 FO
+   6    6 3971 2637 FO
+   6    6 3977 2637 FO
+   6    6 3982 2637 FO
+   6    6 3988 2637 FO
+   6    6 3994 2637 FO
+   6    6 3999 2637 FO
+   6    6 4005 2637 FO
+   6    6 4010 2637 FO
+   6    6 4016 2637 FO
+   6    6 4022 2637 FO
+   6    6 4027 2637 FO
+   6    6 4033 2637 FO
+   6    6 4038 2637 FO
+   6    6 4044 2637 FO
+   6    6 4050 2637 FO
+   6    6 4055 2637 FO
+   6    6 4061 2593 FO
+   6    6 4066 2550 FO
+   6    6 4072 2507 FO
+   6    6 4078 2463 FO
+   6    6 4083 2420 FO
+   6    6 4089 2377 FO
+   6    6 4094 2333 FO
+   6    6 4100 2290 FO
+   6    6 4106 2247 FO
+   6    6 4111 2203 FO
+   6    6 4117 2160 FO
+   6    6 4122 2117 FO
+   6    6 4128 2073 FO
+   6    6 4134 2030 FO
+   6    6 4139 1987 FO
+   6    6 4145 1943 FO
+   6    6 4150 1910 FO
+   6    6 4156 1898 FO
+   6    6 4162 1895 FO
+   6    6 4167 1893 FO
+   6    6 4173 1893 FO
+   6    6 4178 1893 FO
+   6    6 4184 1893 FO
+   6    6 4190 1893 FO
+   6    6 4195 1893 FO
+   6    6 4201 1893 FO
+   6    6 4206 1907 FO
+   6    6 4212 1912 FO
+   6    6 4218 1914 FO
+   6    6 4223 1914 FO
+   6    6 4229 1914 FO
+   6    6 4234 1914 FO
+   6    6 4240 1914 FO
+   6    6 4246 1914 FO
+   6    6 4251 1914 FO
+   6    6 4257 1914 FO
+   6    6 4262 1914 FO
+   6    6 4268 1914 FO
+   6    6 4274 1914 FO
+   6    6 4279 1914 FO
+   6    6 4285 1914 FO
+   6    6 4290 1914 FO
+   6    6 4296 1914 FO
+   6    6 4302 1914 FO
+   6    6 4307 1914 FO
+   6    6 4313 1914 FO
+   6    6 4318 1914 FO
+   6    6 4324 1914 FO
+   6    6 4330 1914 FO
+   6    6 4335 1914 FO
+   6    6 4341 1914 FO
+   6    6 4346 1925 FO
+   6    6 4352 1945 FO
+   6    6 4358 1974 FO
+   6    6 4363 2010 FO
+   6    6 4369 2052 FO
+   6    6 4374 2098 FO
+   6    6 4380 2146 FO
+   6    6 4386 2196 FO
+   6    6 4391 2245 FO
+   6    6 4397 2292 FO
+   6    6 4402 2336 FO
+   6    6 4408 2377 FO
+   6    6 4414 2415 FO
+   6    6 4419 2449 FO
+   6    6 4425 2478 FO
+   6    6 4430 2504 FO
+   6    6 4436 2527 FO
+   6    6 4442 2546 FO
+   6    6 4447 2562 FO
+   6    6 4453 2575 FO
+   6    6 4458 2587 FO
+   6    6 4464 2596 FO
+   6    6 4470 2603 FO
+   6    6 4475 2610 FO
+   6    6 4481 2615 FO
+   6    6 4486 2619 FO
+   6    6 4492 2622 FO
+   6    6 4498 2625 FO
+   6    6 4503 2627 FO
+   6    6 4509 2629 FO
+   6    6 4514 2630 FO
+   6    6 4520 2631 FO
+   6    6 4526 2632 FO
+   6    6 4531 2633 FO
+   6    6 4537 2633 FO
+   6    6 4542 2634 FO
+   6    6 4548 2634 FO
+   6    6 4554 2635 FO
+   6    6 4559 2635 FO
+   6    6 4565 2635 FO
+   6    6 4570 2635 FO
+   6    6 4576 2635 FO
+   6    6 4582 2635 FO
+   6    6 4587 2636 FO
+   6    6 4593 2636 FO
+   6    6 4598 2636 FO
+   6    6 4604 2636 FO
+   6    6 4610 2636 FO
+   6    6 4615 2636 FO
+   6    6 4621 2636 FO
+   6    6 4626 2636 FO
+   6    6 4632 2636 FO
+   6    6 4638 2636 FO
+   6    6 4643 2636 FO
+   6    6 4649 2636 FO
+   6    6 4654 2636 FO
+   6    6 4660 2636 FO
+   6    6 4666 2636 FO
+   6    6 4671 2636 FO
+   6    6 4677 2636 FO
+   6    6 4682 2636 FO
+   6    6 4688 2636 FO
+   6    6 4694 2636 FO
+   6    6 4699 2636 FO
+   6    6 4705 2636 FO
+   6    6 4710 2636 FO
+   6    6 4716 2636 FO
+   6    6 4722 2636 FO
+   6    6 4727 2636 FO
+   6    6 4733 2636 FO
+   6    6 4738 2636 FO
+   6    6 4744 2636 FO
+   6    6 4750 2636 FO
+gs 3630 1626 1121 1012 rc
+c11
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 1 6 0 6 0 
+5 0 6 0 5 0 6 1 6 0 5 1 6 0 5 1 
+6 1 6 1 5 1 6 2 5 2 6 3 6 3 5 4 
+6 5 5 7 6 7 6 9 5 12 6 13 5 16 6 19 
+6 23 5 26 6 29 5 34 6 38 6 41 5 44 6 47 
+5 49 6 50 6 48 5 46 6 42 5 36 6 29 6 20 
+5 11 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 2 
+6 5 5 14 6 0 5 0 6 0 6 0 5 0 6 0 
+5 -2 6 -3 6 -12 5 -33 6 -44 5 -43 6 -43 6 -44 
+5 -43 6 -43 5 -44 6 -43 6 -43 5 -44 6 -43 5 -43 
+6 -44 6 -43 5 -43 6 -44 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+6 0 6 0 5 0 6 0 5 0 6 0 6 0 5 0 
+6 0 5 0 6 0 6 0 5 0 6 0 5 0 6 0 
+6 0 5 0 6 0 5 0 6 0 6 0 5 0 6 0 
+5 0 6 0 6 0 5 0 6 0 5 0 6 0 6 0 
+5 0 6 0 5 0 6 0 6 0 5 0 6 0 5 0 
+3630 2637 201 MP stroke
+gr
+
+c11
+8 W
+3630 2637 PD
+8 W
+3635 2637 PD
+8 W
+3641 2637 PD
+8 W
+3646 2637 PD
+8 W
+3652 2637 PD
+8 W
+3658 2637 PD
+8 W
+3663 2637 PD
+8 W
+3669 2637 PD
+8 W
+3674 2637 PD
+8 W
+3680 2637 PD
+8 W
+3686 2637 PD
+8 W
+3691 2637 PD
+8 W
+3697 2637 PD
+8 W
+3702 2637 PD
+8 W
+3708 2637 PD
+8 W
+3714 2637 PD
+8 W
+3719 2637 PD
+8 W
+3725 2637 PD
+8 W
+3730 2637 PD
+8 W
+3736 2637 PD
+8 W
+3742 2637 PD
+8 W
+3747 2637 PD
+8 W
+3753 2637 PD
+8 W
+3758 2637 PD
+8 W
+3764 2637 PD
+8 W
+3770 2637 PD
+8 W
+3775 2637 PD
+8 W
+3781 2637 PD
+8 W
+3786 2637 PD
+8 W
+3792 2637 PD
+8 W
+3798 2637 PD
+8 W
+3803 2637 PD
+8 W
+3809 2637 PD
+8 W
+3814 2637 PD
+8 W
+3820 2637 PD
+8 W
+3826 2637 PD
+8 W
+3831 2637 PD
+8 W
+3837 2637 PD
+8 W
+3842 2637 PD
+8 W
+3848 2637 PD
+8 W
+3854 2637 PD
+8 W
+3859 2637 PD
+8 W
+3865 2637 PD
+8 W
+3870 2637 PD
+8 W
+3876 2637 PD
+8 W
+3882 2637 PD
+8 W
+3887 2637 PD
+8 W
+3893 2637 PD
+8 W
+3898 2637 PD
+8 W
+3904 2637 PD
+8 W
+3910 2637 PD
+8 W
+3915 2637 PD
+8 W
+3921 2637 PD
+8 W
+3926 2637 PD
+8 W
+3932 2637 PD
+8 W
+3938 2637 PD
+8 W
+3943 2637 PD
+8 W
+3949 2637 PD
+8 W
+3954 2637 PD
+8 W
+3960 2637 PD
+8 W
+3966 2637 PD
+8 W
+3971 2637 PD
+8 W
+3977 2637 PD
+8 W
+3982 2637 PD
+8 W
+3988 2637 PD
+8 W
+3994 2637 PD
+8 W
+3999 2637 PD
+8 W
+4005 2637 PD
+8 W
+4010 2637 PD
+8 W
+4016 2637 PD
+8 W
+4022 2637 PD
+8 W
+4027 2637 PD
+8 W
+4033 2637 PD
+8 W
+4038 2637 PD
+8 W
+4044 2637 PD
+8 W
+4050 2637 PD
+8 W
+4055 2637 PD
+8 W
+4061 2593 PD
+8 W
+4066 2550 PD
+8 W
+4072 2507 PD
+8 W
+4078 2463 PD
+8 W
+4083 2420 PD
+8 W
+4089 2377 PD
+8 W
+4094 2333 PD
+8 W
+4100 2290 PD
+8 W
+4106 2247 PD
+8 W
+4111 2203 PD
+8 W
+4117 2160 PD
+8 W
+4122 2117 PD
+8 W
+4128 2073 PD
+8 W
+4134 2030 PD
+8 W
+4139 1987 PD
+8 W
+4145 1943 PD
+8 W
+4150 1910 PD
+8 W
+4156 1898 PD
+8 W
+4162 1895 PD
+8 W
+4167 1893 PD
+8 W
+4173 1893 PD
+8 W
+4178 1893 PD
+8 W
+4184 1893 PD
+8 W
+4190 1893 PD
+8 W
+4195 1893 PD
+8 W
+4201 1893 PD
+8 W
+4206 1907 PD
+8 W
+4212 1912 PD
+8 W
+4218 1914 PD
+8 W
+4223 1914 PD
+8 W
+4229 1914 PD
+8 W
+4234 1914 PD
+8 W
+4240 1914 PD
+8 W
+4246 1914 PD
+8 W
+4251 1914 PD
+8 W
+4257 1914 PD
+8 W
+4262 1914 PD
+8 W
+4268 1914 PD
+8 W
+4274 1914 PD
+8 W
+4279 1914 PD
+8 W
+4285 1914 PD
+8 W
+4290 1914 PD
+8 W
+4296 1914 PD
+8 W
+4302 1914 PD
+8 W
+4307 1914 PD
+8 W
+4313 1914 PD
+8 W
+4318 1914 PD
+8 W
+4324 1914 PD
+8 W
+4330 1914 PD
+8 W
+4335 1914 PD
+8 W
+4341 1914 PD
+8 W
+4346 1925 PD
+8 W
+4352 1945 PD
+8 W
+4358 1974 PD
+8 W
+4363 2010 PD
+8 W
+4369 2052 PD
+8 W
+4374 2098 PD
+8 W
+4380 2146 PD
+8 W
+4386 2196 PD
+8 W
+4391 2245 PD
+8 W
+4397 2292 PD
+8 W
+4402 2336 PD
+8 W
+4408 2377 PD
+8 W
+4414 2415 PD
+8 W
+4419 2449 PD
+8 W
+4425 2478 PD
+8 W
+4430 2504 PD
+8 W
+4436 2527 PD
+8 W
+4442 2546 PD
+8 W
+4447 2562 PD
+8 W
+4453 2575 PD
+8 W
+4458 2587 PD
+8 W
+4464 2596 PD
+8 W
+4470 2603 PD
+8 W
+4475 2610 PD
+8 W
+4481 2615 PD
+8 W
+4486 2619 PD
+8 W
+4492 2622 PD
+8 W
+4498 2625 PD
+8 W
+4503 2627 PD
+8 W
+4509 2629 PD
+8 W
+4514 2630 PD
+8 W
+4520 2631 PD
+8 W
+4526 2632 PD
+8 W
+4531 2633 PD
+8 W
+4537 2633 PD
+8 W
+4542 2634 PD
+8 W
+4548 2634 PD
+8 W
+4554 2635 PD
+8 W
+4559 2635 PD
+8 W
+4565 2635 PD
+8 W
+4570 2635 PD
+8 W
+4576 2635 PD
+8 W
+4582 2635 PD
+8 W
+4587 2636 PD
+8 W
+4593 2636 PD
+8 W
+4598 2636 PD
+8 W
+4604 2636 PD
+8 W
+4610 2636 PD
+8 W
+4615 2636 PD
+8 W
+4621 2636 PD
+8 W
+4626 2636 PD
+8 W
+4632 2636 PD
+8 W
+4638 2636 PD
+8 W
+4643 2636 PD
+8 W
+4649 2636 PD
+8 W
+4654 2636 PD
+8 W
+4660 2636 PD
+8 W
+4666 2636 PD
+8 W
+4671 2636 PD
+8 W
+4677 2636 PD
+8 W
+4682 2636 PD
+8 W
+4688 2636 PD
+8 W
+4694 2636 PD
+8 W
+4699 2636 PD
+8 W
+4705 2636 PD
+8 W
+4710 2636 PD
+8 W
+4716 2636 PD
+8 W
+4722 2636 PD
+8 W
+4727 2636 PD
+8 W
+4733 2636 PD
+8 W
+4738 2636 PD
+8 W
+4744 2636 PD
+8 W
+4750 2636 PD
+gs 3630 1626 1121 1012 rc
+gr
+
+0 sg
+4082 2737 mt 
+(Time [days]) s
+3532 2278 mt  -90 rotate
+(Canopy storage) s
+90 rotate
+3867 1595 mt 
+(a = 0.6 ; b = 200 ; c = 2.5 ; d = 0.83) s
+gs 13 2404 219 63 rc
+gs np 13 2404 mt 0 62 rl 218 0 rl 0 -62 rl cp c np
+[218 0 0 62 13 2404] cc
+/picstr 210 string def
+70 20 8
+[70 0 0 20 0 0] {currentfile picstr readhexstring pop} false 3 colorimage
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000000000000000000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000000000000000F0F0F0
+F0F0F0F0F0F0000000000000000000F0F0F0000000000000000000F0F0F0000000F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0000000000000000000000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0
+F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000000000F0F0F0000000000000000000000000F0F0F0F0F0F0000000000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0
+000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000000000000000000000000000F0F0F0000000
+F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0000000000000000000000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0
+F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000000000
+F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000
+F0F0F0F0F0F0F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0000000000000F0F0F0
+000000F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000000000000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+gr
+gr
+
+gs 13 2529 219 63 rc
+gs np 13 2529 mt 0 62 rl 218 0 rl 0 -62 rl cp c np
+[218 0 0 62 13 2529] cc
+/picstr 210 string def
+70 20 8
+[70 0 0 20 0 0] {currentfile picstr readhexstring pop} false 3 colorimage
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000000000000000000000F0F0F0F0F0F0F0F0F0000000F0F0F0
+F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0000000F0F0F0000000000000000000000000F0F0F0F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0F0F0F0000000
+000000F0F0F0000000F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000000000F0F0F0000000000000000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0
+F0F0F0000000000000F0F0F0000000000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0
+000000000000000000000000000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0000000
+000000000000000000F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000000000000000000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000000000000000000000000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0
+F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0
+000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0
+F0F0F0000000000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000
+000000F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0
+000000000000000000000000000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000000000000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+gr
+gr
+
+gs 13 2654 219 63 rc
+gs np 13 2654 mt 0 62 rl 218 0 rl 0 -62 rl cp c np
+[218 0 0 62 13 2654] cc
+/picstr 210 string def
+70 20 8
+[70 0 0 20 0 0] {currentfile picstr readhexstring pop} false 3 colorimage
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000F0F0F0F0F0F0F0F0F0000000000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0000000000000000000000000F0F0F0F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0000000F0F0F0000000000000F0F0F0F0F0F0000000F0F0F0
+F0F0F0F0F0F0000000F0F0F0000000000000F0F0F0F0F0F0F0F0F0000000000000F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0
+F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0000000F0F0F0000000F0F0F0
+000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000000000000000F0F0F0
+000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000000000000000000000F0F0F0F0F0F0F0F0F0
+000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0
+000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0000000F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0
+000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000
+000000000000F0F0F0F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0000000F0F0F0000000000000F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000F0F0F0F0F0F0
+000000F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+gr
+gr
+
+gs 13 2779 219 63 rc
+gs np 13 2779 mt 0 62 rl 218 0 rl 0 -62 rl cp c np
+[218 0 0 62 13 2779] cc
+/picstr 210 string def
+70 20 8
+[70 0 0 20 0 0] {currentfile picstr readhexstring pop} false 3 colorimage
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000000000000000000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0000000F0F0F0000000000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000
+000000000000F0F0F0F0F0F0F0F0F0000000000000000000F0F0F0000000000000000000F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0
+F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000000000F0F0F0F0F0F0000000F0F0F0000000000000000000000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0
+000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000000000000000000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0
+F0F0F0000000000000000000000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000000000000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0
+000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0000000000000F0F0F0000000000000F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0
+F0F0F0000000000000F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0000000F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000
+000000000000F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0000000F0F0F0000000000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000000000F0F0F0000000F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0
+000000000000F0F0F0F0F0F0000000000000000000F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0000000F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+gr
+gr
+
+gs 247 2404 126 63 rc
+gs np 247 2404 mt 0 62 rl 125 0 rl 0 -62 rl cp c np
+[125 0 0 62 247 2404] cc
+/picstr 120 string def
+40 20 8
+[40 0 0 20 0 0] {currentfile picstr readhexstring pop} false 3 colorimage
+ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB56600000000000000000066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E380000000000000066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFFFDB8E38388EDBFFFFFFFFDB8E38388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E3866B5FFFFFFFFFFFFFFB566388EDBFFFFFFFFFFFFFFFFFFFFDB8E38388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFB56600668E8E380000000000388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFB5660000388EDBFFFFFFFFDB8E38388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E3866B5FFFFFFFFFFFFFFB566388EDBFFFFFFFFFFFFFFFFFFFFDB8E3866B5FFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFDB8E38388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB56600000000000000000066B5FFFFFFFFFFFFB5660066B5FFFFFFFFDB8E38000000000000388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3
+gr
+gr
+
+gs 247 2529 126 63 rc
+gs np 247 2529 mt 0 62 rl 125 0 rl 0 -62 rl cp c np
+[125 0 0 62 247 2529] cc
+/picstr 120 string def
+40 20 8
+[40 0 0 20 0 0] {currentfile picstr readhexstring pop} false 3 colorimage
+ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E3800000000000000388EDBFFFFFFFFFFB56600000000000000000066B5FFFFFFFFFFB56600000000000000000066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E38388EDBFFFFFFFFFFB56600388EDBFFFFB5660066B5FFFFFFFFFFB5660066B5FFFFFFB5660066B5FFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660066B4FFDB8E3866B5FFFFFFFFFFFFFFB566388EDAFFDB8E3866B5FFFFFFFFFFFFFFB566388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E3866B5FFFFB5660066B5FFFFFFFFFFFFFFB5660066B4FFB5660066B5FFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB566388EDBFFFFFFFFB5660066B5FFFFFFFFFFFFFFB5660066B4FFB5660066B5FFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E3866B5FFFFFFFFFFFFFFDB8E3866B5FFFFFFFFFFFFFFB566388EDAFFDB8E3866B5FFFFFFFFFFFFFFB566388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660000388EDBFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFB5660066B5FFFFFFB5660066B5FFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660000000000000000000000000066B5FFFFFFB56600000000000000000066B5FFFFFFFFFFB56600000000000000000066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3
+gr
+gr
+
+gs 247 2654 126 63 rc
+gs np 247 2654 mt 0 62 rl 125 0 rl 0 -62 rl cp c np
+[125 0 0 62 247 2654] cc
+/picstr 120 string def
+40 20 8
+[40 0 0 20 0 0] {currentfile picstr readhexstring pop} false 3 colorimage
+ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E3800000000000000388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E380000000000000000000066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E38388EDBFFFFFFFFFFB56600388EDBFFFFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E3866B5FFFFFFFFFFFFFFFFFFFFFFDB8E38383838000000000000388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB566388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDBDBDBFFFFFFFFFFFFB566388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E3866B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660000388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E38388EDBFFFFFFFFFFFFB566388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660000000000000000000000000066B5FFFFFFFFB5660066B5FFFFFFDB8E380000000000000066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3
+gr
+gr
+
+gs 247 2779 126 63 rc
+gs np 247 2779 mt 0 62 rl 125 0 rl 0 -62 rl cp c np
+[125 0 0 62 247 2779] cc
+/picstr 120 string def
+40 20 8
+[40 0 0 20 0 0] {currentfile picstr readhexstring pop} false 3 colorimage
+ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB56600000000000000000066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660000000000000000388EDBFFFFFFFFFFDB8E3800000000000000388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFDB8E380066B4FFDB8E380066B5FFFFFFFFFFDB8E380066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E3866B5FFFFFFFFFFFFFFB566388EDBFFFFFFFFFFFFFFFFFFFFDB8E3866B5FFFFFFFFFFFFFFB566388EDBFFFFFFFFFFFFFFFFFFFFFFFFDB8E38388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFFFFFB5660000000000000066B5FFFFFFFFFFFFFFFFFFFFB566000000000066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFDB8E38388EDBFFFFFFFFFFDB8E38388EDBFFFFFFFFFFFFFFFFFFFFFFFFB566000066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDB8E3866B5FFFFFFFFFFFFFFB566388EDBFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB5660066B5FFFFFFFFFFB5660066B5FFFFFFFFFFFFFFFFFFFFFFDB8E3866B5FFFFFFFFFFFFDB8E38388EDAFFDB8E38388EDBFFFFFFFFFFDB8E38388EDBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB56600000000000000000066B5FFFFFFFFFFFFB5660066B5FFFFFFFFB5660000000000000066B5FFFFFFFFFFFFDB8E380000000000000066B5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFABADB3
+ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3ABADB3
+gr
+gr
+
+gs 216 2872 126 64 rc
+gs np 216 2872 mt 0 63 rl 125 0 rl 0 -63 rl cp c np
+[125 0 0 63 216 2872] cc
+/picstr 120 string def
+40 20 8
+[40 0 0 20 0 0] {currentfile picstr readhexstring pop} false 3 colorimage
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0909090777777707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070777777909090F0F0F0F0F0F0
+F0F0F0878888919191E8E8E8FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCE8E8E8919191878888F0F0F0
+F0F0F0757575EAEAEAFAFAFAF2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2FAFAFAEAEAEA757575F0F0F0
+F0F0F0707070FCFCFCF2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2FCFCFC707070F0F0F0
+F0F0F0707070FBFBFBF1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1FBFBFB707070F0F0F0
+F0F0F0707070FBFBFBF0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0EFAB6000000000000000003586CEEFF0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0FBFBFB707070F0F0F0
+F0F0F0707070FAFAFAEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDECA85F0000005FA8ECEDEDEDECA85F00003484CBECEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDFAFAFA707070F0F0F0
+F0F0F0707070FAFAFAECECECECECECECECECECECECECECECECECECECECECECECECECECECEBEBA85E00005EA8EBECECECECECECECECECEBA85E005EA8ECECECEBEBA85E000000000000005EA8EBEBECECECECECECECECECECECECECECECECECECECECECECECECECECECECECECECECECFAFAFA707070F0F0F0
+F0F0F0707070FAFAFAEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEAEAA75E005EA7EAEAEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBA75E003483CAEBEBEBCA8334003483CAEAEAEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBEBFAFAFA707070F0F0F0
+F0F0F0707070F6F6F6DBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDADA9B5700579BDADADBDBDBDADA9B5700000000000000579AD99B5700579BDADADBDBDBDADA9B5700579BDADADBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBDBF6F6F6707070F0F0F0
+F0F0F0707070F6F6F6DADADADADADADADADADADADADADADADADADADADADADADADADADADAD9D99B560000569BD9DADADADADADADADADAD99B560000569AD89A5600569BD9D9DADADAD9D99B5600569BD9D9DADADADADADADADADADADADADADADADADADADADADADADADADADADADADADAF6F6F6707070F0F0F0
+F0F0F0707070F5F5F5D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D799550000005599D7D8D8D8D799550000005599D7D8D8D89955002F78B9D8D8D8B9782F002F78B9D7D7D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8F5F5F5707070F0F0F0
+F0F0F0707070F4F4F4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D397540000000000000000005497D3D4D4D4D4D4D4D3D39754000000000000005497D3D3D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4F4F4F4707070F0F0F0
+F0F0F0707070F4F4F4D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2F4F4F4707070F0F0F0
+F0F0F0707070F3F3F3D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1F3F3F3707070F0F0F0
+F0F0F0757575E2E2E2ECECECCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFECECECE2E2E2757575F0F0F0
+F0F0F08888888F8F8FE4E4E4F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3E4E4E48F8F8F888888F0F0F0
+F0F0F0F0F0F0858585757575707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070757575858585F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+gr
+gr
+
+gs 59 2872 126 64 rc
+gs np 59 2872 mt 0 63 rl 125 0 rl 0 -63 rl cp c np
+[125 0 0 63 59 2872] cc
+/picstr 120 string def
+40 20 8
+[40 0 0 20 0 0] {currentfile picstr readhexstring pop} false 3 colorimage
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+F0F0F0F0F0F0909090777777707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070777777909090F0F0F0F0F0F0
+F0F0F0878888919191E8E8E8FCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCE8E8E8919191878888F0F0F0
+F0F0F0757575EAEAEAFAFAFAF2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2FAFAFAEAEAEA757575F0F0F0
+F0F0F0707070FCFCFCF2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2FCFCFC707070F0F0F0
+F0F0F0707070FBFBFBF1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1FBFBFB707070F0F0F0
+F0F0F0707070FBFBFBF0F0F0F0F0F0EFEFAB60000000000000000000000000000060ABEFF0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0EFEFCE863560ABEFEFF0F0F0F0F0F0F0F0F0F0F0F0FBFBFB707070F0F0F0
+F0F0F0707070FAFAFAEDEDEDEDEDEDECECA85F005FA8ECECEDEDEDEDEDEDECCB8434005FA8ECECEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDEDECECA85F005FA8ECECEDEDEDEDEDEDEDEDEDEDEDEDFAFAFA707070F0F0F0
+F0F0F0707070FAFAFAECECECECECECEBEBA85E005EA8EBEBECECECECECECEBCB8434005EA8EBEBEBEBA85E000000000000005EA8EBEBECECECEBA85E00000000000000003484CBEBECECECEBEBA85E000000000000005EA7EAA75E000000000000005EA8EBEBECECECECECECECECECFAFAFA707070F0F0F0
+F0F0F0707070FAFAFAEBEBEBEBEBEBEAEAA75E00000000000000000000000000005EA7EAEBEBEBA75E3483CAEAEBEBEBEACA83343483C9E9A65E00005EA7EAEBEBEBEACA83343483CAEAEAA75E3483CAEAEBEBEBEACA83343483C9E9A65E005EA7EAEAEBEBEBEBEBEBEBEBEBEBEBEBFAFAFA707070F0F0F0
+F0F0F0707070F6F6F6DBDBDBDBDBDBDADA9B5700579BDADADBDBDB9B5700579BDADBDBDBDADA9B5700000000000000000000000000579BDADABC7A3000000000307ABCDADADBDBDBDADA9B5700000000000000000000000000579AD99B5700579BDADADBDBDBDBDBDBDBDBDBDBDBDBF6F6F6707070F0F0F0
+F0F0F0707070F6F6F6DADADADADADAD9D99B5600569BD9D9DADADAD9D99B5600569BD9D9D9D99B5600569BD9D9DADADADADADADADADADADADADADADADADADABB7930000000569BD9D9D99B5600569BD9D9DADADADADADADADADAD9D99B5600569BD9D9DADADADADADADADADADADADAF6F6F6707070F0F0F0
+F0F0F0707070F5F5F5D8D8D8D8D8D8D7D79955005599D7D7D8D8D8D8D8D8B9782F2F78B9D8D8D89955002F78B9D8D8D8D79955002F78B8D6B8782F2F78B9D7D8D8D8D7995500005599D7D79955002F78B9D8D8D8D79955002F78B8D69855005599D7D7D8D8D8D8D8D8D8D8D8D8D8D8F5F5F5707070F0F0F0
+F0F0F0707070F4F4F4D4D4D4D4D4D4D3D39754005497D3D3D4D4D4D4D4D4D3D3B5765376B5D3D3D3D39754000000000000002F76B5D3D4D4D4D3B5762F00000000000000005497D3D4D4D4D3D39754000000000000002F76B5D3D3D3B5762F0000005497D3D3D4D4D4D4D4D4D4D4D4F4F4F4707070F0F0F0
+F0F0F0707070F4F4F4D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2F4F4F4707070F0F0F0
+F0F0F0707070F3F3F3D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1F3F3F3707070F0F0F0
+F0F0F0757575E2E2E2ECECECCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFCFECECECE2E2E2757575F0F0F0
+F0F0F08888888F8F8FE4E4E4F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3E4E4E48F8F8F888888F0F0F0
+F0F0F0F0F0F0858585757575707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070707070757575858585F0F0F0F0F0F0
+F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0
+gr
+gr
+
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF

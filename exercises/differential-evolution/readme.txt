@@ -1,0 +1,1 @@
+In this exercise, people program their own implementation of the Differential Evolution optimization strategy, which they can apply to a variety of given benchmark functions

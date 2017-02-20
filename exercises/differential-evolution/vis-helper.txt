@@ -1,0 +1,37 @@
+
+% this goes in the initialization:
+
+% column numbers that contain parameter space samples:
+parCols = 1:2;
+% column number that contains objective scores:
+objCol = 3;
+% number of rows in parents, proposals and children:
+nPop = 50;
+
+% initialize a record of points that are in the 'parents' array:
+evalResults = [];
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+% the rest of the code goes inside the for-loop:
+    
+evalResults = cat(1,evalResults,parents);
+
+figure(3456)    
+lastPart = size(evalResults,1)+[-min([size(evalResults,1),20*nPop]-1):0];    
+subplot(1,2,1)
+hist(log10(parents(:,objCol)))
+xlabel('log10(objective score)')
+ylabel('count')
+
+for iDim=1:2
+    subplot(2,2,2*iDim)
+    plot(lastPart,evalResults(lastPart,parCols(iDim)),'.')
+    set(gca,'xlim',lastPart([1,end]),'xtick',lastPart([1,end]))
+    xlabel('model evaluation number')
+    ylabel(['par_',num2str(iDim)])
+end
+

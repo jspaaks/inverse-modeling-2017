@@ -1,0 +1,1 @@
+In this exercise, we use a population model of Easter Island to investigate the balance between complexity and identifiability using an MO approach.

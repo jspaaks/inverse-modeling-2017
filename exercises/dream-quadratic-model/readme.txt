@@ -1,0 +1,1 @@
+In this exercise, the user gets to play with setting up DREAM. The idea is to study the linearmodel example first, and then copy and paste such that DREAM is used to optimize the parameters of a quadratic model.
