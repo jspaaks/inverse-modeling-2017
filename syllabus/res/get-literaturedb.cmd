@@ -1,1 +1,0 @@
-copy .\..\..\..\latex-resources\literaturedb-master.bib .\..\bib\literaturedb.bib
