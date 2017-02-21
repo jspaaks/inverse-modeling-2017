@@ -2,7 +2,7 @@
 # ./compile-document.sh
 #
 
-BASEFILENAME=scge2011-inverse-modeling
+BASEFILENAME=inverse-modeling
 
 rm ./out/${BASEFILENAME}.dvi
 rm ./out/${BASEFILENAME}.idx
