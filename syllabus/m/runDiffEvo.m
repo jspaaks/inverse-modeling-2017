@@ -3,9 +3,11 @@
 % restore the default MATLAB path in case it was changed:
 restoredefaultpath
 
-% add the folder to the MATLAB path that contains the 
-% data needed for some of the benchmark functions:
-addpath(['.',filesep,'benchmark-data'])
+addpath(['.',filesep,'..',filesep,'..',filesep,'exercises',filesep,'differential-evolution'])
+
+% % add the folder to the MATLAB path that contains the 
+% % data needed for some of the benchmark functions:
+addpath(['.',filesep,'..',filesep,'..',filesep,'exercises',filesep,'differential-evolution',filesep,'benchmark-data'])
 
 % clear any old variables:
 clear
@@ -53,7 +55,9 @@ for iGeneration = 1:nGenerations
 
     for iPop = 1:nPop
 
-        v = randperm(nPop, 3);
+        v = randperm(nPop, 4);
+        % if iPop happens to be drawn, remove it
+        v(v == iPop) = [];
         r1 = parents(v(1), parCols);
         r2 = parents(v(2), parCols);
         r3 = parents(v(3), parCols);
@@ -145,7 +149,7 @@ for iGeneration = 1:nGenerations
         set(gca, 'XLim', [0,5], 'YLim', [0,5], 'YDir', 'reverse')
         axis off
         set(gcf,'paperpositionmode','auto','inverthardcopy','off')
-        print('diff-evo-principle.eps','-depsc2','-r300','-loose')
+        print(['.',filesep,'..',filesep','eps',filesep,'diff-evo-principle.eps'],'-depsc2','-r300','-loose')
         
     end
 
