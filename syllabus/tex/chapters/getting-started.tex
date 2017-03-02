@@ -255,7 +255,8 @@ response surfaces look like.}
 
 \needspace{8\baselineskip}
 In the next few exercises, you will write your differential evolution algorithm.
-We will take you through these basic steps:
+We will take you through these basic steps (see also
+Fig.~\ref{fig:diff-evo-principle}):
 \begin{enumerate}
 \item{generate the initial sample;}
 \item{assign the initial sample to a new array \mcode{parents};}
@@ -270,6 +271,19 @@ same size as \mcode{parents};}
 \item{assign \mcode{children} to \mcode{parents} for the next generation, and go
 back to step 4.}
 \end{enumerate}
+
+\begin{figure}[htbp]
+  \centering
+    \includegraphics[width=1.0\textwidth]{./eps/converted/diff-evo-principle}
+  \caption{Differential evolution in a nutshell, using a population of
+  \texttt{nPop = 10} to avoid cluttering the figures. \textbf{A}:~Generation of
+  the initial sample. \textbf{B}:~Generation of proposal points.
+  \textbf{C}:~Accepting either a sample from \texttt{parents} or from 
+  \texttt{proposals} as a row in \texttt{children}. \textbf{D}:~The 
+  \texttt{children} from the first generation are the \texttt{parents} for the
+  next generation.}
+  \label{fig:diff-evo-principle}
+\end{figure}
 
 \smallq{Save your \mcode{respsurf} script under a new name `runDiffEvo.m'.}
 
@@ -293,14 +307,7 @@ F*\mcode{dist1} + K*\mcode{dist2}, in which  \mcode{dist1} is the distance
 between the parent and \mcode{r1}, \mcode{dist2} is the distance between
 \mcode{r2} and \mcode{r3}, and F and K are settings that are part of the
 Differential Evolution algorithm. In the literature, F=0.6 and K=0.4 are common.
-Repeat for all samples in parents.}
-
-\begin{figure}[htbp]
-  \centering
-    \includegraphics[width=1.0\textwidth]{./eps/converted/diff-evo-principle}
-  \caption{kjnkjbkb.}
-  \label{fig:diff-evo-principle}
-\end{figure}
+Repeat for all samples in \mcode{parents}.}
 
 \smallq{For each member in \mcode{proposals}, calculate the objective score.}
 
