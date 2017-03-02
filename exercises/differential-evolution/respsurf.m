@@ -5,7 +5,7 @@ restoredefaultpath
 
 % add the folder to the MATLAB path that contains the 
 % data needed for some of the benchmark functions:
-addpath('.\benchmark-data')
+addpath(['.',filesep,'benchmark-data'])
 
 % clear any old variables:
 clear
