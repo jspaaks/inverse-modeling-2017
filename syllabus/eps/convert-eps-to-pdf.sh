@@ -7,5 +7,6 @@ epstopdf pop-res-figures.eps
 epstopdf respsurf-rosenbrock.eps
 epstopdf respsurf-sluginj.eps
 epstopdf front.eps
+epstopdf diff-evo-principle.eps
 rm -rf ./converted/ && mkdir converted
 mv *.pdf ./converted/
