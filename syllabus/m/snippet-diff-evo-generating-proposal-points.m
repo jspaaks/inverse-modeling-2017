@@ -1,10 +1,3 @@
-
-% define the number of samples in the population
-nPop = 50;
-
-% define the number of dimensions ( =length of the parameter vector)
-nDims = 2;
-
 % define which columns in parents and in proposals hold the parameter vector
 parCols = 1:nDims;
 

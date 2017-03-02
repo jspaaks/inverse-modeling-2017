@@ -255,8 +255,10 @@ response surfaces look like.}
 
 \needspace{8\baselineskip}
 In the next few exercises, you will write your differential evolution algorithm.
-We will take you through these basic steps (see also
-Fig.~\ref{fig:diff-evo-principle}):
+We will take you through the following basic steps (see also
+\textsf{Fig.~\ref{fig:diff-evo-principle}} and \textsf{Code
+Snippets~\ref{list:generating-uniform-random-sample}} and
+\textsf{\ref{list:generating-proposals}}):
 \begin{enumerate}
 \item{generate the initial sample;}
 \item{assign the initial sample to a new array \mcode{parents};}
@@ -285,15 +287,26 @@ back to step 4.}
   \label{fig:diff-evo-principle}
 \end{figure}
 
-\smallq{Save your \mcode{respsurf} script under a new name `runDiffEvo.m'.}
+\lstinputlisting[float=ht,caption={Generating samples drawn from a uniform
+distribution spanning the parameter
+space.},label=list:generating-uniform-random-sample]{./m/snippet-diff-evo-generating-uniform-random-sample.m}
+
+\lstinputlisting[float=ht,caption={Generating proposal points given a parent
+population.},label=list:generating-proposals]{./m/snippet-diff-evo-generating-proposal-points.m}
+
+
+\smallq{As a first step, save your \mcode{respsurf} script under a new name
+`runDiffEvo.m'.}
 
 \smallq{Extend `runDiffEvo.m' by creating an array \mcode{parents}, which has
 \mcode{nPop=50} rows, each of which represents a uniform random sample from the
-parameter space. \mcode{parents} has \mcode{nDims+1} columns, i.e. the number of
-dimensions for which you want to solve \mcode{benchmark_func} plus one column to
-store the objective score. Refer to Table~\ref{tab:benchmark-func-data} for the
-parameter space limits. For now, stick with \mcode{nDims=2} and
-\mcode{funcFlag=6}, but you can change that later.}
+parameter space (see also \textsf{Code
+Snippet~\ref{list:generating-uniform-random-sample}}). \mcode{parents} has
+\mcode{nDims+1} columns, i.e. the number of dimensions for which you want to
+solve \mcode{benchmark_func} plus one column to store the objective score. Refer
+to Table~\ref{tab:benchmark-func-data} for the parameter space limits. For now,
+stick with \mcode{nDims=2} and \mcode{funcFlag=6}, but you can change that
+later.}
 
 \smallq{Calculate the last column of \mcode{parents} by running the objective
 function for each row.}
@@ -302,12 +315,13 @@ function for each row.}
 do this, select the first sample from \mcode{parents}, as well as three other
 samples (\mcode{r1}, \mcode{r2}, \mcode{r3}), chosen at random from
 \mcode{parents} (MATLAB's built-in function \mcode{randperm} can be useful for
-this). The proposal is calculated as the position of the parent +
-F*\mcode{dist1} + K*\mcode{dist2}, in which  \mcode{dist1} is the distance
-between the parent and \mcode{r1}, \mcode{dist2} is the distance between
-\mcode{r2} and \mcode{r3}, and F and K are settings that are part of the
-Differential Evolution algorithm. In the literature, F=0.6 and K=0.4 are common.
-Repeat for all samples in \mcode{parents}.}
+this; see \textsf{Code Snippet~\ref{list:generating-proposals}}). The proposal
+is calculated as the position of the parent + F*\mcode{dist1} + K*\mcode{dist2},
+in which  \mcode{dist1} is the distance between the parent and \mcode{r1},
+\mcode{dist2} is the distance between \mcode{r2} and \mcode{r3}, and F and K are
+settings that are part of the Differential Evolution algorithm. In the
+literature, F=0.6 and K=0.4 are common. Repeat for all samples in
+\mcode{parents}.}
 
 \smallq{For each member in \mcode{proposals}, calculate the objective score.}
 
