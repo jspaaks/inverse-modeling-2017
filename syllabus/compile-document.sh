@@ -35,3 +35,8 @@ latex -halt-on-error \
       -output-format=pdf \
       -output-directory=out/ \
       ./tex/${BASEFILENAME}.tex
+
+
+# check if there are any FIXMEs or TODOs in the text:
+grep -inr "FIXME\|TODO" ./tex
+
