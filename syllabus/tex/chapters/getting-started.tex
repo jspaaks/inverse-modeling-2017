@@ -348,8 +348,6 @@ supposed to be doing, so you need to do some visualization. Copy and paste from
   \label{fig:diffevo-result}
 \end{figure}
 
-
-
 \smallq{During the optimization, you may notice that there are some points that
 are really persistent, even though they are well away from the global optimum.
 Explain why these points are so persistent.}
@@ -360,43 +358,46 @@ that relate to the answer to the previous question?}
 
 
 
+
+
+
+
+
+
 \section{Differential Evolution with Metropolis}
 
-Over the next few exercises, you will adapt the single objective Differential
-Evolution optimization with the HYMOD model, such that it can be used for
-parameter uncertainty estimation.  
+Over the next few exercises, you will add Metropolis acceptance to your
+Differential Evolution optimization, such that it can be used for parameter
+uncertainty estimation.
 
-\smallq{Change Octave's working directory to
-`./exercises/differential-evolution-metropolis/' and use your editor to open
-`runDiffEvoSO.m'. This is more or less the same script that we were using as a
-starting point for the multi-objective optimization.}
-
-\smallq{Save `runDiffEvoSO.m' as `runDiffEvoMetro.m'. You will be making your
-edits in the latter script.}
+\smallqo{Clean up `runDiffEvo.m' and save it as `runDiffEvoMetro.m'. You will be
+making your edits in the latter script.}
 
 Scroll down to where `runDiffEvoMetro.m' accepts either a member from
 \texttt{parents} or a member from \texttt{proposals} as a member of
-\texttt{children}. As you can see, the proposal will only be accepted when it is
+\texttt{children}. Currently, the proposal will only be accepted when it is
 better than the parent. In contrast, the Metropolis acceptance scheme is
 crucially different in that it will sometimes accept a proposal parameter
-combination that is actually worse than the parent. The rules for Metropolis
-acceptance are as follows\footnote{assuming that the objective score is
-calculated as the sum of squared residuals.}:
+combination that is actually worse than the parent. 
+
+\needspace{15\baselineskip}
+Provided that the objective score is calculated as the sum of squared residuals,
+the rules for Metropolis acceptance are as follows:
 \begin{itemize}
-\item{if the proposal is better than the parent, accept the proposal as the
-child;}
-\item{if the proposal is worse than the parent, calculate \texttt{alfa} as the
-proposal/parent ratio (\texttt{ratioPrPa}) raised to the power
-\texttt{-(1/2)*nObs}. \texttt{nObs} is the number of observations, or
-equivalently, the number of residuals. Next, draw a random number \texttt{Z}
-from the [0,1] interval using a uniform distribution.}
-\begin{itemize}
-\item{if \texttt{alfa} is greater than \texttt{Z}, accept the proposal;}
-\item{otherwise, re-accept the parent.}
-\end{itemize}
+    \item{if the proposal is better than the parent, accept the proposal as the
+    child;}
+    \item{if the proposal is worse than the parent, calculate \texttt{alfa} as the
+    proposal/parent ratio (\texttt{ratioPrPa}) raised to the power
+    \texttt{-(1/2)*nObs}. \texttt{nObs} is the number of observations, or
+    equivalently, the number of residuals. Next, draw a random number \texttt{Z}
+    from the [0,1] interval using a uniform distribution.}
+    \begin{itemize}
+        \item{if \texttt{alfa} is greater than \texttt{Z}, accept the proposal;}
+        \item{otherwise, re-accept the parent.}
+    \end{itemize}
 \end{itemize}
 
-\smallq{Adapt the acceptance scheme in `runDiffEvoMetro.m' in accordance with
+\smallqo{Adapt the acceptance scheme in `runDiffEvoMetro.m' in accordance with
 the Metropolis rules and run the script.}
 
 The nice property of Metropolis is that the frequency with which points get
@@ -405,30 +406,25 @@ long enough for the parameter distribution to become stable). We can use this to
 construct parameter uncertainty confidence intervals around the prediction.
 
 The correct way of calculating these intervals is by re-runnning the last
-\texttt{nSets} parameter sets, and storing the predictions associated with each
-parameter set as a row in a larger matrix \texttt{simResults} of size
-\texttt{nSets x nObs}. You can then use the \texttt{prctile} function to
-calculate the 95\% confidence interval and the median at each time step using
-\texttt{Q = prctile(simResults,[2.5,50,97.5])}.
+\texttt{nSets} parameter sets (e.g. using \texttt{nSets = 250}), and storing the
+predictions associated with each parameter set as a row in a larger matrix
+\texttt{ySims} of size \texttt{nSets x nObs}. You can then use the
+\texttt{prctile} function to calculate the 95\% confidence interval and the
+median at each time step using \texttt{prctile(ySims,[2.5,50,97.5])}.
 
-\smallq{Use the \texttt{prctile} function to construct a plot that shows the
-measured discharge, the best simulated discharge, together with the median and
-95\% confidence interval of parameter uncertainty. Your result should look more
-or less like Fig.~\ref{fig:diffevo-metro-result}.}
+\smallqo{Use the \texttt{prctile} function to construct a plot that shows
+\texttt{yObs}, the best-scoring \texttt{ySim}, together with the median and
+95\% confidence interval.}
 
-\begin{figure}[htbp]
-  \centering
-    \includegraphics[width=1.0\textwidth]{./../eps/diffevo-metro-result.eps}
-  \caption{Result of Differential Evolution optimization of the HYMOD model
-  using Metropolis acceptance of proposal parameter combinations.}
-  \label{fig:diffevo-metro-result}
-\end{figure}
+% TODO introduce evalResults
 
-
-\smallq{You could also construct the 2.5\% line by calculating the 2.5\%
+% TODO Your result should look more or less like Fig.~\ref{fig:diffevo-metro-result}.
+ 
+\smallqo{You could also construct the 2.5\% line by calculating the 2.5\%
 quantile based on the last \texttt{nSets} parameter sets in \texttt{evalResults}
 (as opposed to the predictions associated with those sets) and run the model
 with that. Why is it generally incorrect to construct parameter intervals in
 this fashion?}
+
 
 
