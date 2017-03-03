@@ -356,19 +356,15 @@ Explain why these points are so persistent.}
 that relate to the answer to the previous question?}
 
 
-
-
-
-
-
+% TODO switch to using \texttt{linregr} as preparation for DiffEvoMetro below.
 
 
 
 \section{Differential Evolution with Metropolis}
 
 Over the next few exercises, you will add Metropolis acceptance to your
-Differential Evolution optimization, such that it can be used for parameter
-uncertainty estimation.
+Differential Evolution optimization, such that it can be used to quantify parameter
+uncertainty.
 
 \smallqo{Clean up `runDiffEvo.m' and save it as `runDiffEvoMetro.m'. You will be
 making your edits in the latter script.}
@@ -377,8 +373,8 @@ Scroll down to where `runDiffEvoMetro.m' accepts either a member from
 \texttt{parents} or a member from \texttt{proposals} as a member of
 \texttt{children}. Currently, the proposal will only be accepted when it is
 better than the parent. In contrast, the Metropolis acceptance scheme is
-crucially different in that it will sometimes accept a proposal parameter
-combination that is actually worse than the parent. 
+crucially different in that it will \textit{sometimes} accept a proposal parameter
+combination that is actually \textit{worse} than the parent. 
 
 \needspace{15\baselineskip}
 Provided that the objective score is calculated as the sum of squared residuals,
@@ -397,26 +393,31 @@ the rules for Metropolis acceptance are as follows:
     \end{itemize}
 \end{itemize}
 
+The nice property of Metropolis acceptance is that the frequency with
+which points get accepted is proportional to their probability (provided that
+you have sampled long enough for the parameter distribution to become stable).
+We will use this later to calculate the confidence interval associated with the
+prediction.
+
 \smallqo{Adapt the acceptance scheme in `runDiffEvoMetro.m' in accordance with
 the Metropolis rules and run the script.}
 
-The nice property of Metropolis is that the frequency with which points get
-accepted is proportional to their probability (provided that you have sampled
-long enough for the parameter distribution to become stable). We can use this to
-construct parameter uncertainty confidence intervals around the prediction.
+\smallqo{Adapt your script in such a way that it stores the entire array
+\texttt{parents} for each generation in a new array \texttt{evalResults}. Note
+that \texttt{evalResults} has \texttt{nPop*nGenerations} rows and
+\texttt{nDims+1} columns and that it can be preallocated with \mcode{NaN} values
+using MATLAB's built-in \mcode{repmat} function.}
 
-The correct way of calculating these intervals is by re-runnning the last
-\texttt{nSets} parameter sets (e.g. using \texttt{nSets = 250}), and storing the
-predictions associated with each parameter set as a row in a larger matrix
-\texttt{ySims} of size \texttt{nSets x nObs}. You can then use the
-\texttt{prctile} function to calculate the 95\% confidence interval and the
-median at each time step using \texttt{prctile(ySims,[2.5,50,97.5])}.
+\smallqo{Use the information from \texttt{evalResults} to re-run the last
+\texttt{nSets = 500} samples, but make sure to store the predictions associated
+with each parameter set as a row in a larger matrix \texttt{ySims} of size
+\texttt{nSets x nObs}.}
 
-\smallqo{Use the \texttt{prctile} function to construct a plot that shows
-\texttt{yObs}, the best-scoring \texttt{ySim}, together with the median and
-95\% confidence interval.}
-
-% TODO introduce evalResults
+\smallqo{Use the \texttt{prctile} function to calculate the 95\% confidence
+interval and the median at each time step using
+\texttt{prctile(ySims,[2.5,50,97.5])}. Visualize the \texttt{prctile} results
+together with the observations \texttt{yObs}, and the \texttt{ySim} associated
+with the best-scoring parameter set.}
 
 % TODO Your result should look more or less like Fig.~\ref{fig:diffevo-metro-result}.
  
