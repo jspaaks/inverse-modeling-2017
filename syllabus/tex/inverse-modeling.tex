@@ -25,6 +25,7 @@
 \usepackage{rotating}
 \usepackage{natbib}
 \usepackage{needspace}
+\usepackage[toc,page]{appendix}
 
 \definecolor{orange}{rgb}{1,0.5,0}
 \definecolor{mkeywordcolor}{rgb}{0,0,1}
@@ -159,6 +160,7 @@
     \pagebreak
 }
 
+\newcommand{\chapterFontsize}{\huge}
 
 \begin{document}
 
@@ -176,13 +178,16 @@
 \input{./tex/chapters/getting-started}
 \input{./tex/chapters/working-with-dream}
 \input{./tex/chapters/objectives-and-information-in-data}
-\backmatter
 
 \bibliographystyle{chicago}
 \bibliography{./bib/literaturedb}
 
+\begin{appendices}
+\input{./tex/chapters/appendix-easter-island}
+\end{appendices}
 
 %\printindex
 \insertemptypage{}
+
 
 \end{document}

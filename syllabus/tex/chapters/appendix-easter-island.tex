@@ -1,0 +1,32 @@
+\chapter[Easter Island's net growth parameter]{\chapterFontsize Easter Island's net growth parameter}
+\label{ch:easter-island-net-growth-parameter}
+
+Equation~\ref{eq:easter-island-popgrowth} expresses the rate of population change:
+\begin{equation}
+\frac{dP}{dt} = (b+cr\cdot{}\frac{C}{P})\cdot{}P-(d-cr\cdot{}\frac{C}{P})\cdot{P}
+\end{equation}
+
+Let's rearrange some terms:
+
+\begin{equation}
+\frac{dP}{dt} = (b+cr\cdot{}\frac{C}{P})\cdot{}P-(-cr\cdot{}\frac{C}{P}+d)\cdot{}P
+\end{equation}
+
+\begin{equation}
+\frac{dP}{dt} = b\cdot{}P+cr\cdot{}\frac{C}{P}\cdot{}P-(-cr\cdot{}\frac{C}{P})\cdot{}P+d\cdot{}P
+\end{equation}
+
+\begin{equation}
+\frac{dP}{dt} = b\cdot{}P+cr\cdot{}\frac{C}{P}\cdot{}P+cr\cdot{}\frac{C}{P}\cdot{}P-d\cdot{}P
+\end{equation}
+
+\begin{equation}
+\frac{dP}{dt} = (b-d)\cdot{}P+2\cdot{}cr\cdot{}\frac{C}{P}\cdot{}P
+\end{equation}
+
+
+Introducing a new parameter $g_{net}=b-d$, the net population growth:
+
+\begin{equation}
+\frac{dP}{dt} = g_{net}\cdot{}P+2\cdot{}cr\cdot{}\frac{C}{P}\cdot{}P
+\end{equation}
