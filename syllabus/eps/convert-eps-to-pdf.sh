@@ -8,5 +8,7 @@ epstopdf respsurf-rosenbrock.eps
 epstopdf respsurf-sluginj.eps
 epstopdf front.eps
 epstopdf diff-evo-principle.eps
+epstopdf diffevo-metro-result.eps
+
 rm -rf ./converted/ && mkdir converted
 mv *.pdf ./converted/

@@ -356,7 +356,7 @@ Explain why these points are so persistent.}
 that relate to the answer to the previous question?}
 
 
-% TODO switch to using \texttt{linregr} as preparation for DiffEvoMetro below.
+
 
 
 
@@ -369,6 +369,29 @@ uncertainty.
 \smallqo{Clean up `runDiffEvo.m' and save it as `runDiffEvoMetro.m'. You will be
 making your edits in the latter script.}
 
+The benchmark functions that we have been using so far do not represent
+probability density functions, so they are not suited to demonstrate the
+Metropolis scheme. So instead we'll use a benchmark function of our own:
+`doublegauss.m'. This function takes one argument, \texttt{x}, and calculates
+the probability density at that value of \texttt{x} by adding two Gaussian
+probability density distributions:
+
+\begin{align}
+\label{eq:double-normal} 
+p = \frac{1}{2}\cdot{}\frac{1}{\sqrt{2\pi\sigma_1^2}}\:e^\mathlarger{-\frac{1}{2}\left(\frac{x-\mu_1}{\sigma_1}\right)^2} & +\dots \\ \nonumber
+    \frac{1}{2}\cdot{}\frac{1}{\sqrt{2\pi\sigma_2^2}}\:e^\mathlarger{-\frac{1}{2}\left(\frac{x-\mu_2}{\sigma_2}\right)^2}
+\end{align}
+
+with $\mu_1 = -10$, $\sigma_1 = 3$, $\mu_2 = 5$, $\sigma_2 = 1$, respectively.
+$x$ is the only parameter that is optimized; as an example, for $x=4.5$, $p =
+0.1760$ (See Fig.~\ref{fig:diffevo-metro-result}C).
+
+\smallqo{Replace any calls to \texttt{benchmark\_func} with calls to
+\texttt{doublegauss}. You don't need to supply any other arguments besides
+\texttt{parVec}. Set the population size to 200 and configure the algorithm to
+run for 100 generations. Constrain the parameter space to $[-20,20]$ and make
+sure to adjust the number of dimensions.}
+
 Scroll down to where `runDiffEvoMetro.m' accepts either a member from
 \texttt{parents} or a member from \texttt{proposals} as a member of
 \texttt{children}. Currently, the proposal will only be accepted when it is
@@ -377,15 +400,12 @@ crucially different in that it will \textit{sometimes} accept a proposal paramet
 combination that is actually \textit{worse} than the parent. 
 
 \needspace{15\baselineskip}
-Provided that the objective score is calculated as the sum of squared residuals,
-the rules for Metropolis acceptance are as follows:
+You will use the following rules for Metropolis acceptance:
 \begin{itemize}
     \item{if the proposal is better than the parent, accept the proposal as the
     child;}
     \item{if the proposal is worse than the parent, calculate \texttt{alfa} as the
-    proposal/parent ratio (\texttt{ratioPrPa}) raised to the power
-    \texttt{-(1/2)*nObs}. \texttt{nObs} is the number of observations, or
-    equivalently, the number of residuals. Next, draw a random number \texttt{Z}
+    proposal/parent ratio. Next, draw a random number \texttt{Z}
     from the [0,1] interval using a uniform distribution.}
     \begin{itemize}
         \item{if \texttt{alfa} is greater than \texttt{Z}, accept the proposal;}
@@ -408,24 +428,17 @@ that \texttt{evalResults} has \texttt{nPop*nGenerations} rows and
 \texttt{nDims+1} columns and that it can be preallocated with \mcode{NaN} values
 using MATLAB's built-in \mcode{repmat} function.}
 
-\smallqo{Use the information from \texttt{evalResults} to re-run the last
-\texttt{nSets = 500} samples, but make sure to store the predictions associated
-with each parameter set as a row in a larger matrix \texttt{ySims} of size
-\texttt{nSets x nObs}.}
+\smallqo{Visualize the information from \texttt{evalResults} in a similar
+fashion as in Fig.~\ref{fig:diffevo-metro-result}.}
 
-\smallqo{Use the \texttt{prctile} function to calculate the 95\% confidence
-interval and the median at each time step using
-\texttt{prctile(ySims,[2.5,50,97.5])}. Visualize the \texttt{prctile} results
-together with the observations \texttt{yObs}, and the \texttt{ySim} associated
-with the best-scoring parameter set.}
-
-% TODO Your result should look more or less like Fig.~\ref{fig:diffevo-metro-result}.
- 
-\smallqo{You could also construct the 2.5\% line by calculating the 2.5\%
-quantile based on the last \texttt{nSets} parameter sets in \texttt{evalResults}
-(as opposed to the predictions associated with those sets) and run the model
-with that. Why is it generally incorrect to construct parameter intervals in
-this fashion?}
-
-
+\begin{figure}[htbp]
+  \centering
+    \includegraphics[width=1.0\textwidth]{./eps/converted/diffevo-metro-result}
+    \caption{\textbf{A}:~20000 samples of the parameter space, as taken by the
+    Differential Evolution Metropolis algorithm. \textbf{B}:~A histogram of all
+    samples. The histogram serves as an approximation of the true distribution
+    from Fig.~\ref{fig:diffevo-metro-result}C. \textbf{C}:~The true
+    distribution. \textbf{D}:~The objective scores associated with each sample.}
+  \label{fig:diffevo-metro-result}
+\end{figure}
 
